@@ -1,0 +1,207 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{hecht_optik_2018}{book}{}
+      \name{author}{2}{}{%
+        {{hash=9a6efa2d012e3aaa08e4b6a8cf6a8b4c}{%
+           family={Hecht},
+           familyi={H\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8045a6b1cc1832f4a61cf93f94ead27e}{%
+           family={Lippert},
+           familyi={L\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin ; Boston}%
+      }
+      \list{publisher}{1}{%
+        {Walter de Gruyter, {GmbH}}%
+      }
+      \strng{namehash}{506604d572c976de6d68cc2855a3ef4d}
+      \strng{fullhash}{506604d572c976de6d68cc2855a3ef4d}
+      \strng{bibnamehash}{506604d572c976de6d68cc2855a3ef4d}
+      \strng{authorbibnamehash}{506604d572c976de6d68cc2855a3ef4d}
+      \strng{authornamehash}{506604d572c976de6d68cc2855a3ef4d}
+      \strng{authorfullhash}{506604d572c976de6d68cc2855a3ef4d}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7. Auflage}
+      \field{isbn}{978-3-11-052664-6}
+      \field{pagetotal}{1365}
+      \field{series}{De Gruyter Studium}
+      \field{title}{Optik}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \keyw{Optics}
+    \endentry
+    \entry{tu_dortmund_versuchsanleitung_2021-1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2821a70f99517ac7757c95300d43e95c}{%
+           family={Dortmund},
+           familyi={D\bibinitperiod},
+           given={{TU}},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{bibnamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authorbibnamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuchsanleitung V64 - Moderne Interferometrie}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{tu_dortmund_versuchsanleitung_2021-3}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2821a70f99517ac7757c95300d43e95c}{%
+           family={Dortmund},
+           familyi={D\bibinitperiod},
+           given={{TU}},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{bibnamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authorbibnamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuchsanleitung V01 - Kosmische Myonen}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{theeten_new_1978}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ec91dfa5e8bc27a122697f8884a337ff}{%
+           family={Theeten},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=b5e4117b5a566ec87ef3b84b7732d234}{%
+           family={Aspnes},
+           familyi={A\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=99259418c06913d8a2e9d41ef04060db}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={R.\bibnamedelimi P.\bibnamedelimi H.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{226372b1ff804f6d7393e826c50c5058}
+      \strng{fullhash}{226372b1ff804f6d7393e826c50c5058}
+      \strng{bibnamehash}{226372b1ff804f6d7393e826c50c5058}
+      \strng{authorbibnamehash}{226372b1ff804f6d7393e826c50c5058}
+      \strng{authornamehash}{226372b1ff804f6d7393e826c50c5058}
+      \strng{authorfullhash}{226372b1ff804f6d7393e826c50c5058}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-8979, 1089-7550}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{A new resonant ellipsometric technique for characterizing the interface between {GaAs} and its plasma‐grown oxide}
+      \field{urlday}{2}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{volume}{49}
+      \field{year}{1978}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{6097\bibrangedash 6102}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1063/1.324529
+      \endverb
+      \verb{urlraw}
+      \verb http://aip.scitation.org/doi/10.1063/1.324529
+      \endverb
+      \verb{url}
+      \verb http://aip.scitation.org/doi/10.1063/1.324529
+      \endverb
+    \endentry
+    \entry{ciddor_refractive_1996}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3000ca7d32d1c14aff9c267645086d1d}{%
+           family={Ciddor},
+           familyi={C\bibinitperiod},
+           given={Philip\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{3000ca7d32d1c14aff9c267645086d1d}
+      \strng{fullhash}{3000ca7d32d1c14aff9c267645086d1d}
+      \strng{bibnamehash}{3000ca7d32d1c14aff9c267645086d1d}
+      \strng{authorbibnamehash}{3000ca7d32d1c14aff9c267645086d1d}
+      \strng{authornamehash}{3000ca7d32d1c14aff9c267645086d1d}
+      \strng{authorfullhash}{3000ca7d32d1c14aff9c267645086d1d}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{20}
+      \field{issn}{0003-6935, 1539-4522}
+      \field{journaltitle}{Appl. Opt.}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{9}
+      \field{shorttitle}{Refractive index of air}
+      \field{title}{Refractive index of air: new equations for the visible and near infrared}
+      \field{urlday}{30}
+      \field{urlmonth}{7}
+      \field{urlyear}{2021}
+      \field{volume}{35}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1566}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1364/AO.35.001566
+      \endverb
+      \verb{urlraw}
+      \verb https://www.osapublishing.org/abstract.cfm?URI=ao-35-9-1566
+      \endverb
+      \verb{url}
+      \verb https://www.osapublishing.org/abstract.cfm?URI=ao-35-9-1566
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

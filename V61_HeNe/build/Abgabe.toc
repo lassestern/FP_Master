@@ -1,0 +1,22 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Theoretische Grundlagen}{3}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Interferenz und Kohärenz}{3}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Polarisation und Fresnel-Arago-Gesetze}{3}{subsection.1.2}% 
+\contentsline {subsection}{\numberline {1.3}Interferometer}{4}{subsection.1.3}% 
+\contentsline {subsection}{\numberline {1.4}Detektion des Interferenzsignals}{4}{subsection.1.4}% 
+\contentsline {subsection}{\numberline {1.5}Brechungsindizes}{5}{subsection.1.5}% 
+\contentsline {subsubsection}{\numberline {1.5.1}Glasplatte}{5}{subsubsection.1.5.1}% 
+\contentsline {subsubsection}{\numberline {1.5.2}Gas und Lorentz-Lorenz-Gesetz}{5}{subsubsection.1.5.2}% 
+\contentsline {section}{\numberline {2}Durchführung}{6}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Versuchsaufbau}{6}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Justierung}{6}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Kontrastbestimmung}{7}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Messung des Brechungsindezes von Glas}{7}{subsection.2.4}% 
+\contentsline {subsection}{\numberline {2.5}Messung des Brechungsindezes von Luft}{7}{subsection.2.5}% 
+\contentsline {section}{\numberline {3}Auswertung}{8}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Kontrastbestimmung}{8}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Brechungsindex von Glas}{8}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Brechungsindex von Luft}{9}{subsection.3.3}% 
+\contentsline {section}{\numberline {4}Diskussion}{10}{section.4}% 
+\contentsline {section}{\numberline {5}Daten}{11}{section.5}% 
