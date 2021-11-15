@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  8 AUG 2021 11:08
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  15 NOV 2021 14:53
  restricted system commands enabled.
 **Abgabe.tex
 (./Abgabe.tex
@@ -55,7 +55,7 @@ Lua module: luaotfload-multiscript 2019-09-13 3.00 luaotfload submodule / multis
 cript
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.169 seconds
+luaotfload | main : initialization completed in 0.126 seconds
 (./inputs/header.tex
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
@@ -883,6 +883,9 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseScriptstyle=\skip93
 LaTeX Info: Redefining \nicefrac on input line 131.
 )
+(/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip94
@@ -1095,15 +1098,15 @@ DFLT;"<6.57-9.3075>"LatinModernMath:mode=base;script=math;language=DFLT;+ssty=0;
 (fontspec)             \__um_luatex_copy_fontdimens: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 55.
+(Font)              `operators' in the math version `normal' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LatinModernMath(1)/m/n on input line 
-55.
+56.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 55.
+(Font)              `operators' in the math version `bold' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LatinModernMath(1)/bx/n on input lin
-e 55.
+e 56.
 
 Package fontspec Info: LatinModernMath scale = 1.0001.
 
@@ -1164,15 +1167,15 @@ guage=DFLT;+ssty=1;"
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 55.
+(Font)              `symbols' in the math version `normal' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/LatinModernMath(2)/m/n on input line
- 55.
+ 56.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 55.
+(Font)              `symbols' in the math version `bold' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> TU/LatinModernMath(2)/bx/n on input lin
-e 55.
+e 56.
 
 Package fontspec Info: LatinModernMath scale = 0.9999.
 
@@ -1221,33 +1224,33 @@ guage=DFLT;+ssty=1;"
 (fontspec)             \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 55
+(Font)              `largesymbols' in the math version `normal' on input line 56
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/m/n on input line
- 55.
+ 56.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 55.
+(Font)              `largesymbols' in the math version `bold' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/bx/n on input lin
-e 55.
+e 56.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 55.
+(Font)              scaled to size 10.95116pt on input line 56.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.6658pt on input line 55.
+(Font)              scaled to size 7.6658pt on input line 56.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.47559pt on input line 55.
+(Font)              scaled to size 5.47559pt on input line 56.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 55.
+(Font)              scaled to size 10.94882pt on input line 56.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 7.66417pt on input line 55.
+(Font)              scaled to size 7.66417pt on input line 56.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 5.47441pt on input line 55.
-LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+(Font)              scaled to size 5.47441pt on input line 56.
+LaTeX Font Info:    Try loading font information for U+msa on input line 56.
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+LaTeX Font Info:    Try loading font information for U+msb on input line 56.
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1281,10 +1284,10 @@ ath:mode=base;script=math;language=DFLT;+ssty=1;"
 \sym__um_fam1=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
 (Font)                  TU/XITSMath(0)/m/n --> TU/XITSMath(0)/m/n on input line 
-55.
+56.
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
 (Font)                  TU/XITSMath(0)/m/n --> TU/XITSMath(0)/bx/n on input line
- 55.
+ 56.
 
 Package fontspec Info: Font family 'XITSMath(1)' created for font 'XITS Math'
 (fontspec)             with options
@@ -1315,10 +1318,10 @@ s01;"<6.57-9.3075>"XITSMath:mode=base;script=math;language=DFLT;+ss01;+ssty=0;"<
 \sym__um_fam2=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `normal'
 (Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/m/n on input line 
-56.
+57.
 LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `bold'
 (Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/bx/n on input line
- 56.
+ 57.
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/generic/oberdiek/mleftright.sty
 Package: mleftright 2016/05/16 v1.1 Math left/right delim. as open/close (HO)
@@ -1856,42 +1859,59 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 \tf@toc=\write4
 
 \openout4 = Abgabe.toc
- [2] (./chapters/Theorie.tex [3] [4])
-(./chapters/Durchfuehrung.tex [5]
-<pictures/Sagnac.png, id=103, 1061.9675pt x 734.745pt>
-File: pictures/Sagnac.png Graphic file (type png)
-<use pictures/Sagnac.png>
-Package luatex.def Info: pictures/Sagnac.png  used on input line 9.
-(luatex.def)             Requested size: 250.95587pt x 173.62926pt.
- [6<./pictures/Sagnac.png>])
-(./chapters/Auswertung.tex [7]
-<pictures/Kontrast.pdf, id=120, 462.528pt x 346.896pt>
-File: pictures/Kontrast.pdf Graphic file (type pdf)
-<use pictures/Kontrast.pdf>
-Package luatex.def Info: pictures/Kontrast.pdf  used on input line 11.
-(luatex.def)             Requested size: 250.95587pt x 188.22089pt.
- [8<./pictures/Kontrast.pdf>]
-<pictures/n_quad_fit.pdf, id=175, 505.89pt x 433.62pt>
-File: pictures/n_quad_fit.pdf Graphic file (type pdf)
-<use pictures/n_quad_fit.pdf>
-Package luatex.def Info: pictures/n_quad_fit.pdf  used on input line 49.
-(luatex.def)             Requested size: 250.95587pt x 215.10902pt.
- [9<./pictures/n_quad_fit.pdf>]) (./chapters/Diskussion.tex) (./chapters/Daten.
-tex [10]
+ [2] (./chapters/Theorie.tex
+<pictures/prozesse.jpg, id=38, 963.6pt x 478.78876pt>
+File: pictures/prozesse.jpg Graphic file (type jpg)
+<use pictures/prozesse.jpg>
+Package luatex.def Info: pictures/prozesse.jpg  used on input line 20.
+(luatex.def)             Requested size: 292.7776pt x 145.47147pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11])
+[3]
+<pictures/Termschema.png, id=48, 866.23625pt x 637.38126pt>
+File: pictures/Termschema.png Graphic file (type png)
+<use pictures/Termschema.png>
+Package luatex.def Info: pictures/Termschema.png  used on input line 36.
+(luatex.def)             Requested size: 292.7776pt x 215.42297pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4<./pictures/prozesse.jpg>] [5<./pictures/Termschema.png>] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
+
+ []
+
+<pictures/Intensität.jpg, id=73, 963.6pt x 465.99094pt>
+File: pictures/Intensität.jpg Graphic file (type jpg)
+<use pictures/Intensität.jpg>
+Package luatex.def Info: pictures/Intensität.jpg  used on input line 108.
+(luatex.def)             Requested size: 292.7776pt x 141.58307pt.
+[7<./pictures/Intensität.jpg>]
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 139.
+
+(/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/doublestroke/Udsrom.fd
+File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
+)
+<pictures/spalt.jpg, id=84, 602.25pt x 451.6875pt>
+File: pictures/spalt.jpg Graphic file (type jpg)
+<use pictures/spalt.jpg>
+Package luatex.def Info: pictures/spalt.jpg  used on input line 145.
+(luatex.def)             Requested size: 292.7776pt x 219.59196pt.
+
+[8<./pictures/spalt.jpg>]) [9]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
- [12]
+ [10]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
  (./build/Abgabe.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 Package rerunfilecheck Info: File `Abgabe.aux' has not changed.
-(rerunfilecheck)             Checksum: C993F20336C4BFA13AA1328A9EDC985B;15344.
+(rerunfilecheck)             Checksum: 4CDC485907C9FCC1D2F053F28ED13CFC;9610.
 Package rerunfilecheck Info: File `Abgabe.toc' has not changed.
-(rerunfilecheck)             Checksum: 03F0401581EEDECF7D51FD38B391C1D9;1844.
+(rerunfilecheck)             Checksum: A60ED3A376E771D10665EF30B61A30BB;945.
 Package logreq Info: Writing requests to 'Abgabe.run.xml'.
 
 \openout1 = Abgabe.run.xml
@@ -1899,31 +1919,30 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43379 strings out of 494291
- 156265,1977958 words of node,token memory allocated
- 110993 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 penalty, 14273 glyph, 4577 attrib
-ute, 81 glue_spec, 656 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:8,2:1701,3:153,4:32,5:285,6:40,7:1632,8:94,9:263,10:19,11:406
- 46341 multiletter control sequences out of 65536+600000
- 213 fonts using 80924463 bytes
- 56i,14n,109p,9142b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 43002 strings out of 494291
+ 100000,1977958 words of node,token memory allocated
+ 78422 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 penalty, 10577 glyph, 1651 attrib
+ute, 80 glue_spec, 238 attribute_list, 1 write nodes
+   avail lists: 1:4,2:643,3:79,4:31,5:191,6:21,7:1437,8:74,9:146,10:17,11:401
+ 46112 multiletter control sequences out of 65536+600000
+ 106 fonts using 37622415 bytes
+ 56i,12n,109p,9142b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-re
 gular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/l
 mromancaps10-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opent
-ype/public/xits/XITSMath-Regular.otf></home/lasse/.local/texlive/2019/texmf-dist
-/fonts/opentype/public/lm/lmroman10-italic.otf></home/lasse/.local/texlive/2019/
-texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/lasse/.local/tex
-live/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/l
-asse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-ma
-th.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmro
-man10-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/pub
-lic/lm/lmroman12-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/o
-pentype/public/lm/lmsans10-bold.otf>
-Output written on Abgabe.pdf (12 pages, 240894 bytes).
+ype/public/lm/lmroman10-italic.otf></home/lasse/.local/texlive/2019/texmf-dist/f
+onts/opentype/public/lm/lmroman8-regular.otf></home/lasse/.local/texlive/2019/te
+xmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/lasse/.local/
+texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></hom
+e/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regula
+r.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmrom
+an12-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/publ
+ic/lm/lmsans10-bold.otf>
+Output written on Abgabe.pdf (10 pages, 184167 bytes).
 
-PDF statistics: 379 PDF objects out of 1000 (max. 8388607)
- 267 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 131072)
- 161 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 194 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 131072)
+ 65 words of extra memory for PDF output out of 10000 (max. 100000000)
 
