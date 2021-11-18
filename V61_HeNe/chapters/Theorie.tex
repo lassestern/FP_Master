@@ -1,16 +1,18 @@
 \section{Theoretische Grundlagen}
     
     \subsection{Funktionsweise eines Lasers}
-        Das Akronym Laser steht für "light amplification by stimulated emission of radiation" und beschreibt eine Apparatur, die Licht einer bestimmten Wellenlänge aussendet, das über lange Strecken kohärent 
-        ist. Dies wird ereicht, indem innerhalb eines Mediums ein ausgewählter optischer Übergang angeregt und verstärkt wird. Dieser Prozess findet innerhalb eines aktiven Mediums statt. Dabei handelt es 
-        sich um das Element, in dem der Übergang angeregt werden soll. 
+        Das Akronym Laser steht für 'light amplification by stimulated emission of radiation' und beschreibt eine Apparatur, die Licht einer bestimmten Wellenlänge aussendet, das über lange Strecken kohärent 
+        ist und in Kombination mit der Möglichkeit besonders hoher Intensitäten und Pulsbarkeit sehr gut für experimentelle Anwendungen geeignet ist. Diese Eigenschaften werden ereicht, indem innerhalb eines 
+        aktiven Mediums ein ausgewählter optischer Übergang angeregt und verstärkt wird. In diesem Versuch soll die Funktionsweise eines Laser kennengelernt und sich mit
+        den Betriebsparametern eines Laser auseinandergesetzt werden. 
         
         \subsubsection{Anregungen und Übergänge im aktiven Medium}
             Um die grundlegende Funktionsweise eines Lasers zu verstehen müssen zunächst, die schematisch in Abbildung \ref{fig:prozesse} dargestellten, Absorptions- und Emissionsprozesse verstanden sein. Bei 
-            der Absorption trifft ein Photon mit einer Energie, die der Energiedifferenz zwischen einem Zustand 1 und einem Zustand 2 entspricht, auf ein Atom und regt ein ELektron aus dem energetisch
-            günstigeren Zustand 1 in den höhergelegenen Zustand 2 an. Bei der spontanen Emission fällt ein ELektron aus einem energetisch höheren Zustand 2 zufällig in einen niedriger gelegenen Zustand 2. Dabei 
-            wird ein Photon ausgesendet, dessen Energie der Energiedifferenz der beteiligten Zustände entspricht. Richtung, Polarisation und sonstige Eigenschaften des Photons sind zufällig gewählt. Bei dem 
-            Prozess der stimulierten Emission trifft ein Photon auf ein angeregtes Atom. Wenn die Energie des einfallenden Photons der Energiedifferenz zwischen dem angeregten ZUstand und einem energetisch
+            der Absorption trifft ein Photon mit einer Energie, die der Energiedifferenz zwischen einem Zustand 1 und einem Zustand 2 entspricht, auf ein Atom und regt ein Elektron aus dem energetisch
+            günstigeren Zustand 1 in den höhergelegenen Zustand 2 an. Bei der spontanen Emission relaxiert ein Elektron aus einem energetisch höheren Zustand 2 zufällig in einen niedriger gelegenen Zustand 2. Dabei 
+            wird ein Photon ausgesendet, dessen Wellenlänge nach $\Delta E = E_2 - E_1 = \frac{\text{hc}}{\lambda}$ der Energiedifferenz der beteiligten Zustände entspricht. Richtung, Polarisation und Phase sind 
+            zufällig gewählt. Bei dem 
+            Prozess der stimulierten Emission trifft ein Photon auf ein angeregtes Atom. Wenn die Energie des einfallenden Photons der Energiedifferenz zwischen dem angeregten Zustand und einem energetisch
             niedrigeren Zustand entspricht, regt es das Elektron dazu an, aus dem angeregten Zustand in den energetisch günstigeren Zustand zurückzufallen. Dabei wird neben dem bereits vorhandenen Photon ein
             weiteres emittiert, das kohärent zu dem Einfallenden ist. Das heißt, dass Frequenz, Wellenvektor, Phase und Polarisation der beiden Photonen identisch sind.      
 
@@ -18,7 +20,7 @@
             \begin{figure}[h]
                 \centering
                 \includegraphics[width = 0.7\textwidth]{pictures/prozesse.jpg}
-                \caption{Der Prozess der Absorption, spontanen sowie induzierten Emission sind schematisch dargestellt. $E_{1,2,3}$ bezeichnen verschiedene atomare Energieniveaus, $h$ das Planck`sche Wirkungsquantum und $f_{1,2}$ die Frequenz des Photons, die propotional zur Energiedifferenz zwischen den Energien 1 und 2 ist. Entnommen aus \cite{eichler_laser_2015}.}
+                \caption{Die Prozesse der Absorption, spontanen sowie induzierten Emission sind schematisch dargestellt. $E_{1,2,3}$ bezeichnen verschiedene atomare Energieniveaus, $h$ das Planck`sche Wirkungsquantum und $f_{1,2}$ die Frequenz des Photons, die propotional zur Energiedifferenz zwischen den Energien 1 und 2 ist. Entnommen aus \cite{eichler_laser_2015}.}
                 \label{fig:prozesse}
             \end{figure}
             
@@ -37,16 +39,19 @@
                 \caption{Das Schema der beteiligten Energieniveaus innerhalb eines HeNe-Lasers zeigt die zunächst durch Gasentladungen angeregten He-Zustände und die involvierten Zustände innerhalb des Ne-Atoms. Entnommen aus \cite{eichler_laser_2015}.}
                 \label{fig:termschema}
             \end{figure}
+
+            \FloatBarrier
             
 
         \subsubsection{Besetzungsinversion}
-            Um einen solchen Übergang dauerhaft zu ermöglichen muss eine Besetzungsinversion der beiden Zustände erreicht werden. Dies bedeutet, dass der energetisch höhere Zustand stärker besetzt ist als der 
-            energetisch günstigere Zustand. In einem System aus zwei Energieniveaus ist dies unmöglich und auch in einem System aus drei Niveaus ist es sehr schwer, da der energetisch günstige Zustand der 
-            Grundzustand ist und demnach sehr stark gepumpt werden muss, um eine Besetzungsinversion zu erreichen. Daher sind wie in Abbildung \ref{fig:termschema} zu sehen, meist mehr als drei Niveaus 
-            beteiligt. Zur Beschreibung der Besetzungsinversion wird die Ratengleichung genutzt. DIese beschreibt die Änderung der Besetzung eines bestimmten Zustands mit der Zeit. Dazu werden zum einen die 
-            Prozesse betrachtet, die zum Verlust von Elektronen aus diesem Zustand führen. Dazu gehören spontane und induzierte Emission. Zum anderen werden die Prozesse betrachtet, die zum Anstieg von 
-            Elektronen in diesem Zustand führen. Dazu wiederum gehören Emissionsprozesse aus höheren Energieniveaus oder Absorptionsprozesse in niedrigeren Energieniveaus, bei denen Elektronen in den betrachteten
-            ZUstand angeregt werden. Im stationären Betrieb ist die Änderung der Differenz der am optischen Übergang beteiligten Zustände konstant und der Laser emittiert stabil Licht.      
+            Um einen solchen Übergang dauerhaft zu ermöglichen muss eine Besetzungsinversion der beiden Zustände erreicht werden. Dies bedeutet, dass der energetisch höhere Zustand mit der Besetzungszahl $N_2$ 
+            stärker besetzt ist als der energetisch günstigere Zustand mit der Besetzungszahl $N_1$ ($N_2 > N_1$). In einem System aus zwei Energieniveaus ist dies unmöglich und auch in einem System aus drei 
+            Niveaus ist es sehr schwer, da der energetisch günstige Zustand der Grundzustand ist und demnach sehr stark gepumpt werden muss, um eine Besetzungsinversion zu erreichen. Daher sind wie in Abbildung 
+            \ref{fig:termschema} zu sehen, meist mehr als drei Niveaus beteiligt. Zur Beschreibung der Besetzungsinversion wird die Ratengleichung genutzt. Diese beschreibt die Änderung der Besetzung eines 
+            bestimmten Zustands mit der Zeit. Dazu werden zum einen die Prozesse betrachtet, die zum Verlust von Elektronen aus diesem Zustand führen. Dazu gehören spontane und induzierte Emission. Zum anderen werden 
+            die Prozesse betrachtet, die zum Anstieg der Elektronenzahl in diesem Zustand führen. Dazu wiederum gehören Emissionsprozesse aus höheren Energieniveaus oder Absorptionsprozesse in niedrigeren 
+            Energieniveaus, bei denen Elektronen in den betrachteten Zustand angeregt werden. Im stationären Betrieb ist die Änderung der Differenz der am optischen Übergang beteiligten Zustände konstant und 
+            der Laser emittiert stabil Licht.      
 
 
         \subsubsection{Selektive Verstärkung eines Übergangs}
@@ -59,9 +64,25 @@
                 \label{eqn:Stabilitätsbedingung}
             \end{equation*}
 
-            die von der Resonatorlänge $d$ und den verwendeten Spiegelradien $b_{\text{i}}$ abhängt, erfüllt ist. \newline
-            Nun durchlaufen die Photonen bei erfüllter Besetzungsinversion mehrfach das Laserrohr und können stimulierte Emission hervorrufen. Dies soll zu einer Verstärkung der Lichtintensität führen, die ab
-            einer erfüllten Schwellwertbedingung eintritt. Dazu wird zunächst die Verstärkung G definiert
+            die von der Resonatorlänge $d$ und den verwendeten Spiegelradien $b_{\text{i}}$ abhängt, erfüllt ist. In Abbildung \ref{fig:stabilität} sind die Verläufe der Stabilitätbedingung zugehörigen Kurven 
+            für die verwendeten Spiegelkombinationen dargestellt. Für die zwei konkaven Spiegel mit einem Krümmungsradius von jeweils \SI{1.4}{\metre} ergibt sich eine maximale Resonatorlänge von 
+            \SI{2.8}{\metre}, die der Summe der Krümmungsradien entspricht. Für die Kombination eines planaren Spiegels mit einem konkaven Spiegel des Krümmungsradius \SI{1.4}{\metre} entspricht die maximale 
+            Resonatorlänge dem Krümmungsradius des konkaven Spiegels und damit \SI{1.4}{\metre}.
+            
+            \FloatBarrier
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Hier den Stabilitätsgraphen einfügen %%%%%%%%%%%%%%%%%%%%%%%% 
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width = 0.7\textwidth]{pictures/Termschema.png}
+                \caption{Eine grafische Abbildung der Stabilitätbedingung, aus der erkennbar ist, dass die maximale Resonatorlänge bei einer Kombination zweier identischer konkaven Spiegeln dme doppelten Krümmunsgradius entspricht. Für die Kombination eines planaren Spiegels mit einem konkaven Spiegel entspricht die maximale Resonatorlänge dem Krümmungsradius des konkaven Spiegels.}
+                \label{fig:stabilität}
+            \end{figure}
+
+            \FloatBarrier
+
+
+            Bei erfüllter Stabilitätbedingung durchlaufen die Photonen nun mehrfach das Laserrohr und können bei erreichter Besetzungsinversion wiederholt stimulierte Emission hervorrufen. Diese exponentielle 
+            Vervielfachung der Photonen soll zur Verstärkung der Lichtintensität führen, die ab einer erfüllten Schwellwertbedingung eintritt. Dazu wird zunächst die Verstärkung G definiert
 
             \begin{equation}
                 \text{G} = \left(\frac{I}{I_0}\right) = \exp \left[-2\left(N_{\text{i}} - \frac{g_{\text{i}}}{g_{\text{k}}}N_{\text{k}}\right)\sigma(f)\text{L} - \gamma\right],
@@ -89,24 +110,26 @@
             Hermite-Polynom pro transversaler Achse $H_{\text{n,m}}$ entsprechen:
 
             \begin{equation*}
-                E(x,y) = H_{\text{n}} H_{\text{m}} \exp \left(-\frac{x^2+y^2}{w_0^2}\right)
+                E(x,y) = E_0 H_{\text{n}}(x) H_{\text{m}}(y) \exp \left(-\frac{x^2+y^2}{w_0^2}\right) \qquad \text{mit} \qquad H_{\text{n}}(x) = (-1)^{\text{n}} \text{e}^{x^2} \frac{\text{d}^{\text{n}}}{\text{d}x^{\text{n}}} e^{-x^2} 
             \end{equation*}
 
             Dabei beschreibt $w_0$ den minimalen Radius des Strahls.
-            In diesem Versuch sollen im speziellen die transversalen elektrischen Moden TEM$_{00}$ und TEM$_{10}$ vermessen werden, deren Feldverteilungen entlang der x-Achse in Abbildung dargestellt sind. 
-            Da die Hermite-Polynome nullter Ordnung gleich eins sind, entspricht die messbare Intensitätsverteilung der TEM$_{00}$-Mode nach
+            In diesem Versuch sollen im speziellen die transversalen elektrischen Moden TEM$_{00}$ und TEM$_{10}$ entlang der x-Achse vermessen werden, deren Feldverteilungen entlang der x-Achse in Abbildung 
+            dargestellt sind. Unter der Annahme einer Messung entlang der x-Achse ($y=0$) ergeben sich nach $I \propto E^2$ folgende Intensitätsverteilungen für die beiden Moden: 
+            
 
-            \begin{equation*}
-                I \propto E^2
-            \end{equation*}
-
-            einer Gauglocke. Das Hermite-Polynom erster Ordnung ist proportional zu x respektive y, sodass die Intensitätsverteilung der TEM$_{10}$-Mode einer Gauglocke multipliziert mit einer Parabel 
-            entspricht.\newline
+            \begin{align}
+                \text{TEM}_{00}:& \qquad I(x) = I_0 \exp \left(-\frac{2x^2}{w_0^2}\right) \\
+                \text{TEM}_{10}:& \qquad I(x) = I_0 \frac{8x^2}{w_0^2} \exp \left(-\frac{2x^2}{w_0^2}\right)
+            \end{align}
+                
+            Demnach entspricht die messbare Intensitätsverteilung der TEM$_{00}$-Mode einer Gauglocke. Die Intensitätsverteilung der TEM$_{10}$-Mode entspricht einer Gauglocke multipliziert mit einer 
+            Parabel.\newline
 
             \begin{figure}[h]
                 \centering
                 \includegraphics[width = 0.7\textwidth]{pictures/Intensität.jpg}
-                \caption{Die Intensitätsverläufe der TEM$_{00}$- und TEM$_{10}$-Mode sind entlang der x-Achse aufgetragen. Entnommen aus \cite{demtroder_laserspektroskopie_2011}.}
+                \caption{Die Feldverläufe der TEM$_{00}$- und TEM$_{10}$-Mode sind entlang der x-Achse aufgetragen. Entnommen aus \cite{demtroder_laserspektroskopie_2011}.}
                 \label{fig:Intensität}
             \end{figure}
 
@@ -136,7 +159,7 @@
         Wellenlänge entspricht:
 
         \begin{equation}
-            \Delta s = k \lambda \qquad \text{mit} \qquad k \in \mathds{}
+            \Delta s = k \lambda \qquad \text{mit} \qquad k \in \mathds{Z}
             \label{eqn:gangunterschied}
         \end{equation}
 

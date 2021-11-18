@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber build/Abgabe"] 1636984369 "build/Abgabe.bcf" "build/Abgabe.bbl" "build/Abgabe" 1636984384
-  "build/Abgabe.bcf" 1636984384 98883 5c3c16003ad8d31ab65ef124e160c55b "lualatex"
+["biber build/Abgabe"] 1637256581 "build/Abgabe.bcf" "build/Abgabe.bbl" "build/Abgabe" 1637256865
+  "build/Abgabe.bcf" 1637256865 98883 5c3c16003ad8d31ab65ef124e160c55b "lualatex"
   "references.bib" 1636983321 8859 d0635d6bd10e42811d2620812b52024b ""
   (generated)
   "build/Abgabe.bbl"
   "build/Abgabe.blg"
-["lualatex"] 1636984379 "Abgabe.tex" "build/Abgabe.pdf" "Abgabe" 1636984384
+["lualatex"] 1637256860 "Abgabe.tex" "build/Abgabe.pdf" "Abgabe" 1637256865
   "/home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf" 1255129361 118828 4d461c73423fe2666dad2ff0dfc3ca68 ""
@@ -27,6 +27,7 @@
   "/home/lasse/.local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/home/lasse/.local/texlive/2019/texmf-dist/fonts/tfm/public/doublestroke/dsrom10.tfm" 1136768653 452 168d896d9b2ead965bf08c9db69c947f ""
   "/home/lasse/.local/texlive/2019/texmf-dist/fonts/tfm/public/doublestroke/dsrom8.tfm" 1136768653 452 dc44cdd7c88ff2b15557f125edfc277b ""
+  "/home/lasse/.local/texlive/2019/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb" 1136849748 17014 61891910dfe21ad76f9789fdafdd860e ""
   "/home/lasse/.local/texlive/2019/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua" 1564261595 1936 2cc8c19d0da45146d826b1c0e90be331 ""
   "/home/lasse/.local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/home/lasse/.local/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
@@ -187,21 +188,21 @@
   "/home/lasse/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/xitsmath-regular.luc" 1571932943 411896 015f4a9787c6901336e282ef63550e7c ""
   "/home/lasse/.local/texlive/2019/texmf-var/tex/generic/config/language.dat" 1569226035 6580 fbb8848a6b60a482597daa4733143c5e ""
   "/home/lasse/.local/texlive/2019/texmf-var/web2c/luatex/lualatex.fmt" 1569226090 1382748 c3327364d476acd1ff9f463b2f641b9b ""
-  "Abgabe.tex" 1636983866 625 7090ac6d1a9a9cd6275d2a294cbc8542 ""
-  "build/Abgabe.aux" 1636984384 9610 4cdc485907c9fcc1d2f053f28ed13cfc "lualatex"
-  "build/Abgabe.bbl" 1636984370 3713 69214b29a14598cec40c7211ada71e8e "biber build/Abgabe"
-  "build/Abgabe.run.xml" 1636984384 2445 4e649849037410f902e1c4caa5967ccb "lualatex"
-  "build/Abgabe.toc" 1636984384 945 a60ed3a376e771d10665ef30b61a30bb "lualatex"
-  "chapters/Theorie.tex" 1636984362 14363 d450eb7f14c896f5026df5a4ef2b43ef ""
+  "Abgabe.tex" 1637256759 630 ebe72f54deabb1f11e965953e5d40c5f ""
+  "build/Abgabe.aux" 1637256865 10487 5f8f2d640af72f66a5823e382cdb6c9d "lualatex"
+  "build/Abgabe.bbl" 1637256582 3713 69214b29a14598cec40c7211ada71e8e "biber build/Abgabe"
+  "build/Abgabe.run.xml" 1637256865 2445 4e649849037410f902e1c4caa5967ccb "lualatex"
+  "build/Abgabe.toc" 1637256865 945 fa810adf56277a394d3ad91556184530 "lualatex"
+  "chapters/Theorie.tex" 1637256859 16536 57d45b5935615fb0539688ec9eede00e ""
   "inputs/header.tex" 1636984306 2626 a2e968e2651f9d6a115ba4245d2beb6f ""
   "pictures/Intensität.jpg" 1636974025 22169 e46fe68d43adef0b6b2efba986aea37e ""
   "pictures/Termschema.png" 1636967541 65515 965c782b4f663db56be07297e0c6480b ""
   "pictures/prozesse.jpg" 1636983994 21402 a0c259210462601b89a3a951a8760443 ""
   "pictures/spalt.jpg" 1636983159 25969 2494e2e9b9ecbc8de508a3c98217801e ""
   (generated)
-  "build/Abgabe.log"
-  "build/Abgabe.run.xml"
   "build/Abgabe.aux"
+  "build/Abgabe.log"
   "build/Abgabe.pdf"
+  "build/Abgabe.run.xml"
   "build/Abgabe.bcf"
   "build/Abgabe.toc"

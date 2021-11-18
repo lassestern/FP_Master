@@ -328,11 +328,13 @@ INPUT build/Abgabe.toc
 OUTPUT build/Abgabe.toc
 INPUT ./chapters/Theorie.tex
 INPUT ./chapters/Theorie.tex
-INPUT ./pictures/prozesse.jpg
-INPUT ./pictures/prozesse.jpg
-INPUT ./pictures/prozesse.jpg
 INPUT /home/lasse/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
 INPUT /home/lasse/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
+INPUT ./pictures/prozesse.jpg
+INPUT ./pictures/prozesse.jpg
+INPUT ./pictures/prozesse.jpg
+INPUT ./pictures/Termschema.png
+INPUT ./pictures/Termschema.png
 INPUT ./pictures/Termschema.png
 INPUT ./pictures/Termschema.png
 INPUT ./pictures/Termschema.png
@@ -351,3 +353,4 @@ INPUT /home/lasse/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/l
 INPUT build/Abgabe.aux
 INPUT build/Abgabe.run.xml
 OUTPUT build/Abgabe.run.xml
+INPUT /home/lasse/.local/texlive/2019/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb
