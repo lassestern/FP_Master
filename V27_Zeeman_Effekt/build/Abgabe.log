@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  18 NOV 2021 18:34
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  30 NOV 2021 13:31
  restricted system commands enabled.
 **Abgabe.tex
 (./Abgabe.tex
@@ -55,7 +55,7 @@ Lua module: luaotfload-multiscript 2019-09-13 3.00 luaotfload submodule / multis
 cript
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.164 seconds
+luaotfload | main : initialization completed in 0.257 seconds
 (./inputs/header.tex
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
@@ -1859,64 +1859,30 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 \tf@toc=\write4
 
 \openout4 = Abgabe.toc
- [2] (./chapters/Theorie.tex
-<pictures/prozesse.jpg, id=38, 963.6pt x 478.78876pt>
-File: pictures/prozesse.jpg Graphic file (type jpg)
-<use pictures/prozesse.jpg>
-Package luatex.def Info: pictures/prozesse.jpg  used on input line 22.
-(luatex.def)             Requested size: 292.7776pt x 145.47147pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3]
-<pictures/Termschema.png, id=51, 866.23625pt x 637.38126pt>
-File: pictures/Termschema.png Graphic file (type png)
-<use pictures/Termschema.png>
-Package luatex.def Info: pictures/Termschema.png  used on input line 38.
-(luatex.def)             Requested size: 292.7776pt x 215.42297pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4<./pictures/prozesse.jpg>] [5<./pictures/Termschema.png>]
-File: pictures/Termschema.png Graphic file (type png)
-<use pictures/Termschema.png>
-Package luatex.def Info: pictures/Termschema.png  used on input line 76.
-(luatex.def)             Requested size: 292.7776pt x 215.42297pt.
- [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
-
+ [2] (./chapters/Durchfuehrung.tex
+Overfull \hbox (19.9079pt too wide) in paragraph at lines 4--11
+\TU/lmr/m/n/10.95 Um die Spek-tral-li-ni-en und de-ren Auf-spal-tung zu ver-mes
+-sen, wird ei-ne Cadmium-Spektrallampe
  []
 
-<pictures/Intensität.jpg, id=81, 963.6pt x 465.99094pt>
-File: pictures/Intensität.jpg Graphic file (type jpg)
-<use pictures/Intensität.jpg>
-Package luatex.def Info: pictures/Intensität.jpg  used on input line 131.
-(luatex.def)             Requested size: 292.7776pt x 141.58307pt.
-[8<./pictures/Intensität.jpg>]
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 162.
+<pictures/Aufbau.png, id=29, 1431.3475pt x 569.12625pt>
+File: pictures/Aufbau.png Graphic file (type png)
+<use pictures/Aufbau.png>
+Package luatex.def Info: pictures/Aufbau.png  used on input line 16.
+(luatex.def)             Requested size: 334.60571pt x 133.04126pt.
+[3<./pictures/Aufbau.png>]) [4]
 
-(/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/doublestroke/Udsrom.fd
-File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-)
-<pictures/spalt.jpg, id=94, 602.25pt x 451.6875pt>
-File: pictures/spalt.jpg Graphic file (type jpg)
-<use pictures/spalt.jpg>
-Package luatex.def Info: pictures/spalt.jpg  used on input line 168.
-(luatex.def)             Requested size: 292.7776pt x 219.59196pt.
+LaTeX Warning: Empty bibliography on input line 26.
 
-[9<./pictures/spalt.jpg>]) [10]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
- [11]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
- (./build/Abgabe.aux)
+(./build/Abgabe.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 Package rerunfilecheck Info: File `Abgabe.aux' has not changed.
-(rerunfilecheck)             Checksum: 5F8F2D640AF72F66A5823E382CDB6C9D;10487.
+(rerunfilecheck)             Checksum: D11FC69D4DF306CFB784F28F45989061;4379.
 Package rerunfilecheck Info: File `Abgabe.toc' has not changed.
-(rerunfilecheck)             Checksum: FA810ADF56277A394D3AD91556184530;945.
+(rerunfilecheck)             Checksum: 5EE1F0F9456044AFE124F1D3C0E109F9;480.
 Package logreq Info: Writing requests to 'Abgabe.run.xml'.
 
 \openout1 = Abgabe.run.xml
@@ -1924,32 +1890,26 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43007 strings out of 494291
- 125007,1977958 words of node,token memory allocated
- 89710 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 penalty, 12041 glyph, 2106 attrib
-ute, 80 glue_spec, 303 attribute_list, 1 write nodes
-   avail lists: 1:8,2:636,3:136,4:32,5:218,6:21,7:1072,8:93,9:182,10:15,11:375
- 46107 multiletter control sequences out of 65536+600000
- 106 fonts using 37622263 bytes
- 56i,12n,109p,9142b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-re
-gular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/l
-mromancaps10-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opent
-ype/public/lm/lmroman10-italic.otf></home/lasse/.local/texlive/2019/texmf-dist/f
-onts/opentype/public/lm-math/latinmodern-math.otf></home/lasse/.local/texlive/20
-19/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/lasse/.local/
-texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></hom
-e/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern
--math.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/l
-mroman10-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/
-public/lm/lmroman12-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/font
-s/opentype/public/lm/lmsans10-bold.otf></home/lasse/.local/texlive/2019/texmf-di
-st/fonts/type1/public/doublestroke/dsrom10.pfb>
-Output written on Abgabe.pdf (11 pages, 190428 bytes).
+ 42709 strings out of 494291
+ 100000,1977958 words of node,token memory allocated
+ 32801 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 1 penalty, 4158 glyph, 1350 
+attribute, 79 glue_spec, 195 attribute_list, 1 write nodes
+   avail lists: 1:2,2:2431,3:89,4:38,5:195,6:15,7:2455,8:18,9:169,10:28,11:326
+ 45863 multiletter control sequences out of 65536+600000
+ 102 fonts using 37352527 bytes
+ 56i,6n,109p,9142b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman8-re
+gular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-m
+ath/latinmodern-math.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opent
+ype/public/lm-math/latinmodern-math.otf></home/lasse/.local/texlive/2019/texmf-d
+ist/fonts/opentype/public/lm/lmroman10-regular.otf></home/lasse/.local/texlive/2
+019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/lasse/.loca
+l/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf>
+Output written on Abgabe.pdf (4 pages, 216647 bytes).
 
-PDF statistics: 218 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 131072)
- 65 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 106 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 131072)
+ 33 words of extra memory for PDF output out of 10000 (max. 100000000)
 

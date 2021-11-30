@@ -1,10 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Theoretische Grundlagen}{3}{section.1}% 
-\contentsline {subsection}{\numberline {1.1}Funktionsweise eines Lasers}{3}{subsection.1.1}% 
-\contentsline {subsubsection}{\numberline {1.1.1}Anregungen und Übergänge im aktiven Medium}{3}{subsubsection.1.1.1}% 
-\contentsline {subsubsection}{\numberline {1.1.2}Besetzungsinversion}{5}{subsubsection.1.1.2}% 
-\contentsline {subsubsection}{\numberline {1.1.3}Selektive Verstärkung eines Übergangs}{6}{subsubsection.1.1.3}% 
-\contentsline {subsubsection}{\numberline {1.1.4}Modenausbildung innerhalb des Resonators}{7}{subsubsection.1.1.4}% 
-\contentsline {subsubsection}{\numberline {1.1.5}Polarisation des Laserstrahls}{9}{subsubsection.1.1.5}% 
-\contentsline {subsection}{\numberline {1.2}Interferenz am Gitter}{9}{subsection.1.2}% 
+\contentsline {section}{\numberline {1}Durchführung}{3}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Versuchsaufbau}{3}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Kalibrierung des Magnetfelds}{3}{subsection.1.2}% 
+\contentsline {subsection}{\numberline {1.3}Vermessung der Spektrallinienaufspaltung}{4}{subsection.1.3}% 
