@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber build/Abgabe"] 1638275280 "build/Abgabe.bcf" "build/Abgabe.bbl" "build/Abgabe" 1638275473
-  "build/Abgabe.bcf" 1638275472 98493 dd3b708ee053afe394abecce7cbf13a7 "lualatex"
+["biber build/Abgabe"] 1639005150 "build/Abgabe.bcf" "build/Abgabe.bbl" "build/Abgabe" 1639005276
+  "build/Abgabe.bcf" 1639005276 98493 dd3b708ee053afe394abecce7cbf13a7 "lualatex"
   (generated)
   "build/Abgabe.blg"
   "build/Abgabe.bbl"
-["lualatex"] 1638275467 "Abgabe.tex" "build/Abgabe.pdf" "Abgabe" 1638275473
+["lualatex"] 1639005268 "Abgabe.tex" "build/Abgabe.pdf" "Abgabe" 1639005276
   "/home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf" 1255129361 111536 ae9d1b331000d544f47e5223081b7b54 ""
   "/home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf" 1255129361 110400 d844cffffa1af59f9d2bb1bfdb6f1a2c ""
@@ -179,18 +179,23 @@
   "/home/lasse/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/xitsmath-regular.luc" 1571932943 411896 015f4a9787c6901336e282ef63550e7c ""
   "/home/lasse/.local/texlive/2019/texmf-var/tex/generic/config/language.dat" 1569226035 6580 fbb8848a6b60a482597daa4733143c5e ""
   "/home/lasse/.local/texlive/2019/texmf-var/web2c/luatex/lualatex.fmt" 1569226090 1382748 c3327364d476acd1ff9f463b2f641b9b ""
-  "Abgabe.tex" 1638275098 630 8a47a7977453cb2c6399dc405154462e ""
-  "build/Abgabe.aux" 1638275472 4379 d11fc69d4df306cfb784f28f45989061 "lualatex"
-  "build/Abgabe.bbl" 1638275281 466 f7f239c736cf01ac6ce7bd829f9b3c7b "biber build/Abgabe"
-  "build/Abgabe.run.xml" 1638275472 2445 4e649849037410f902e1c4caa5967ccb "lualatex"
-  "build/Abgabe.toc" 1638275472 480 5ee1f0f9456044afe124f1d3c0e109f9 "lualatex"
+  "Abgabe.tex" 1638998374 629 42ff016c900c3a8b77818ca125c433e2 ""
+  "build/Abgabe.aux" 1639005276 10320 514482e9023c5d762cf8a917023099f7 "lualatex"
+  "build/Abgabe.bbl" 1639005151 466 f7f239c736cf01ac6ce7bd829f9b3c7b "biber build/Abgabe"
+  "build/Abgabe.run.xml" 1639005276 2445 4e649849037410f902e1c4caa5967ccb "lualatex"
+  "build/Abgabe.toc" 1639005276 753 84f6e5d74ae5d56ddef2d10b2b0c9149 "lualatex"
+  "chapters/Auswertung.tex" 1639005259 10833 52b374152d7c8b1f9639029b698f8d72 ""
   "chapters/Durchfuehrung.tex" 1638275466 5384 960769bdaf336d22cc5f1f7de16df75b ""
   "inputs/header.tex" 1636984306 2626 a2e968e2651f9d6a115ba4245d2beb6f ""
+  "magnetfeld.pdf" 1639000603 10731 873b24af165bd6ae36b587af053207b2 ""
   "pictures/Aufbau.png" 1638273117 215281 7852e78ea421c210e1542d58febaa035 ""
+  "pictures/blau_pi.png" 1638989351 1845705 8a2511f56de3f82bc0eb47829eb6df92 ""
+  "pictures/blau_sigma.jpg" 1638989295 21863 6d374a93699ce482b0477977f4f8785f ""
+  "pictures/rot_sigma.png" 1638989373 838374 75f74adfdb2ca20e03c15e0d121ef2b3 ""
   (generated)
-  "build/Abgabe.toc"
-  "build/Abgabe.log"
-  "build/Abgabe.aux"
   "build/Abgabe.run.xml"
+  "build/Abgabe.toc"
+  "build/Abgabe.aux"
   "build/Abgabe.bcf"
+  "build/Abgabe.log"
   "build/Abgabe.pdf"
