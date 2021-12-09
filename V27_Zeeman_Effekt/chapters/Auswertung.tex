@@ -7,32 +7,39 @@
 
         \begin{equation}
             B(I) = aI^3 + bI^2 + cI + d
+            \label{eqn:kalibration}
         \end{equation}
         
         mit den Parametern 
 
-        \begin{align}
-            a &=\SI{-0.0005626}{\tesla \per \ampere^3} \\
-            b &=\SI{0.00026665}{\tesla \per \ampere^2} \\
-            c &=\SI{0.10692288}{\tesla \per \ampere}   \\
-            d &=\SI{-0.00662435}{\tesla },
-        \end{align}
-        
+        \begin{equation*}
+          a =\SI{-0.0005626}{\tesla \per \ampere^3} \qquad b =\SI{0.00026665}{\tesla \per \ampere^2} \qquad c =\SI{0.10692288}{\tesla \per \ampere}   \qquad   d =\SI{-0.00662435}{\tesla },
+        \end{equation*}
+            
         die die Magnetfeldstärke in Tesla angibt.
         \FloatBarrier
 
         \begin{figure}[h]
           \centering
-          \includegraphics[width = 0.8\textwidth]{magnetfeld.pdf}
+          \includegraphics[width = 0.6\textwidth]{magnetfeld.pdf}
           \caption{Die gemessenen Magnetfeldstärken B sind gegen die angelegten Stromstärken I aufgetragen. Zur Beschreibung des Zusammenhangs wird ein Polynom dritter Ordnung an die Messwerte angepasst.}
           \label{fig:Magnetfeld}
         \end{figure}
     
         \FloatBarrier
 
-    
+    \newpage
     \subsection{Bestimmung der Wellenlängenaufspaltung}
-        \subsubsection*{Untersuchung des roten Übergangs}
+        In der folgenden Auswertung wird angenommen, dass die Abstände im Interferenzmuster mit einem Fehler von $\pm 1$ Pixel abgelesen werden. Die daraus resultierenden Fehler werden über die Gauß´sche
+        Fehlerfortpflanzung berechnet. Dabei berechnet sich der Fehler $\Delta f$ einer Größe, die aus fehlerbehafteten Größen berechnet wird über folgende Formel
+        
+        \begin{equation*}
+          \Delta f = \sqrt{\sum_{i=1}^N (\frac{df}{dy_i}\cdot \Delta y_i)^2},
+        \end{equation*}
+
+        in der $N$ für die Anzahl der einfließenden, fehlerbehafteten Größen und $y_i$ bzw. $\Delta y_i$ für die fehlerbehaftete Größe und deren Fehler steht.
+
+        \subsubsection*{Untersuchung des 643,8\,nm-Übergangs}
             Zunächst wird die Verschiebung der Maxima im Interferenzmuster für den roten Übergang der Wellenlänge \SI{643.8}{\nano\metre} untersucht. Für eine Einstellung des Polarisators auf 90° wird wie aus
             der Geometrie des Aufbaus zu erwarten keine Aufspaltung der Interferenzmaxima beobachtet.
 
@@ -40,15 +47,16 @@
 
             \begin{figure}[h]
               \centering
-              \includegraphics[width = 0.8\textwidth]{pictures/rot_sigma.png}
+              \includegraphics[width = 0.6\textwidth]{pictures/rot_sigma.png}
               \caption{Die gemessenen Magnetfeldstärken B sind gegen die angelegten Stromstärken I aufgetragen. Zur Beschreibung des Zusammenhangs wird ein Polynom dritter Ordnung an die Messwerte angepasst.}
               \label{fig:rot_sigma}
             \end{figure}
         
             \FloatBarrier
 
-            Durch Einstellen des Polarisators auf 90° wird der $\sigma$-polarisierte Anteil des Lichts untersucht. Hier stellt sich wie Abbildung sadsad zu sehen bei einem angelegten Magnetfeld von 
-            \SI{465}{\milli\tesla} eine Verschiebung der Interferenzmaxima ein. Aus dem Interferenzmuster bei ausgeschaltetem Magnetfeld wird der Abstand zwischen den Maxima ohne Zeeman-Aufspaltung $\Delta s$
+            Durch Einstellen des Polarisators auf 90° wird der $\sigma$-polarisierte Anteil des Lichts untersucht. Hier stellt sich wie Abbildung \ref{fig:rot_sigma} zu sehen bei einem angelegten Magnetfeld von 
+            \SI{465}{\milli\tesla}, das über Formel \ref{eqn:kalibration} für einen Spulenstrom von \SI{5}{\ampere} bestimmt wurde, eine Verschiebung der Interferenzmaxima ein. Aus dem Interferenzmuster bei 
+            ausgeschaltetem Magnetfeld wird der Abstand zwischen den Maxima ohne Zeeman-Aufspaltung $\Delta s$
             für 13 Maxima ermittelt. Analog wird die Aufspaltung der Maxima bei eingeschaltetem Magnetfeld $\delta s$ aus dem aufgenommenen Interferenzmuster abgelesen. Diese Werte sowie die daraus über Formel
             REFERENZ EINFÜGEN berechnete Verschiebung der Wellenlänge $\delta\lambda$ sind in Tabelle \ref{tab:rot_sigma} aufgelistet. Aus diesen wird die mittlere Wellenlängeverschiebung berechnet, die sich 
             zu
@@ -57,13 +65,21 @@
                 \overline{\delta \lambda_{\text{rot}, \sigma}} = \left(8.92 \pm 0.12\right)\si{\pico\metre}.
             \end{equation*}
 
-            ergibt. Mit dieser wird der Lande-Faktor g berechnet, indem die Energieaufspaltung $\Delta E$ nach diesem umgestellt wird und diese Energieänderung aufgrund der Zeeman-Aufspaltung über 
+            ergibt. Mit dieser wird der Landè-Faktor g berechnet, indem die Energieaufspaltung $\Delta E$ REFERENZ ZEMAN-AUFSPALTUNG nach diesem umgestellt wird und diese Energieänderung aufgrund der 
+            Zeeman-Aufspaltung über 
 
             \begin{equation*}
                 \Delta E = \frac{\delta E}{\delta \lambda} E(\lambda) \qquad \text{mit} \qquad E(\lambda) = \frac{\text{hc}}{\lambda}
             \end{equation*}
 
-            mit der Wellenlängenverschiebung verknüpft wird. Der Lande-Faktor ergibt sich zu
+            mit der Wellenlängenverschiebung verknüpft wird. Der Landé-Faktor ergibt sich so über
+            
+            \begin{equation}
+              g = \frac{\delta\lambda\text{hc}}{\mu_{\text{B}}B\lambda^2}
+              \label{eqn:Lande}
+            \end{equation}
+            
+            zu
 
             \begin{equation*}
                 g_{\text{rot}, \sigma} = 0.993 \pm 0.013 .
@@ -98,24 +114,29 @@
               \end{table}
               \FloatBarrier
 
-
-        \subsubsection*{Untersuchung des blauen Übergangs}
+        \newpage
+        \subsubsection*{Untersuchung des 480,0\,nm-Übergangs}
             Anschließend wird die Verschiebung der Maxima im Interferenzmuster für den blauen Übergang der Wellenlänge \SI{480}{\nano\metre} untersucht. Hier wird zunächst der Übergang mit $\pi$-polarisertem
-            Licht untersucht. Analog zur Auswertung des roten Übergangs werden die benötigten Abstände aus den in Abbildung REFERENZ zu sehenden Interferenzmustern abgelesen. Die Ergebnisse sind in Tabelle 
-            \ref{tab:blau_pi} aufgelistet und werden genutzt, um die mittlere Wellenlängeverschiebung zu berechnen. Diese ergibt sich nach den bereits genutzen Formeln zu 
+            Licht untersucht. Hier wird die Magnetfeldstärke über die Kalibirierung für einen Spulenstrom von \SI{2.6}{\ampere} zu \SI{263}{\milli\tesla} bestimmt. Analog zur Auswertung des roten Übergangs 
+            werden die benötigten Abstände aus den in Abbildung \ref{fig:blau_pi} zu sehenden Interferenzmustern abgelesen. Die Ergebnisse sind in 
+            Tabelle \ref{tab:blau_pi} aufgelistet und werden genutzt, um die mittlere Wellenlängeverschiebung und den Landé-Faktor analog zu dem Vorgehen beim roten Übergang zu berechnen. So ergeben sich die
+            Wellenlängenverschiebung zu
 
             \begin{equation*}
-                \overline{\delta \lambda_{\text{blau}, \pi}} = \left(6.18 \pm 0.10\right)\si{\pico\metre}.
+                \overline{\delta \lambda_{\text{blau}, \pi}} = \left(6.18 \pm 0.10\right)\si{\pico\metre}
             \end{equation*}
 
-             
+            und der Landé-Faktor zu
 
+            \begin{equation*}
+              g_{\text{blau}, \pi} = 0.663 \pm 0.004 .
+            \end{equation*}
 
             \FloatBarrier
 
             \begin{figure}[h]
               \centering
-              \includegraphics[width = 0.8\textwidth]{pictures/blau_pi.png}
+              \includegraphics[width = 0.6\textwidth]{pictures/blau_pi.png}
               \caption{Die gemessenen Magnetfeldstärken B sind gegen die angelegten Stromstärken I aufgetragen. Zur Beschreibung des Zusammenhangs wird ein Polynom dritter Ordnung an die Messwerte angepasst.}
               \label{fig:blau_pi}
             \end{figure}
@@ -151,7 +172,21 @@
               \FloatBarrier
 
 
+              Zuletzt wird der Übergang mit $\sigma$-polarisiertem Licht untersucht. Hier wurden die Daten eines externen Versuches genutzt, bei dem das angelegte Magnetfeld \SI{1009}{\milli\tesla} betrug. Per 
+              analogem Vorgehen zu den vorherigen Übergängen werden die in Tabelle \ref{tab:blau_sigma} aufgelisteten Werte wieder aus
+              den in Abbildung \ref{fig:blau_sigma} zu sehenden Interferenzbildern abgelesen. Die mittlere Wellenlängenverschiebung ergibt sich zu
 
+            \begin{equation*}
+              \overline{\delta \lambda_{\text{blau}, \sigma}} = \left(6.18 \pm 0.10\right)\si{\pico\metre}
+            \end{equation*}
+
+            und der Landé-Faktor wird daraus zu
+
+            \begin{equation*}
+              g_{\text{blau}, \sigma} = 2.180 \pm 0.040 
+            \end{equation*}
+
+            bestimmt.
 
 
 
@@ -159,7 +194,7 @@
 
               \begin{figure}[h]
                 \centering
-                \includegraphics[width = 0.8\textwidth]{pictures/blau_sigma.jpg}
+                \includegraphics[width = 0.6\textwidth]{pictures/blau_sigma.jpg}
                 \caption{Die gemessenen Magnetfeldstärken B sind gegen die angelegten Stromstärken I aufgetragen. Zur Beschreibung des Zusammenhangs wird ein Polynom dritter Ordnung an die Messwerte angepasst.}
                 \label{fig:blau_sigma}
               \end{figure}
@@ -169,7 +204,7 @@
               \begin{table}[h]
                 \centering
                 \caption{Die abgelesenen Abstände der Interferenzmaxima $\Delta s_{\text{rot}, \sigma}$ bei ausgeschaltetem Magnetfeld, die Aufspaltung der Interferenzmaxima $\delta s_{\text{rot}, \sigma}$ sowie die berechnete Wellenlängeverschiebung $\delta \lambda_{\text{rot}, \sigma}$}
-                \label{tab:blau_pi}
+                \label{tab:blau_sigma}
               
                 \begin{tabular}{c c c}
                   \toprule

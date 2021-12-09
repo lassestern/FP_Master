@@ -7,3 +7,4 @@
 \contentsline {section}{\numberline {2}Auswertung}{5}{section.2}% 
 \contentsline {subsection}{\numberline {2.1}Kalibirierung des Elektromagneten}{5}{subsection.2.1}% 
 \contentsline {subsection}{\numberline {2.2}Bestimmung der Wellenlängenaufspaltung}{6}{subsection.2.2}% 
+\contentsline {section}{\numberline {3}Diskussion}{11}{section.3}% 

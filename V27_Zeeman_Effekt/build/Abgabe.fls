@@ -377,6 +377,8 @@ INPUT ./pictures/blau_pi.png
 INPUT ./pictures/blau_sigma.jpg
 INPUT ./pictures/blau_sigma.jpg
 INPUT ./pictures/blau_sigma.jpg
+INPUT ./chapters/Diskussion.tex
+INPUT ./chapters/Diskussion.tex
 INPUT build/Abgabe.aux
 INPUT build/Abgabe.run.xml
 OUTPUT build/Abgabe.run.xml
