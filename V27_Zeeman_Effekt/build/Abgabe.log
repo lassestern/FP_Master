@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  10 DEC 2021 09:09
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  10 DEC 2021 16:43
  restricted system commands enabled.
 **Abgabe.tex
 (./Abgabe.tex
@@ -55,7 +55,7 @@ Lua module: luaotfload-multiscript 2019-09-13 3.00 luaotfload submodule / multis
 cript
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.170 seconds
+luaotfload | main : initialization completed in 0.177 seconds
 (./inputs/header.tex
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
@@ -1934,7 +1934,7 @@ Package luatex.def Info: pictures/rot_sigma.png  used on input line 50.
 <pictures/blau_pi.png, id=242, 1408.51219pt x 623.32875pt>
 File: pictures/blau_pi.png Graphic file (type png)
 <use pictures/blau_pi.png>
-Package luatex.def Info: pictures/blau_pi.png  used on input line 139.
+Package luatex.def Info: pictures/blau_pi.png  used on input line 140.
 (luatex.def)             Requested size: 250.95587pt x 111.05298pt.
 
 
@@ -1944,7 +1944,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <pictures/blau_sigma.jpg, id=254, 963.6pt x 432.86719pt>
 File: pictures/blau_sigma.jpg Graphic file (type jpg)
 <use pictures/blau_sigma.jpg>
-Package luatex.def Info: pictures/blau_sigma.jpg  used on input line 197.
+Package luatex.def Info: pictures/blau_sigma.jpg  used on input line 198.
 (luatex.def)             Requested size: 250.95587pt x 112.73434pt.
 
 
@@ -1959,7 +1959,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 Package rerunfilecheck Info: File `Abgabe.aux' has not changed.
-(rerunfilecheck)             Checksum: 9B2B1DFD7F9B31C3900D2F839CCAD213;19858.
+(rerunfilecheck)             Checksum: 0118A2CC35FF7981B06B0964EDB4F223;20383.
 Package rerunfilecheck Info: File `Abgabe.toc' has not changed.
 (rerunfilecheck)             Checksum: 54CAB5F049882DCEF770376ECC7BE3A9;1735.
 
@@ -1975,13 +1975,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
 Here is how much of LuaTeX's memory you used:
  43480 strings out of 494291
  195330,1977958 words of node,token memory allocated
- 147171 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 penalty, 4 sub_mlist, 18818 glyph
+ 148921 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 penalty, 4 sub_mlist, 19068 glyph
 , 6481 attribute, 82 glue_spec, 928 attribute_list, 1 write nodes
-   avail lists: 1:15,2:1530,3:165,4:39,5:213,6:38,7:2300,8:72,9:357,10:30,11:317
+   avail lists: 1:15,2:1530,3:171,4:39,5:213,6:37,7:2312,8:72,9:357,10:30,11:317
 
  46367 multiletter control sequences out of 65536+600000
- 213 fonts using 80924111 bytes
+ 213 fonts using 80924815 bytes
  56i,14n,109p,9142b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-re
 gular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/l
@@ -1994,7 +1994,7 @@ e/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regula
 r.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmrom
 an12-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/publ
 ic/lm/lmsans10-bold.otf>
-Output written on Abgabe.pdf (19 pages, 4478637 bytes).
+Output written on Abgabe.pdf (19 pages, 4478785 bytes).
 
 PDF statistics: 401 PDF objects out of 1000 (max. 8388607)
  303 compressed objects within 4 object streams
