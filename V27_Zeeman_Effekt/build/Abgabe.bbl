@@ -19,6 +19,47 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{haken_atom-_2004}{book}{}
+      \name{author}{2}{}{%
+        {{hash=d16606f9ddae8490aac72604505c64d9}{%
+           family={Haken},
+           familyi={H\bibinitperiod},
+           given={Hermann},
+           giveni={H\bibinitperiod}}}%
+        {{hash=edc994e4d079a15f004ac95a6c4fd6d0}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Hans\bibnamedelima Christoph},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{dd670c83aaa151fa0684c9ff56b7bae7}
+      \strng{fullhash}{dd670c83aaa151fa0684c9ff56b7bae7}
+      \strng{bibnamehash}{dd670c83aaa151fa0684c9ff56b7bae7}
+      \strng{authorbibnamehash}{dd670c83aaa151fa0684c9ff56b7bae7}
+      \strng{authornamehash}{dd670c83aaa151fa0684c9ff56b7bae7}
+      \strng{authorfullhash}{dd670c83aaa151fa0684c9ff56b7bae7}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{Achte, aktualisierte und erweiterte Auflage}
+      \field{isbn}{978-3-642-62142-0 978-3-540-02621-1}
+      \field{pagetotal}{531}
+      \field{series}{Springer-Lehrbuch}
+      \field{shorttitle}{Atom- und Quantenphysik}
+      \field{title}{Atom- und Quantenphysik: Einführung in die experimentellen und theoretischen Grundlagen}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-642-18519-9
+      \endverb
+    \endentry
     \entry{tu_dortmund_versuchsanleitung_2021-5}{misc}{}
       \name{author}{1}{}{%
         {{hash=2821a70f99517ac7757c95300d43e95c}{%
@@ -33,8 +74,8 @@
       \strng{authorbibnamehash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Versuchsanleitung V27 - Zeeman-Effekt}

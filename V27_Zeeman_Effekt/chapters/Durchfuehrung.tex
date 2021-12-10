@@ -6,8 +6,52 @@
         dem Spalt wird das Licht durch die Linse L$_2$ erneut kollimiert und durchläuft daraufhin ein Geradsichtprisma, in dem die Wellenlängenkomponenten aufgrund unterschiedlich starker Brechung räumlich 
         getrennt werden. Es ergeben sich eine grüne, blaue, dunkelblaue und rote Komponente. Die nun getrennten Komponenten durchlaufen einen Polarisationsfilter, der ermöglicht nur ausgewählte Übergänge zu 
         beobachten und werden durch die Linse L$_3$ auf einen weiteren Spalt S$_2$ fokussiert. Dieser ist verschiebbar, sodass eine ausgewählte Wellenlängenkomponenten den Spalt durchlaufen kann, während alle 
-        anderen Komponenten blockiert werden. Zuletzt wird das Licht über die Linse L$_4$ auf die Lummer-Gehrcke-Platte fokussiert. Diese erzeugt ein Interferenzmuster, das über eine Digitalkamera aufgenommen 
-        und aus dem die Wellenlänge des Lichts bestimmt werden kann.
+        anderen Komponenten blockiert werden. Zuletzt wird das Licht über die Linse L$_4$ auf die Lummer-Gehrcke-Platte fokussiert. Diese ist in Abbildung \ref{fig:lummer} dargestellt und erzeugt ein 
+        Interferenzmuster, wenn die Bragg-Bedingung
+
+        \begin{equation*}
+            2nd\cos(\beta) = m\lambda,
+        \end{equation*}
+
+        wobei $d$ die Dicke der Platte, $\lambda$ die Wellenlänge des Lichts, $n$ der Brechungsindex des Glases, $\beta$ der Reflexionswinkel innerhalb der Platte und $m$ die Ordnung des Interferenzmaximas ist.
+        Das Interferenzbild wird über eine Digitalkamera aufgenommen und ermöglicht die Bestimmung der Wellenlänge des Lichts.
+        \subsubsection*{Auflösungsvermögen und Dispersionsgebiet der Lummer-Gehrcke-Platte}
+            Eine Veränderung des Magnetfeldes hat eine Wellenlängenverschiebung
+            \begin{equation}
+                \delta\lambda=\frac{1}{2}\frac{\delta s}{\Delta s}\Delta\lambda_D
+            \end{equation}
+            zur Folge. $\Delta s$ ist dabei der Linienabstand bei abgeschaltetem Magnetfeld und
+            $\delta s$ die Verschiebung der Linien wenn das Feld angeschaltet wird.
+            \begin{equation}
+                \Delta\lambda_D=\frac{\lambda^2}{2d}\sqrt{\frac{1}{n^2-1}}
+                \label{eqn:delta_lambda}
+            \end{equation}
+            ist das sogennante Dispersionsgebiet, welches die nötige Differenz angibt,
+            sodass sich zwei Wellenlängen nicht überlagern. Für eine gegebene Wellenlänge $\lambda$ lässt sich das Auflösungsvermögen der Lummer-Gehrcke-Platte über folgende Formel
+            
+            \begin{equation}
+                A = \frac{L}{\lambda} (n^2 - 1),
+                \label{eqn:auflösung}
+            \end{equation}
+
+            die die Länge der Lummer-Gehrcke-Platte $L$ und den Brechungsindex des Materials der Platte $n$ enthält.
+
+            So lassen sich für die zu untersuchenden Übergänge folgende Dispersionsgebiete und Auflösungsvermögen berechnen:
+            
+            \begin{align*}
+                \Delta\lambda_{D, \SI{643.8}{\nano\metre}} = \SI{48.91}{\pico\metre}  \qquad A_{\SI{643.8}{\nano\metre}} = \num{2.09e5} \\
+                \Delta\lambda_{D, \SI{480.0}{\nano\metre}} = \SI{26.95}{\pico\metre}  \qquad A_{\SI{480.0}{\nano\metre}} = \num{2.85e5}
+            \end{align*}
+
+
+
+
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width = 0.9\textwidth]{pictures/lummer.png}
+            \caption{Schematischer Aufbau der Lummer-Gehrcke Platte, deren erzeugtes Interferenzmuster zur Bestimmung der Wellenlängenverschiebung genutzt wird. Entnommen aus \cite{tu_dortmund_versuchsanleitung_2021-5}}
+            \label{fig:lummer}
+        \end{figure}
 
         \FloatBarrier
 

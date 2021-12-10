@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  9 DEC 2021 23:42
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  10 DEC 2021 09:09
  restricted system commands enabled.
 **Abgabe.tex
 (./Abgabe.tex
@@ -55,7 +55,7 @@ Lua module: luaotfload-multiscript 2019-09-13 3.00 luaotfload submodule / multis
 cript
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.114 seconds
+luaotfload | main : initialization completed in 0.170 seconds
 (./inputs/header.tex
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
@@ -1863,36 +1863,75 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 \tf@toc=\write4
 
 \openout4 = Abgabe.toc
- [2] (./chapters/Durchfuehrung.tex
+ [2] (./chapters/Theorie.tex [3]
+<pictures/aufspaltung.png, id=70, 511.9125pt x 306.14375pt>
+File: pictures/aufspaltung.png Graphic file (type png)
+<use pictures/aufspaltung.png>
+Package luatex.def Info: pictures/aufspaltung.png  used on input line 63.
+(luatex.def)             Requested size: 292.7776pt x 175.09233pt.
+ [4<./pictures/Aufspaltung.png>]
+<pictures/normal.png, id=87, 821.0675pt x 484.81125pt>
+File: pictures/normal.png Graphic file (type png)
+<use pictures/normal.png>
+Package luatex.def Info: pictures/normal.png  used on input line 91.
+(luatex.def)             Requested size: 292.7776pt x 172.87485pt.
+ [5<./pictures/Normal.png>]
+<pictures/beobachtung.png, id=98, 502.87875pt x 351.3125pt>
+File: pictures/beobachtung.png Graphic file (type png)
+<use pictures/beobachtung.png>
+Package luatex.def Info: pictures/beobachtung.png  used on input line 107.
+(luatex.def)             Requested size: 167.29967pt x 116.87158pt.
+<pictures/anormal.png, id=103, 788.9475pt x 400.49625pt>
+File: pictures/anormal.png Graphic file (type png)
+<use pictures/anormal.png>
+Package luatex.def Info: pictures/anormal.png  used on input line 123.
+(luatex.def)             Requested size: 292.7776pt x 148.62128pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6<./pictures/Beobachtung.png>]) (./chapters/Durchfuehrung.tex [7<./pictures/Ano
+rmal.png>]
 Overfull \hbox (19.9079pt too wide) in paragraph at lines 4--11
 \TU/lmr/m/n/10.95 Um die Spek-tral-li-ni-en und de-ren Auf-spal-tung zu ver-mes
 -sen, wird ei-ne Cadmium-Spektrallampe
  []
 
-<pictures/Aufbau.png, id=37, 1431.3475pt x 569.12625pt>
+[8]
+<pictures/lummer.png, id=142, 1127.21124pt x 421.575pt>
+File: pictures/lummer.png Graphic file (type png)
+<use pictures/lummer.png>
+Package luatex.def Info: pictures/lummer.png  used on input line 51.
+(luatex.def)             Requested size: 376.42744pt x 140.77982pt.
+<pictures/Aufbau.png, id=145, 1431.3475pt x 569.12625pt>
 File: pictures/Aufbau.png Graphic file (type png)
 <use pictures/Aufbau.png>
-Package luatex.def Info: pictures/Aufbau.png  used on input line 16.
+Package luatex.def Info: pictures/Aufbau.png  used on input line 60.
 (luatex.def)             Requested size: 334.60571pt x 133.04126pt.
-[3<./pictures/Aufbau.png>]) (./chapters/Auswertung.tex [4]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9<./pictures/lummer.png>] [10<./pictures/Aufbau.png>])
+(./chapters/Auswertung.tex [11]
 Overfull \hbox (43.99583pt too wide) detected at line 17
 \TU/LatinModernMath(1)/m/n/10.95 𝑎 = [] [] 𝑏 = [][] [] 𝑐 = [][] [] 
 𝑑 = [][] [],
  []
 
-<magnetfeld.pdf, id=66, 505.89pt x 433.62pt>
+<magnetfeld.pdf, id=178, 505.89pt x 433.62pt>
 File: magnetfeld.pdf Graphic file (type pdf)
 <use magnetfeld.pdf>
 Package luatex.def Info: magnetfeld.pdf  used on input line 24.
 (luatex.def)             Requested size: 250.95587pt x 215.10902pt.
-[5<./magnetfeld.pdf>]
-<pictures/rot_sigma.png, id=107, 1123.19624pt x 604.50844pt>
+[12<./magnetfeld.pdf>]
+<pictures/rot_sigma.png, id=219, 1123.19624pt x 604.50844pt>
 File: pictures/rot_sigma.png Graphic file (type png)
 <use pictures/rot_sigma.png>
 Package luatex.def Info: pictures/rot_sigma.png  used on input line 50.
 (luatex.def)             Requested size: 250.95587pt x 135.05844pt.
- [6<./pictures/rot_sigma.png>] [7]
-<pictures/blau_pi.png, id=128, 1408.51219pt x 623.32875pt>
+ [13<./pictures/rot_sigma.png>] [14]
+<pictures/blau_pi.png, id=242, 1408.51219pt x 623.32875pt>
 File: pictures/blau_pi.png Graphic file (type png)
 <use pictures/blau_pi.png>
 Package luatex.def Info: pictures/blau_pi.png  used on input line 139.
@@ -1901,8 +1940,8 @@ Package luatex.def Info: pictures/blau_pi.png  used on input line 139.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8<./pictures/blau_pi.png>]
-<pictures/blau_sigma.jpg, id=140, 963.6pt x 432.86719pt>
+[15<./pictures/blau_pi.png>]
+<pictures/blau_sigma.jpg, id=254, 963.6pt x 432.86719pt>
 File: pictures/blau_sigma.jpg Graphic file (type jpg)
 <use pictures/blau_sigma.jpg>
 Package luatex.def Info: pictures/blau_sigma.jpg  used on input line 197.
@@ -1911,18 +1950,18 @@ Package luatex.def Info: pictures/blau_sigma.jpg  used on input line 197.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9]) (./chapters/Diskussion.tex [10<./pictures/blau_sigma.jpg>]) [11]
+[16]) (./chapters/Diskussion.tex [17<./pictures/blau_sigma.jpg>]) [18]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
- [12]
+ [19]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
 
 (./build/Abgabe.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 Package rerunfilecheck Info: File `Abgabe.aux' has not changed.
-(rerunfilecheck)             Checksum: 724D145E9D132B244E1BF69C7F613054;11974.
+(rerunfilecheck)             Checksum: 9B2B1DFD7F9B31C3900D2F839CCAD213;19858.
 Package rerunfilecheck Info: File `Abgabe.toc' has not changed.
-(rerunfilecheck)             Checksum: BE62F8B3A395312E2E64D5D54148A271;821.
+(rerunfilecheck)             Checksum: 54CAB5F049882DCEF770376ECC7BE3A9;1735.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1934,27 +1973,31 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43340 strings out of 494291
- 156265,1977958 words of node,token memory allocated
- 102571 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 1 penalty, 12945 glyph, 4962
- attribute, 80 glue_spec, 711 attribute_list, 1 write nodes
-   avail lists: 1:5,2:1552,3:113,4:44,5:202,6:18,7:2575,8:72,9:193,10:30,11:328
- 46318 multiletter control sequences out of 65536+600000
- 212 fonts using 80793535 bytes
- 56i,14n,109p,9142b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-i
-talic.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/l
-mroman8-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/p
-ublic/lm-math/latinmodern-math.otf></home/lasse/.local/texlive/2019/texmf-dist/f
-onts/opentype/public/lm-math/latinmodern-math.otf></home/lasse/.local/texlive/20
-19/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/lasse/.local
-/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/l
-asse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf>
-Output written on Abgabe.pdf (12 pages, 3726105 bytes).
+ 43480 strings out of 494291
+ 195330,1977958 words of node,token memory allocated
+ 147171 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 penalty, 4 sub_mlist, 18818 glyph
+, 6481 attribute, 82 glue_spec, 928 attribute_list, 1 write nodes
+   avail lists: 1:15,2:1530,3:165,4:39,5:213,6:38,7:2300,8:72,9:357,10:30,11:317
 
-PDF statistics: 239 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 131072)
- 65 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 46367 multiletter control sequences out of 65536+600000
+ 213 fonts using 80924111 bytes
+ 56i,14n,109p,9142b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-re
+gular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/l
+mromancaps10-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opent
+ype/public/lm/lmroman10-italic.otf></home/lasse/.local/texlive/2019/texmf-dist/f
+onts/opentype/public/lm/lmroman8-regular.otf></home/lasse/.local/texlive/2019/te
+xmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/lasse/.local/
+texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></hom
+e/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regula
+r.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmrom
+an12-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/publ
+ic/lm/lmsans10-bold.otf>
+Output written on Abgabe.pdf (19 pages, 4478637 bytes).
+
+PDF statistics: 401 PDF objects out of 1000 (max. 8388607)
+ 303 compressed objects within 4 object streams
+ 98 named destinations out of 1000 (max. 131072)
+ 145 words of extra memory for PDF output out of 10000 (max. 100000000)
 

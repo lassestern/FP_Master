@@ -1,17 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.13
 [0] Config.pm:307> INFO - Logfile is 'build/Abgabe.blg'
-[27] biber:315> INFO - === Thu Dec  9, 2021, 22:31:48
-[42] Biber.pm:375> INFO - Reading 'build/Abgabe.bcf'
-[111] Biber.pm:905> INFO - Found 1 citekeys in bib section 0
-[125] Biber.pm:4196> INFO - Processing section 0
-[126] Utils.pm:75> INFO - Globbing data source 'references.bib'
-[126] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
-[135] Biber.pm:4373> INFO - Looking for bibtex format file 'references.bib' for section 0
-[138] bibtex.pm:1462> INFO - LaTeX decoding ...
-[173] bibtex.pm:1281> INFO - Found BibTeX data source 'references.bib'
-[185] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[186] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[186] Biber.pm:4024> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[186] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
-[187] bbl.pm:648> INFO - Writing 'build/Abgabe.bbl' with encoding 'UTF-8'
-[188] bbl.pm:751> INFO - Output to build/Abgabe.bbl
+[32] biber:315> INFO - === Fri Dec 10, 2021, 08:35:17
+[51] Biber.pm:375> INFO - Reading 'build/Abgabe.bcf'
+[117] Biber.pm:905> INFO - Found 2 citekeys in bib section 0
+[130] Biber.pm:4196> INFO - Processing section 0
+[131] Utils.pm:75> INFO - Globbing data source 'references.bib'
+[131] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
+[140] Biber.pm:4373> INFO - Looking for bibtex format file 'references.bib' for section 0
+[142] bibtex.pm:1462> INFO - LaTeX decoding ...
+[175] bibtex.pm:1281> INFO - Found BibTeX data source 'references.bib'
+[196] Utils.pm:300> WARN - ISBN '978-3-642-62142-0 978-3-540-02621-1' in entry 'haken_atom-_2004' is invalid - run biber with '--validate_datamodel' for details.
+[215] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[215] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[216] Biber.pm:4024> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[216] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
+[222] bbl.pm:648> INFO - Writing 'build/Abgabe.bbl' with encoding 'UTF-8'
+[224] bbl.pm:751> INFO - Output to build/Abgabe.bbl
+[224] Biber.pm:110> INFO - WARNINGS: 1
