@@ -1,138 +1,138 @@
-\section{Ziel}
-    Ziel dieses Versuches ist es den Zeemann-Effekt an den Spektrallinien zu untersuchen und
-    daraus die Landé-Faktoren zu bestimmen.
-\section{Theoretische Grundlagen}
-    \subsection{Das magnetische Moment eines Elektrons}
-        Hüllenelektronen in einem Atom besitzen zwei Drehimpulse - den Bahndrehimpuls $\vec{l}$ und den Spin $\vec{s}$.
-        Für die entsprechenden magnetischen Momente gilt
-        \begin{equation}
-            \vec{\mu}_l = -\frac{\mu_B}{\hbar}\vec{l} \quad\text{und}\quad \vec{\mu}_s = -g_s\frac{\mu_B}{\hbar}\vec{s} \, ,
-        \end{equation}
-        mit dem Bor'schen Magneton
-        \begin{equation}
-            \mu_B=-\frac{e_0\hbar}{2m_0}
-        \end{equation}
-        und dem sogennanten Landé-Faktor $g_s$.
-        Dabei ergeben sich die Beträge der Drehimpulse aus den dazugehörigen Quantenzahlen $l$ und $s$
-        \begin{equation}
-            \vert\vec{l}\vert=\sqrt{l(l+1)}\cdot\hbar \quad\text{und}\quad \vert\vec{s}\vert=\sqrt{s(s+1)}\cdot\hbar
-        \end{equation}
-    \subsection{Die Spin-Bahn Wechselwirkung}
-        Das magnetische Moment $\vec{\mu}_s$ koppelt an das B-Feld, welches aus der Bewegung des Atomkerns,
-        aus der Sicht des Elektrons entsteht.
-        Bei einem Sytem mit mehreren Elektronen werden dabei folgende zwei Grenzfälle behandelt.
-        \subsubsection{LS-Kopplung}
-            Im Falle von Atomen mit kleinen Ordnungszahlen überwiegt die Wechselwirkung zwischen
-            den Bahndrehimpulsen und den Spinmomenten untereinander gegenüber der Spin-Bahn Wechselwirkung der einzelnen Elektronen.
-            Die Drehimpulse der einzelnen Elektronen werden dabei jeweils zu dem Gesamtbahndrehimpuls und dem Gesamtspin
-            \begin{align}
-                \vec{L}&=\sum\vec{l}_i \qquad\text{mit}\quad \vert\vec{L}\vert=\sqrt{L(L+1)}\cdot\hbar \\
-                \vec{S}&=\sum\vec{s}_i \qquad\text{mit}\quad \vert\vec{S}\vert=\sqrt{S(S+1)}\cdot\hbar
-            \end{align}
-            addiert, wobei $L$ und $S$ die Quantenzahlen beschreiben.
-            Diese ergeben zusammen wiederrum den Gesamtdrehimpuls
+    \section{Ziel}
+        Ziel dieses Versuches ist es den Zeemann-Effekt an den Spektrallinien zu untersuchen und
+        daraus die Landé-Faktoren zu bestimmen.
+    \section{Theoretische Grundlagen}
+        \subsection{Das magnetische Moment eines Elektrons}
+            Hüllenelektronen in einem Atom besitzen zwei Drehimpulse - den Bahndrehimpuls $\vec{l}$ und den Spin $\vec{s}$.
+            Für die entsprechenden magnetischen Momente gilt
             \begin{equation}
-                \vec{J}=\vec{L}+\vec{S} \qquad\text{mit}\quad \vert\vec{J}\vert=\sqrt{J(J+1)}\cdot\hbar \, .
+                \vec{\mu}_l = -\frac{\mu_B}{\hbar}\vec{l} \quad\text{und}\quad \vec{\mu}_s = -g_s\frac{\mu_B}{\hbar}\vec{s} \, ,
             \end{equation}
-        \subsubsection{jj-Kopplung}
-            Bei Atomen mit großen Ordnungszahlen $Z$ überwiegt die Spin-Bahn Kopplung der Elektronen der Wechselwirkung untereinander,
-            da diese proportional zu $Z$ ist.
-            Für jedes Elektron ergibt sich jeweils der Gesamtdrehimpuls
+            mit dem Bor'schen Magneton
             \begin{equation}
-                \vec{j}_i=\vec{l}_i+\vec{s}_i 
+                \mu_B=-\frac{e_0\hbar}{2m_0}
             \end{equation}
-            und für das gesamte Atom gilt
+            und dem sogennanten Landé-Faktor $g_s$.
+            Dabei ergeben sich die Beträge der Drehimpulse aus den dazugehörigen Quantenzahlen $l$ und $s$
             \begin{equation}
-                \vec{J}=\sum\vec{j}_i \, .
+                \vert\vec{l}\vert=\sqrt{l(l+1)}\cdot\hbar \quad\text{und}\quad \vert\vec{s}\vert=\sqrt{s(s+1)}\cdot\hbar
             \end{equation}
-        Im Rahmen dieses Versuches befinden wir uns aber im Grenzfall der LS-Kopplung.
-    \subsection{Aufspaltung der Energieniveas im Magnetfeld}
-        Wird ein externes Magnetfeld angelegt, so spalten sich die Energieniveaus in Abhängigkeit der Gesamtquantenzahl $J$ auf.
-        Es ergeben sich dabei $2J+1$ äquidistante Energieniveaus mit Energien von
-        \begin{equation}
-            E_{B\neq 0}=E_0+mg_j\mu_BB \qquad\text{mit}\quad m=-J,-J+1,...,J-1,J \, .
-            \label{eqn:E}
-        \end{equation}
-        Für den Landé-Faktor $g_j$ gilt
-        \begin{equation}
-            g_j=\frac{3J(J+1)+S(S+1)-L(L+1)}{2J(J+1} \, .
-        \end{equation}
-        Diese Aufspaltung ist in Abbildung \ref{fig:Aufspaltung} graphisch dargestellt.
-        \begin{figure}[h]
-            \centering
-            \includegraphics[width = 0.7\textwidth]{pictures/aufspaltung.png}
-            \caption{Aufspaltung von Energieniveaus bei angelegtem Magnetfeld für $J=2$. Entnommen aus \cite{haken_atom-_2004}}
-            \label{fig:Aufspaltung}
-        \end{figure}
-    \subsection{Zeemann-Effekt}
-        Die Aufspaltung von angeregten Energieniveaus hat eine Aufspaltung der Spektrallinien als Folge,
-        da zusätzliche Übergänge zwischen den Niveaus möglich werden.
-        Diese Spektrallinienaufspaltung wird als Zeemann-Effekt bezeichnet.
-        Die Übergänge zwischen den verschiedenen Energieniveaus können dabei nur dann stattfinden, wenn $\Delta m=0,\pm 1$.
-        Bei $\Delta m=0$ wird dabei in Richtung von $\vec{B}$ linearpolarisiertes Licht ($\pi$-Licht) emittiert.
-        Für $\Delta m=\pm 1$ ist das ausgesendete Licht ($\sigma$-Licht) zirkular um $\vec{B}$ polarisiert.
-        Die Aufspaltung der Zeemann-Linien $\Delta E$ lässt sich mit der Formel
-        \begin{equation}
-            \Delta E= \left(m_\uparrow g_\uparrow-m_\downarrow g_\downarrow \right)\mu_BB
-        \end{equation}
-        berechnen.
-
-        Man unterscheidet zwischen dem sogennanten normalen und dem anormalen Zeemann-Effekt.
-        \subsubsection{Normaler Zeemann-Effekt}
-            Dieser tritt auf bei einem Übergang von zwei Zuständen mit $S=0$, der Spin wird also nicht berücksichtigt.
-            Für den Landé-Faktor gilt dabei $g_j=1$ und mit Formel \ref{eqn:E}
-            ergibt sich für die Abstände der aufgespaltenen Energieniveaus untereinander jeweils
+        \subsection{Die Spin-Bahn Wechselwirkung}
+            Das magnetische Moment $\vec{\mu}_s$ koppelt an das B-Feld, welches aus der Bewegung des Atomkerns,
+            aus der Sicht des Elektrons entsteht.
+            Bei einem Sytem mit mehreren Elektronen werden dabei folgende zwei Grenzfälle behandelt.
+            \subsubsection{LS-Kopplung}
+                Im Falle von Atomen mit kleinen Ordnungszahlen überwiegt die Wechselwirkung zwischen
+                den Bahndrehimpulsen und den Spinmomenten untereinander gegenüber der Spin-Bahn Wechselwirkung der einzelnen Elektronen.
+                Die Drehimpulse der einzelnen Elektronen werden dabei jeweils zu dem Gesamtbahndrehimpuls und dem Gesamtspin
+                \begin{align}
+                    \vec{L}&=\sum\vec{l}_i \qquad\text{mit}\quad \vert\vec{L}\vert=\sqrt{L(L+1)}\cdot\hbar \\
+                    \vec{S}&=\sum\vec{s}_i \qquad\text{mit}\quad \vert\vec{S}\vert=\sqrt{S(S+1)}\cdot\hbar
+                \end{align}
+                addiert, wobei $L$ und $S$ die Quantenzahlen beschreiben.
+                Diese ergeben zusammen wiederrum den Gesamtdrehimpuls
+                \begin{equation}
+                    \vec{J}=\vec{L}+\vec{S} \qquad\text{mit}\quad \vert\vec{J}\vert=\sqrt{J(J+1)}\cdot\hbar \, .
+                \end{equation}
+            \subsubsection{jj-Kopplung}
+                Bei Atomen mit großen Ordnungszahlen $Z$ überwiegt die Spin-Bahn Kopplung der Elektronen der Wechselwirkung untereinander,
+                da diese proportional zu $Z$ ist.
+                Für jedes Elektron ergibt sich jeweils der Gesamtdrehimpuls
+                \begin{equation}
+                    \vec{j}_i=\vec{l}_i+\vec{s}_i 
+                \end{equation}
+                und für das gesamte Atom gilt
+                \begin{equation}
+                    \vec{J}=\sum\vec{j}_i \, .
+                \end{equation}
+            Im Rahmen dieses Versuches befinden wir uns aber im Grenzfall der LS-Kopplung.
+        \subsection{Aufspaltung der Energieniveas im Magnetfeld}
+            Wird ein externes Magnetfeld angelegt, so spalten sich die Energieniveaus in Abhängigkeit der Gesamtquantenzahl $J$ auf.
+            Es ergeben sich dabei $2J+1$ äquidistante Energieniveaus mit Energien von
             \begin{equation}
-                E_A= \mu_BB \, .
+                E_{B\neq 0}=E_0+mg_j\mu_BB \qquad\text{mit}\quad m=-J,-J+1,...,J-1,J \, .
+                \label{eqn:E}
             \end{equation}
-            Diese Zusammenhänge sind in Abbildung \ref{fig:NZ} anhand des $1P_1\leftrightarrow 1D_2$ Übergangs einer Cd-Lampe zu sehen.
+            Für den Landé-Faktor $g_j$ gilt
+            \begin{equation}
+                g_j=\frac{3J(J+1)+S(S+1)-L(L+1)}{2J(J+1} \, .
+            \end{equation}
+            Diese Aufspaltung ist in Abbildung \ref{fig:Aufspaltung} graphisch dargestellt.
             \begin{figure}[h]
                 \centering
-                \includegraphics[width = 0.7\textwidth]{pictures/normal.png}
-                \caption{Normaler Zeemann-Effekt beim $1P_1\leftrightarrow 1D_2$ Übergang.}
-                \label{fig:NZ}
+                \includegraphics[width = 0.7\textwidth]{pictures/aufspaltung.png}
+                \caption{Aufspaltung von Energieniveaus bei angelegtem Magnetfeld für $J=2$. Entnommen aus \cite{haken_atom-_2004}}
+                \label{fig:Aufspaltung}
             \end{figure}
-            Hier ergibt sich für den normalen Zeemann-Effekt eine Aufspaltung in genau drei Spektrallinien.
-            einer Aufspaltung $\Delta E$ der Zeemann-Linien von
-            \begin{align}
-                (1)(2)(3): \Delta E&=\mu_BB \\
-                (4)(5)(6): \Delta E&=0 \\
-                (7)(8)(9): \Delta E&=-\mu_BB \, .
-            \end{align}
-            Durch Beobachtung in Feldrichtung ist das linear polarisierte $\pi$-Licht nicht sichtbar und es
-            kann nur der longitudinale Anteil des zirkular polarisierten $\sigma$-Licht identifiziert werden.
-            Bei longitudinaler Beobachtung beobachtet man also nur eine Aufspaltung in zwei Spektrallinien (siehe Abbildung \ref{fig:Beob})
-            \begin{figure}[h]
-                \centering
-                \includegraphics[width = 0.4\textwidth]{pictures/beobachtung.png}
-                \caption{Aufspaltung beim normalen Zeemann-Effekt aus verschiedenen Beobachtungsrichtungen.Entnommen aus \cite{haken_atom-_2004}}
-                \label{fig:Beob}
-            \end{figure}
-        \subsubsection{Anormaler Zeemann-Effekt}
-            In diesem Falle wird der Spin $S\neq 0$ berücksichtigt.
-            Daraus ergeben sich Landé-Faktoren $g\neq 1$ und nach Formel \ref{eqn:E}
-            existiert für die zwei Energieniveaus zwischen welchen die Übergänge stattfinden, eine spinabhängige Aufspaltung.
-            Die äquidistant aufgespaltenen Energieniveaus haben untereinander einen Abstand von jeweils
+        \subsection{Zeemann-Effekt}
+            Die Aufspaltung von angeregten Energieniveaus hat eine Aufspaltung der Spektrallinien als Folge,
+            da zusätzliche Übergänge zwischen den Niveaus möglich werden.
+            Diese Spektrallinienaufspaltung wird als Zeemann-Effekt bezeichnet.
+            Die Übergänge zwischen den verschiedenen Energieniveaus können dabei nur dann stattfinden, wenn $\Delta m=0,\pm 1$.
+            Bei $\Delta m=0$ wird dabei in Richtung von $\vec{B}$ linearpolarisiertes Licht ($\pi$-Licht) emittiert.
+            Für $\Delta m=\pm 1$ ist das ausgesendete Licht ($\sigma$-Licht) zirkular um $\vec{B}$ polarisiert.
+            Die Aufspaltung der Zeemann-Linien $\Delta E$ lässt sich mit der Formel
             \begin{equation}
-                E_A= g_{\uparrow\text{bzw}\downarrow}\mu_BB \, .
+                \Delta E= \left(m_\uparrow g_\uparrow-m_\downarrow g_\downarrow \right)\mu_BB
             \end{equation}
-            Das führt im Endeffekt zu einer deutlich linienreicheren Spektrallinienaufspaltung im Falle eines Übergangs zwischen den Energienieveaus. 
-            In Abbildung \ref{fig:ANZ} ist der anormale Zeemann-Effekt anhand des $3S_1\leftrightarrow 3P_1$ Übergangs einer Cd-Lampe verdeutlicht.
-            \begin{figure}[h]
-                \centering
-                \includegraphics[width = 0.7\textwidth]{pictures/anormal.png}
-                \caption{Anormaler Zeemann-Effekt beim $3S_1\leftrightarrow 3P_1$ Übergang.}
-                \label{fig:ANZ}
-            \end{figure}
-            Hier ergibt sich für die Energiedifferenzen:
-            \begin{align}
-                (1): \Delta E&=\frac{3}{2}\mu_BB \\
-                (2): \Delta E&=2\mu_BB \\
-                (3): \Delta E&=-\frac{1}{2}\mu_BB \\
-                (4): \Delta E&=0 \\
-                (5): \Delta E&=\frac{1}{2}\mu_BB \\
-                (6): \Delta E&=-2\mu_BB \\
-                (7): \Delta E&=-\frac{3}{2}\mu_BB \\                
-            \end{align}
+            berechnen.
+    
+            Man unterscheidet zwischen dem sogennanten normalen und dem anormalen Zeemann-Effekt.
+            \subsubsection{Normaler Zeemann-Effekt}
+                Dieser tritt auf bei einem Übergang von zwei Zuständen mit $S=0$, der Spin wird also nicht berücksichtigt.
+                Für den Landé-Faktor gilt dabei $g_j=1$ und mit Formel \ref{eqn:E}
+                ergibt sich für die Abstände der aufgespaltenen Energieniveaus untereinander jeweils
+                \begin{equation}
+                    E_A= \mu_BB \, .
+                \end{equation}
+                Diese Zusammenhänge sind in Abbildung \ref{fig:NZ} anhand des $1P_1\leftrightarrow 1D_2$ Übergangs einer Cd-Lampe zu sehen.
+                \begin{figure}[h]
+                    \centering
+                    \includegraphics[width = 0.7\textwidth]{pictures/normal.png}
+                    \caption{Normaler Zeemann-Effekt beim $1P_1\leftrightarrow 1D_2$ Übergang.}
+                    \label{fig:NZ}
+                \end{figure}
+                Hier ergibt sich für den normalen Zeemann-Effekt eine Aufspaltung in genau drei Spektrallinien.
+                einer Aufspaltung $\Delta E$ der Zeemann-Linien von
+                \begin{align}
+                    (1)(2)(3): \Delta E&=\mu_BB \\
+                    (4)(5)(6): \Delta E&=0 \\
+                    (7)(8)(9): \Delta E&=-\mu_BB \, .
+                \end{align}
+                Durch Beobachtung in Feldrichtung ist das linear polarisierte $\pi$-Licht nicht sichtbar und es
+                kann nur der longitudinale Anteil des zirkular polarisierten $\sigma$-Licht identifiziert werden.
+                Bei longitudinaler Beobachtung beobachtet man also nur eine Aufspaltung in zwei Spektrallinien (siehe Abbildung \ref{fig:Beob})
+                \begin{figure}[h]
+                    \centering
+                    \includegraphics[width = 0.4\textwidth]{pictures/beobachtung.png}
+                    \caption{Aufspaltung beim normalen Zeemann-Effekt aus verschiedenen Beobachtungsrichtungen.Entnommen aus \cite{haken_atom-_2004}}
+                    \label{fig:Beob}
+                \end{figure}
+            \subsubsection{Anormaler Zeemann-Effekt}
+                In diesem Falle wird der Spin $S\neq 0$ berücksichtigt.
+                Daraus ergeben sich Landé-Faktoren $g\neq 1$ und nach Formel \ref{eqn:E}
+                existiert für die zwei Energieniveaus zwischen welchen die Übergänge stattfinden, eine spinabhängige Aufspaltung.
+                Die äquidistant aufgespaltenen Energieniveaus haben untereinander einen Abstand von jeweils
+                \begin{equation}
+                    E_A= g_{\uparrow\text{bzw}\downarrow}\mu_BB \, .
+                \end{equation}
+                Das führt im Endeffekt zu einer deutlich linienreicheren Spektrallinienaufspaltung im Falle eines Übergangs zwischen den Energienieveaus. 
+                In Abbildung \ref{fig:ANZ} ist der anormale Zeemann-Effekt anhand des $3S_1\leftrightarrow 3P_1$ Übergangs einer Cd-Lampe verdeutlicht.
+                \begin{figure}[h]
+                    \centering
+                    \includegraphics[width = 0.7\textwidth]{pictures/anormal.png}
+                    \caption{Anormaler Zeemann-Effekt beim $3S_1\leftrightarrow 3P_1$ Übergang.}
+                    \label{fig:ANZ}
+                \end{figure}
+                Hier ergibt sich für die Energiedifferenzen:
+                \begin{align}
+                    (1): \Delta E&=\frac{3}{2}\mu_BB \\
+                    (2): \Delta E&=2\mu_BB \\
+                    (3): \Delta E&=-\frac{1}{2}\mu_BB \\
+                    (4): \Delta E&=0 \\
+                    (5): \Delta E&=\frac{1}{2}\mu_BB \\
+                    (6): \Delta E&=-2\mu_BB \\
+                    (7): \Delta E&=-\frac{3}{2}\mu_BB \\                
+                \end{align}
 
 
