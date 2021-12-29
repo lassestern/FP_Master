@@ -1,9 +1,20 @@
 [0] Config.pm:304> INFO - This is Biber 2.13
 [0] Config.pm:307> INFO - Logfile is 'build/Abgabe.blg'
-[25] biber:315> INFO - === Mon Dec 27, 2021, 15:43:13
+[25] biber:315> INFO - === Wed Dec 29, 2021, 15:12:29
 [41] Biber.pm:375> INFO - Reading 'build/Abgabe.bcf'
-[114] Biber.pm:905> INFO - Found 0 citekeys in bib section 0
-[122] Utils.pm:300> WARN - The file 'build/Abgabe.bcf' does not contain any citations!
-[132] bbl.pm:648> INFO - Writing 'build/Abgabe.bbl' with encoding 'UTF-8'
-[132] bbl.pm:751> INFO - Output to build/Abgabe.bbl
-[133] Biber.pm:110> INFO - WARNINGS: 1
+[110] Biber.pm:905> INFO - Found 2 citekeys in bib section 0
+[124] Biber.pm:4196> INFO - Processing section 0
+[125] Utils.pm:75> INFO - Globbing data source 'references.bib'
+[125] Utils.pm:91> INFO - Globbed data source 'references.bib' to references.bib
+[134] Biber.pm:4373> INFO - Looking for bibtex format file 'references.bib' for section 0
+[137] bibtex.pm:1462> INFO - LaTeX decoding ...
+[172] bibtex.pm:1281> INFO - Found BibTeX data source 'references.bib'
+[194] Utils.pm:300> WARN - ISBN '978-3-519-30224-7 978-3-663-01497-3' in entry 'stolz_radioaktivitat_2003' is invalid - run biber with '--validate_datamodel' for details.
+[199] Utils.pm:300> WARN - ISBN '978-0-470-86198-1 978-0-470-86196-7' in entry 'gilmore_practical_2008' is invalid - run biber with '--validate_datamodel' for details.
+[211] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[212] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[212] Biber.pm:4024> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[212] Biber.pm:4030> INFO - No sort tailoring available for locale 'de-DE'
+[218] bbl.pm:648> INFO - Writing 'build/Abgabe.bbl' with encoding 'UTF-8'
+[220] bbl.pm:751> INFO - Output to build/Abgabe.bbl
+[220] Biber.pm:110> INFO - WARNINGS: 2

@@ -336,6 +336,12 @@ INPUT ./pictures/cs.png
 INPUT ./pictures/co.png
 INPUT ./pictures/co.png
 INPUT ./pictures/co.png
+INPUT ./pictures/absorptionskoeffizient.png
+INPUT ./pictures/absorptionskoeffizient.png
+INPUT ./pictures/absorptionskoeffizient.png
+INPUT /home/lasse/.local/texlive/2019/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1901.tex
+INPUT /home/lasse/.local/texlive/2019/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-de-1901.tex
+INPUT /home/lasse/.local/texlive/2019/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
 INPUT build/Abgabe.aux
 INPUT build/Abgabe.run.xml
 OUTPUT build/Abgabe.run.xml

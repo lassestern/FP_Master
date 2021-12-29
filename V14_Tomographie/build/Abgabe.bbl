@@ -16,5 +16,98 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{stolz_radioaktivitat_2003}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c7078a61c645ab5791228e46d566d97c}{%
+           family={Stolz},
+           familyi={S\bibinitperiod},
+           given={Werner},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \list{publisher}{1}{%
+        {Vieweg+Teubner Verlag}%
+      }
+      \strng{namehash}{c7078a61c645ab5791228e46d566d97c}
+      \strng{fullhash}{c7078a61c645ab5791228e46d566d97c}
+      \strng{bibnamehash}{c7078a61c645ab5791228e46d566d97c}
+      \strng{authorbibnamehash}{c7078a61c645ab5791228e46d566d97c}
+      \strng{authornamehash}{c7078a61c645ab5791228e46d566d97c}
+      \strng{authorfullhash}{c7078a61c645ab5791228e46d566d97c}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-519-30224-7 978-3-663-01497-3}
+      \field{langid}{german}
+      \field{title}{Radioaktivität}
+      \field{urlday}{29}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-663-01497-3
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-663-01497-3
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-663-01497-3
+      \endverb
+    \endentry
+    \entry{gilmore_practical_2008}{book}{}
+      \name{author}{1}{}{%
+        {{hash=aed4ec0547c9426d82bf4245f5e06196}{%
+           family={Gilmore},
+           familyi={G\bibinitperiod},
+           given={Gordon\bibnamedelima R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chichester, {UK}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{aed4ec0547c9426d82bf4245f5e06196}
+      \strng{fullhash}{aed4ec0547c9426d82bf4245f5e06196}
+      \strng{bibnamehash}{aed4ec0547c9426d82bf4245f5e06196}
+      \strng{authorbibnamehash}{aed4ec0547c9426d82bf4245f5e06196}
+      \strng{authornamehash}{aed4ec0547c9426d82bf4245f5e06196}
+      \strng{authorfullhash}{aed4ec0547c9426d82bf4245f5e06196}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{isbn}{978-0-470-86198-1 978-0-470-86196-7}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Practical Gamma-Ray Spectrometry}
+      \field{urlday}{29}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1002/9780470861981
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1002/9780470861981
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1002/9780470861981
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
