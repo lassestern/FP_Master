@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber build/Abgabe"] 1640787148 "build/Abgabe.bcf" "build/Abgabe.bbl" "build/Abgabe" 1640790152
-  "build/Abgabe.bcf" 1640790152 98889 4290a5bb5c86e7a6e5ad60b1aaf67dff "lualatex"
+["biber build/Abgabe"] 1641147196 "build/Abgabe.bcf" "build/Abgabe.bbl" "build/Abgabe" 1641147259
+  "build/Abgabe.bcf" 1641147258 98889 4290a5bb5c86e7a6e5ad60b1aaf67dff "lualatex"
   "references.bib" 1640787094 10386 6dd30348a9cb415b51a4385c0a1e6f0a ""
   (generated)
   "build/Abgabe.bbl"
   "build/Abgabe.blg"
-["lualatex"] 1640790146 "Abgabe.tex" "build/Abgabe.pdf" "Abgabe" 1640790152
+["lualatex"] 1641147250 "Abgabe.tex" "build/Abgabe.pdf" "Abgabe" 1641147259
   "/home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
@@ -188,19 +188,20 @@
   "/home/lasse/.local/texlive/2019/texmf-var/tex/generic/config/language.dat" 1569226035 6580 fbb8848a6b60a482597daa4733143c5e ""
   "/home/lasse/.local/texlive/2019/texmf-var/web2c/luatex/lualatex.fmt" 1569226090 1382748 c3327364d476acd1ff9f463b2f641b9b ""
   "Abgabe.tex" 1640784930 605 3d932d4598555dfdf3bfb9edd3855abb ""
-  "build/Abgabe.aux" 1640790152 6250 4439b7daf1f7798715dbf774495ffe37 "lualatex"
-  "build/Abgabe.bbl" 1640787150 3608 e24a3ee9516edcb83e348d1b79a06c52 "biber build/Abgabe"
-  "build/Abgabe.run.xml" 1640790152 2445 4e649849037410f902e1c4caa5967ccb "lualatex"
-  "build/Abgabe.toc" 1640790152 533 84067ce7b406cf1154b3a947b66dd51d "lualatex"
-  "chapters/Theorie.tex" 1640790138 7435 e341db316a9ca545c1c14516f26c8b2c ""
+  "build/Abgabe.aux" 1641147258 7183 a2dc5e65ba9a2df7a0d67c3b50afa589 "lualatex"
+  "build/Abgabe.bbl" 1641147197 3608 e24a3ee9516edcb83e348d1b79a06c52 "biber build/Abgabe"
+  "build/Abgabe.run.xml" 1641147258 2445 4e649849037410f902e1c4caa5967ccb "lualatex"
+  "build/Abgabe.toc" 1641147258 611 4a103e82432d12d6810b753a3611aafd "lualatex"
+  "chapters/Theorie.tex" 1641147250 12362 70f573618251ff8053cfc15ac15a1255 ""
   "inputs/header.tex" 1636984306 2626 a2e968e2651f9d6a115ba4245d2beb6f ""
   "pictures/absorptionskoeffizient.png" 1640786606 72469 6dd14640ed797de48a322de368ad0b89 ""
   "pictures/co.png" 1640615805 47286 089b8eedfb4f397b154d70771e4a073c ""
   "pictures/cs.png" 1640615775 32189 f54e83d706436d7c03443b4e4984c241 ""
+  "pictures/richtungen.png" 1641145245 53191 efc1950a55d73dc86fe06228ce0eb347 ""
   (generated)
-  "build/Abgabe.run.xml"
-  "build/Abgabe.log"
   "build/Abgabe.aux"
-  "build/Abgabe.bcf"
-  "build/Abgabe.toc"
   "build/Abgabe.pdf"
+  "build/Abgabe.log"
+  "build/Abgabe.run.xml"
+  "build/Abgabe.toc"
+  "build/Abgabe.bcf"

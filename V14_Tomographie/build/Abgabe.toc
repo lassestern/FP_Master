@@ -5,3 +5,4 @@
 \contentsline {subsection}{\numberline {2.1}Gamma-Strahlen-Quellen}{3}{subsection.2.1}% 
 \contentsline {subsection}{\numberline {2.2}Absorption von Photonen}{4}{subsection.2.2}% 
 \contentsline {subsection}{\numberline {2.3}Intensitätsmessung}{6}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Tomographie}{7}{subsection.2.4}% 

@@ -65,6 +65,13 @@
           \caption{Der energieabhängige Verlauf des Absorptionskoefizientens von Germanium und dessen Bestandteilen der einzelnen Prozesse (PP, PE, CS).Entnommen aus \cite{gilmore_practical_2008}}
           \label{fig:absorptionskoeffizient}
         \end{figure}
+
+        Exemplarisch wird die Absorption von Gamma-Strahlung aus einer \ce{^{137}Cs}-Quelle mit der Aktivität $A_{\text{Quelle}} = \SI{18000000}{\per\second}$ betrachtet, die $D=\SI{3}{\centi\metre}$ durch einen 
+        Bleiblock und $L-D = \SI{29}{\centi\metre}$ durch Luft zurücklegt. Die am Detektor theoretisch zu messende Aktivität erigbt sich zu
+
+        \begin{equation*}
+          A_{\text{Detektor}} = A_{\text{Quelle}} \cdot \exp\left(-\mu_{\text{Luft}}\left(L-D\right) - \mu_{\text{Pb}}D\right) \approx \SI{422536}{\per\second}.
+        \end{equation*}
     
         \FloatBarrier
 
@@ -87,7 +94,105 @@
           Aus dem Photomultiplier erreichen den Vielkanal-Analysator elektrische Signale, deren Stärke proportional zur Energie der Strahlung, die ein Szintillationselektron anregt, angenommen werden kann. 
           Der Vielkanal-Analysator besitzt nun einen digitalen Speicher, der für die verschiedenen Impulstärken verschiedene Speicherplätze besitzt. Die Impulsstärken und zugehörigen Speicherplätze werden
           durch eine Kalibrierung Photonenenergien der die Szintillationselektronen anregenden Strahlung zugeordnet. Durch die Einsortierung der eingehenden Impulse in die verschiedenen Speicherplätze, kann so 
-          ein Histogramm erstellt werden, dass die energieabhängige Intensität der auf den Detektor treffenden Intensität darstellt. 
+          ein Histogramm erstellt werden, dass die energieabhängige Intensität der auf den Detektor treffenden Intensität darstellt.
+
+        \subsubsection*{Repräsentative Messung}
+          Die Intensitätsmessung gibt Counts aus, die der Anzahl an detektierten Photonen entspricht. Damit die Messung als repräsentativ angesehen werden kann, wird eine statistische Unsicherheit von 
+          mindestens \SI{3}{\percent} gefordert. Unter der Annahme, dass die Zählrate poisson-verteilt ist, kann somit eine minimal benötigte Zahl an Counts $N$ berechnet werden
+
+          \begin{equation*}
+            \frac{\Delta N}{N} = \frac{\sqrt{N}}{N} \le 0,03 \qquad \rightarrow \qquad N \gtrsim 1111,
+          \end{equation*}
+
+          die für die geforderte statistische Unsicherheit erforderlich ist.
+
+
+      \subsection{Tomographie}
+          In diesem Versuch soll die Zusammensetzung von neun Würfeln innerhalb einer 3x3-Würfelebene bestimmt werden. Dazu wird der Würfel aus verschiedenen Richtungen bestrahlt und die transmittierte 
+          Intensität gemessen. In eine Richtung i ergibt sich diese zu
+
+          \begin{equation}
+            I_{\text{i}} = I_0 \cdot \exp\left(-\sum_{\text{j}} \mu_{\text{j}} d_{\text{j}} \right).
+            \label{eqn:I_i}
+          \end{equation}
+
+          wobei $I_0$ die Grundintensität beschreibt. Die Summe innerhalb der Exponentialfunktion läuft über alle Materialien j, die die Gamma-Strahlung durchläuft. $\mu_{\text{j}}$ beschreibt den 
+          Absorptionskoefizienten des entsprechenden Materials und $d_{\text{j}}$, die Distanz, die durch jenes Material zurückgelegt wird. Um Rückschlüsse auf die Zusammensetzung des Würfels ziehen zu können,
+          wird der natürliche Logarithmus von Gleichung \ref{eqn:I_i} gebildet
+          
+          \begin{equation}
+            -\sum_{\text{j}} \mu_{\text{j}} d_{\text{j}} = \ln\left(\frac{I_{\text{j}}}{I_0}\right) \equiv \tilde{I_{\text{j}}}
+          \end{equation}
+
+          und zur einfacheren Betrachtung des Gleichungssystems für alle vermessenen Strahlrichtungen als Matrixgleichung formuliert
+
+          \begin{equation}
+            -\underline{\underline{A}} \vec{\mu} = \vec{\tilde{I}}.
+            \label{eqn:I_matrix}
+          \end{equation}
+
+          Die in diesem Versuch zu vermessenden zwölf Bestrahlungsrichtungen sind in Abbildung \ref{fig:Richtungen} dargestellt.
+
+          \FloatBarrier
+
+          \begin{figure}[h]
+            \centering
+            \includegraphics[width = 0.6\textwidth]{pictures/richtungen.png}
+            \caption{Die aus neun gleichförmigen Würfeln bestehende Würfelebene sowie die zwölf vermessenen Bestrahlungsrichtungen.}
+            \label{fig:Richtungen}
+          \end{figure}
+      
+          \FloatBarrier
+
+
+          Unter der Annahme, dass die Würfel möglicherweise alle aus einem anderen Material sind und alle die Kantenlänge $d$ besitzen, lässt sich Gleichung \ref{eqn:I_matrix} in diesem Fall explizit 
+          aufstellen:
+        
+          \begin{equation}
+            d \cdot
+            \begin{pmatrix}
+              1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+              0 & 0 & 0 & 1 & 1 & 1 & 0 & 0 & 0 \\
+              0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
+              0 & \sqrt{2} & 0 & 0 & 0 & \sqrt{2} & 0 & 0 & 0 \\
+              \sqrt{2} & 0 & 0 & 0 & \sqrt{2} & 0 & 0 & 0 & \sqrt{2} \\
+              0 & 0 & 0 & \sqrt{2} & 0 & 0 & 0 & \sqrt{2} & 0 \\
+              0 & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 1 \\
+              0 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 0 \\
+              1 & 0 & 0 & 1 & 0 & 0 & 1 & 0 & 0 \\
+              0 & 0 & 0 & 0 & 0 & \sqrt{2} & 0 & \sqrt{2} & 0 \\
+              0 & 0 & \sqrt{2} & 0 & \sqrt{2} & 0 & \sqrt{2} & 0 & 0 \\
+              0 & \sqrt{2} & 0 & \sqrt{2} & 0 & 0 & 0 & 0 & 0 
+            \end{pmatrix}
+            \cdot
+            \begin{pmatrix}
+              \mu_1 \\
+              \mu_2 \\
+              \mu_3 \\
+              \mu_4 \\
+              \mu_5 \\
+              \mu_6 \\
+              \mu_7 \\
+              \mu_8 \\
+              \mu_9 
+            \end{pmatrix}
+            =
+            \begin{pmatrix}
+              I_1 \\
+              I_2 \\
+              I_3 \\
+              I_4 \\
+              I_5 \\
+              I_6 \\
+              I_7 \\
+              I_8 \\
+              I_9 \\
+              I_10 \\
+              I_11 \\
+              I_12 \\
+            \end{pmatrix}
+            \label{unsere_matrix}
+          \end{equation}
 
            
 
