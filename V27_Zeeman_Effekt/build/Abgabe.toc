@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {2.2}Die Spin-Bahn Wechselwirkung}{3}{subsection.2.2}% 
 \contentsline {subsubsection}{\numberline {2.2.1}LS-Kopplung}{3}{subsubsection.2.2.1}% 
 \contentsline {subsubsection}{\numberline {2.2.2}jj-Kopplung}{4}{subsubsection.2.2.2}% 
-\contentsline {subsection}{\numberline {2.3}Aufspaltung der Energieniveas im Magnetfeld}{4}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.3}Aufspaltung der Energieniveaus im Magnetfeld}{4}{subsection.2.3}% 
 \contentsline {subsection}{\numberline {2.4}Zeemann-Effekt}{5}{subsection.2.4}% 
 \contentsline {subsubsection}{\numberline {2.4.1}Normaler Zeemann-Effekt}{5}{subsubsection.2.4.1}% 
 \contentsline {subsubsection}{\numberline {2.4.2}Anormaler Zeemann-Effekt}{6}{subsubsection.2.4.2}% 
