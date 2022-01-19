@@ -15,7 +15,19 @@ plt.rc('xtick', labelsize=14)
 plt.rc('ytick', labelsize=14) 
 
 
+def stanni(Zahlen, Mittelwert):
+    i=0
+    s=0
+    n=len(Zahlen)
+    while i<len(Zahlen):
+        s = s + (Zahlen[i] - Mittelwert)**2
+        i = i + 1
+    return np.sqrt(s/(n*(n-1)))
+
+
+##########################################################################################################################################################################################
 #Auslesen der Daten ACHTUNG: Daten müssen aus Winkel ins Bogenmaßumgerechnet werden und für die Plots wieder zurück
+##########################################################################################################################################################################################
 
 alpha_det, I_det = np.genfromtxt("Detektorscan.UXD", unpack = True)
 
@@ -41,10 +53,9 @@ def gauß(x, sigma, bg, x0, A):
 
 
 
-
+##########################################################################################################################################################################################
 #1 Gauß an Intensitätskurve anpassen und daraus maximale Intensität und Halbwertsbreite bestimmen
-def f(x, const):
-    return const
+##########################################################################################################################################################################################
 
 guess =([0.2, 40, 0, 900000])
 
@@ -74,7 +85,10 @@ print(f"""Halbwertsbreite: {r2-r1} oder über stddev: {params_gauß[0]*2*np.sqrt
 Maximum bei {params_gauß[3]+params_gauß[1]}""")
 
 
+
+##########################################################################################################################################################################################
 #2 Reflektivität minus diefussen Untergrund in Diagramm auftragen
+##########################################################################################################################################################################################
 
 def R_fresnel(alpha_i, alpha_c, lam, mu):
     return ((alpha_i - np.sqrt(0.5 * (np.sqrt((alpha_i**2-alpha_c**2)**2 + 4*(lam*mu/(4*np.pi))**2 ) + (alpha_i**2-alpha_c**2))))**2 + (0.5 * (np.sqrt((alpha_i**2-alpha_c**2)**2 + 4*(lam*mu/(4*np.pi))**2 ) - (alpha_i**2-alpha_c**2))))/((alpha_i + np.sqrt(0.5 * (np.sqrt((alpha_i**2-alpha_c**2)**2 + 4*(lam*mu/(4*np.pi))**2 ) + (alpha_i**2-alpha_c**2))))**2 + (0.5 * (np.sqrt((alpha_i**2-alpha_c**2)**2 + 4*(lam*mu/(4*np.pi))**2 ) - (alpha_i**2-alpha_c**2))))
@@ -98,9 +112,9 @@ plt.savefig("reflectivity.pdf")
 
 
 
-
+##########################################################################################################################################################################################
 #3 Geometriefaktor G aus erstem Rocking Scan bestimmen und Daten korrigieren.
-
+##########################################################################################################################################################################################
 #Strahlbreite aus halber Abschattung des ersten z-Scans bestimmen
 
 df = np.diff(I_z1)/np.diff(z1)
@@ -136,22 +150,102 @@ plt.savefig("rockingscan_1.pdf")
 print(f"""Geometriewinkel aus Strahl- und Probenbreite: {alpha_g*180/(np.pi)}°
 Geometriewinkel als Mittelwert aus Rockingscan: {(0.65+0.63)/2}°""")
 
-#Reflektivitätsscan mit korrigierten Daten und daraus abgeschätzte Schichtdicke
 
-reflectivity_cor = np.append(reflectivity[0:46], reflectivity[46:]*D*np.sin(theta2[46:] *np.pi/180)/d_0)
+
+##########################################################################################################################################################################################
+#Reflektivitätsscan mit korrigierten Daten und daraus abgeschätzte Schichtdicke
+##########################################################################################################################################################################################
+
+reflectivity_cor = np.append(reflectivity[1:129]/(D*np.sin(theta2[1:129] *np.pi/180))*d_0, reflectivity[129:])
 
 minima, minima_props = find_peaks(-reflectivity_cor[:261], distance=7)
 minima=minima[1:-2]
-print(minima)
-#print(theta2[24,33,42,52,62,72,82,87,93,103,114,125,128,135,145,147,149,151,155,157,161,167,169,171,173,177,179,182,187,191,196,200,208,211,213])
 
-fig, axs = plt.subplots(figsize=(7,6))
-axs.plot(theta2[0:261], reflectivity[0:261], "-", label="Reflektivität")
-axs.plot(theta2[0:261], reflectivity_cor[0:261], "-", label="korr. Reflektivität")
+lam = 1.54*10**(-10)
+d_alpha = np.diff(theta2[minima]*np.pi/180)
+d_alpha = unp.uarray(np.mean(d_alpha), stanni(d_alpha, np.mean(d_alpha)))
+d_exp = lam/(2*d_alpha)
+print(f"""Mittlerer Abstand der Minima: {d_alpha*180*np.pi}°
+Abeschätzte Schichtdicke des Polystyrols: {d_exp}m""")
+
+
+#fig, axs = plt.subplots(figsize=(7,6))
+#axs.plot(theta2[0:261], reflectivity[0:261], "-", label="Reflektivität")
+#axs.plot(theta2[0:261], reflectivity_cor[0:261], "-", label="korr. Reflektivität")
+#axs.plot(theta2[minima], reflectivity_cor[minima], "x", label="Minima")
+#axs.set_xlabel(r"$\alpha_i$ [°]")
+#axs.set_ylabel(r"$I/I_0$ [will. Ein.]")
+#axs.plot(theta_fit, R_fresnel(theta_fit *np.pi/180, 0.223*np.pi/180, 1.54*10**(-10), 14100), label="$R_{F, theo}$")
+#axs.set_yscale('log')
+#axs.legend(loc="best")
+#plt.savefig("reflectivity_cor.pdf")
+
+
+
+
+##########################################################################################################################################################################################
+#Implementierung und Anwendung des Parratt-Alorithmusses für raue Oberflächen
+##########################################################################################################################################################################################
+
+#Variablen und Konstanten
+delta_2 = 0.9*10**(-6)
+delta_3 = 0.9*7.6*10**(-6)
+
+sigma_1 = 1.2*9e-10
+sigma_2 = 0.96*7.35e-10
+
+z_1 = 0
+z_2 = 8.66*10**(-8)
+
+
+k = 2*np.pi/lam
+
+fit_params = ([delta_2, delta_3, sigma_1, sigma_2, z_2])
+
+def parratt_alg(alpha, delta_2, delta_3, sigma_1, sigma_2, z_2):
+    n_1 = 1
+    n_2 = 1 - delta_2
+    n_3 = 1 - delta_3
+
+    k_1 = k * np.sqrt(n_1**2 - np.cos(alpha)**2)
+    k_2 = k * np.sqrt(n_2**2 - np.cos(alpha)**2)
+    k_3 = k * np.sqrt(n_3**2 - np.cos(alpha)**2)
+
+    r_12 = np.exp(-2*k_1*k_2*sigma_1**2) * (k_1-k_2)/(k_1+k_2)
+    r_23 = np.exp(-2*k_2*k_3*sigma_2**2) * (k_2-k_3)/(k_2+k_3)
+
+    X_2 = np.exp(-2j*k_2*z_2) * r_23
+    X_1 = np.exp(-2j*k_1*z_1) * (r_12 + X_2*np.exp(2j*k_2*z_1))/(1 + r_12*X_2*np.exp(2j*k_2*z_1))
+
+    R = np.abs(X_1)**2
+
+    return R
+
+#guess_parratt = ([delta_2, delta_3, sigma_1, sigma_2, z_2])
+
+#fit_params, fit_cov = curve_fit(parratt_alg, theta2[1:], reflectivity_cor, p0=guess_parratt)
+
+alpha_c_ps = np.sqrt(2*delta_2) * 180/np.pi
+alpha_c_si = np.sqrt(2*delta_3) * 180/np.pi
+
+print(f"""delta_2 = {fit_params[0]}
+delta_3 = {fit_params[1]}
+sigma_1 = {fit_params[2]}
+sigma_2 = {fit_params[3]}
+z_2 = {fit_params[4]} 
+Kritschischer Winkel PS: {alpha_c_ps}
+Kritschischer Winkel Si: {alpha_c_si}""")
+
+fig, axs = plt.subplots(figsize=(10,6))
+#axs.plot(theta2[1:261], reflectivity[1:261], "-", label="Reflektivität")
+axs.plot(theta2[1:261], reflectivity_cor[1:261], "-", label="korr. Reflektivität")
 axs.plot(theta2[minima], reflectivity_cor[minima], "x", label="Minima")
 axs.set_xlabel(r"$\alpha_i$ [°]")
 axs.set_ylabel(r"$I/I_0$ [will. Ein.]")
-axs.plot(theta_fit, R_fresnel(theta_fit *np.pi/180, 0.223*np.pi/180, 1.54*10**(-10), 14100), label="$R_F$")
+axs.vlines(alpha_c_si,0, 1, alpha=0.3, label=r"$\alpha_{c, Si}=0,212$°")
+axs.vlines(alpha_c_ps,0, 1, alpha=0.3, label=r"$\alpha_{c, PS}=0,077$°")
+#axs.plot(theta_fit, R_fresnel(theta_fit *np.pi/180, 0.223*np.pi/180, 1.54*10**(-10), 14100), label="$R_{F, theo}$")
+axs.plot(theta_fit, parratt_alg(theta_fit *np.pi/180, *fit_params), label="$R_{parratt}$")
 axs.set_yscale('log')
 axs.legend(loc="best")
 plt.savefig("reflectivity_cor.pdf")
