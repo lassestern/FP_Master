@@ -49,7 +49,7 @@ theta2_diffus = theta2_diffus*np.pi/180
 
 
 def gauß(x, sigma, bg, x0, A):
-    return A*np.exp(-(x-x0)**2/(2*sigma**2)) #+ bg #/(np.sqrt(2*np.pi) * sigma)
+    return A*np.exp(-(x-x0)**2/(2*sigma**2))/(np.sqrt(2*np.pi) * sigma)
 
 
 
@@ -69,20 +69,24 @@ spline = UnivariateSpline(alpha_fit, fit-np.max(fit)/2, s=0)
 r1, r2 = spline.roots() # find the roots
 
 
-fig, axs = plt.subplots(figsize=(7,6))
+fig, axs = plt.subplots(figsize=(10,6))
 axs.plot(alpha_det, I_det, "x", label="Intensitätsverteilung")
 axs.axvspan(r1, r2, facecolor='grey', alpha=0.3, label=r"FWHM=0,1062°")
-axs.set_xlabel("Alpha [°]")
-axs.set_ylabel("I [will. Ein.]")
+axs.set_xlabel(r"$\alpha $ [°]")
+axs.set_ylabel(r"$I [\frac{Counts}{s}]$")
 axs.plot(alpha_fit, gauß(alpha_fit, *params_gauß), label="Gauß-Anpassung")
 axs.legend(loc="best")
 plt.savefig("gauß.pdf")
 
-I_0 = I_det.max()
+I_0 = params_gauß[3]/(np.sqrt(2*np.pi) * params_gauß[0])
+
+print(f"""Gauß-Parameter: A={params_gauß[3]}
+sigma= {params_gauß[0]}
+alpha_0={params_gauß[2]}""")
 
 
 print(f"""Halbwertsbreite: {r2-r1} oder über stddev: {params_gauß[0]*2*np.sqrt(2*np.log(2))}
-Maximum bei {params_gauß[3]+params_gauß[1]}""")
+Maximum bei {I_0}""")
 
 
 
@@ -119,13 +123,13 @@ plt.savefig("reflectivity.pdf")
 
 df = np.diff(I_z1)/np.diff(z1)
 
-fig, axs = plt.subplots(figsize=(7,6))
+
+fig, axs = plt.subplots(figsize=(9,6))
 axs.plot(z1, I_z1/(I_z1.max()), "-", label="Intensität")
-axs.plot(z1[1:], df/((np.abs(df)).max()), "-", label="Diff.")
+axs.plot(z1[1:], df/((np.abs(df)).max()), "-", label=r"$\frac{dI}{dz}$")
 axs.axvspan(0.04, 0.26, facecolor='grey', alpha=0.3, label=r"$d_0=22$mm")
-axs.set_xlabel("z-Position [will. Ein.]")
+axs.set_xlabel("z-Position [mm]")
 axs.set_ylabel(r"$I/I_0$ [will. Ein.]")
-#axs.plot(alpha_fit, gauß(alpha_fit, *params_gauß), label="Gauß-Anpassung")
 axs.legend(loc="best")
 plt.savefig("abschattung.pdf")
 
@@ -237,15 +241,15 @@ Kritschischer Winkel PS: {alpha_c_ps}
 Kritschischer Winkel Si: {alpha_c_si}""")
 
 fig, axs = plt.subplots(figsize=(10,6))
-#axs.plot(theta2[1:261], reflectivity[1:261], "-", label="Reflektivität")
-axs.plot(theta2[1:261], reflectivity_cor[1:261], "-", label="korr. Reflektivität")
+axs.plot(theta2[1:261], reflectivity[1:261], "-", label=r"$R_{exp}$")
+axs.plot(theta2[1:261], reflectivity_cor[1:261], "-", label=r"$R_{exp, cor}$")
 axs.plot(theta2[minima], reflectivity_cor[minima], "x", label="Minima")
 axs.set_xlabel(r"$\alpha_i$ [°]")
-axs.set_ylabel(r"$I/I_0$ [will. Ein.]")
-axs.vlines(alpha_c_si,0, 1, alpha=0.3, label=r"$\alpha_{c, Si}=0,212$°")
-axs.vlines(alpha_c_ps,0, 1, alpha=0.3, label=r"$\alpha_{c, PS}=0,077$°")
-#axs.plot(theta_fit, R_fresnel(theta_fit *np.pi/180, 0.223*np.pi/180, 1.54*10**(-10), 14100), label="$R_{F, theo}$")
-axs.plot(theta_fit, parratt_alg(theta_fit *np.pi/180, *fit_params), label="$R_{parratt}$")
+axs.set_ylabel(r"$R$ [will. Ein.]")
+axs.vlines(alpha_c_si,0, reflectivity_cor[43], alpha=0.3, label=r"$\alpha_{c, Si}=0,212$°")
+axs.vlines(alpha_c_ps,0, reflectivity_cor[17], alpha=0.3, label=r"$\alpha_{c, PS}=0,077$°")
+axs.plot(theta_fit, R_fresnel(theta_fit *np.pi/180, 0.223*np.pi/180, 1.54*10**(-10), 14100), "--", label="$R_{F, Si, theo}$")
+axs.plot(theta_fit, parratt_alg(theta_fit *np.pi/180, *fit_params), "--", label="$R_{Parratt}$")
 axs.set_yscale('log')
 axs.legend(loc="best")
 plt.savefig("reflectivity_cor.pdf")
