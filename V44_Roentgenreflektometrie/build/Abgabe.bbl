@@ -19,6 +19,70 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{tolan_x-ray_1999}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d04d4a108c1b26418bf71ae6fe3f2767}{%
+           family={Tolan},
+           familyi={T\bibinitperiod},
+           given={Metin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin ; New York}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{d04d4a108c1b26418bf71ae6fe3f2767}
+      \strng{fullhash}{d04d4a108c1b26418bf71ae6fe3f2767}
+      \strng{bibnamehash}{d04d4a108c1b26418bf71ae6fe3f2767}
+      \strng{authorbibnamehash}{d04d4a108c1b26418bf71ae6fe3f2767}
+      \strng{authornamehash}{d04d4a108c1b26418bf71ae6fe3f2767}
+      \strng{authorfullhash}{d04d4a108c1b26418bf71ae6fe3f2767}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-540-65182-6}
+      \field{number}{148}
+      \field{pagetotal}{197}
+      \field{series}{Springer tracts in modern physics}
+      \field{shorttitle}{X-ray scattering from soft-matter thin films}
+      \field{title}{X-ray scattering from soft-matter thin films: materials science and basic research}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \keyw{Scattering,Thin films,Multilayered,X-rays}
+    \endentry
+    \entry{e1_tu_dortmund_versuchsanleitung_nodate}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0360515c1c9c5db3b8d9deae44cb1abd}{%
+           family={E1},
+           familyi={E\bibinitperiod},
+           given={{TU}\bibnamedelima Dortmund},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0360515c1c9c5db3b8d9deae44cb1abd}
+      \strng{fullhash}{0360515c1c9c5db3b8d9deae44cb1abd}
+      \strng{bibnamehash}{0360515c1c9c5db3b8d9deae44cb1abd}
+      \strng{authorbibnamehash}{0360515c1c9c5db3b8d9deae44cb1abd}
+      \strng{authornamehash}{0360515c1c9c5db3b8d9deae44cb1abd}
+      \strng{authorfullhash}{0360515c1c9c5db3b8d9deae44cb1abd}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuchsanleitung Lehrstuhlversuch V44 - Röntgenreflektometrie}
+      \field{urlday}{20}
+      \field{urlmonth}{1}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.e1.physik.tu-dortmund.de/cms/Medienpool/Downloads/Roentgenreflektometrie_Versuch.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.e1.physik.tu-dortmund.de/cms/Medienpool/Downloads/Roentgenreflektometrie_Versuch.pdf
+      \endverb
+    \endentry
     \entry{tu_dortmund_versuchsanleitung_2022}{misc}{}
       \name{author}{1}{}{%
         {{hash=2821a70f99517ac7757c95300d43e95c}{%
@@ -33,8 +97,8 @@
       \strng{authorbibnamehash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
       \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Versuchsanleitung V44 - Röntgenreflektometrie}

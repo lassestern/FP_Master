@@ -1,198 +1,140 @@
 \section{Ziel}
-    Ziel dieses Versuches ist es die elementspezifische räumliche Zusammensetzung eines Objektes zu bestimmen.Dazu wird die Methodik der Gamma-Tomographie genutzt. Bei dieser werden entlang mehrerer räumlicher
-    Achsen des Objekts Absorptionsmessungen mit Gamma-Strahlung durchgeführt, die in Kombination auf die gesuchte elementspezifische räumliche Zusammensetzung schließen lassen.   
-    verschiedener räumlicher  
+    Ziel dieses Versuches ist es die Schichtdicke, den Brechungsindex und
+    die Rauigkeit eines Polymerfilmes auf einem Silizium-Wafer zu bestimmen
+    und ein allgemeines Verständnis für die Röntgenreflektometrie zu entwickeln.
 \section{Theoretische Grundlagen}
-    \subsection{Gamma-Strahlen-Quellen}
-        Für die notwendigen Absorptionsmessungen muss zunächst Gamma-Strahlung erzeugt werden. Gamma-Strahlung beschreibt Photonen mit einer Energie über \SI{200}{\kilo\electronvolt} und kann auch verschiedenen
-        Wegen entstehen. Hier soll die Entstehung bei radioaktiven Zerfällen betrachtet werden. Explizit werden die $\beta^-$-Zerfälle von \ce{^{137}Cs} und \ce{^{60}Co} betrachtet. Diese Elemente zerfallen 
-        zunächst in angeregte Zustände eines weiteren Elements und gehen dann unter Aussendung eines Photons in dessen Grundzustand über. Wie in Abbildung ... zu sehen, kann \ce{^{137}Cs} nur in einen 
-        angeregten Zustand von \ce{^{137}Ba} zerfallen. Bei dessen Übergang in den Grundzustand $ \ce{^{137}Ba}^* \rightarrow \ce{^{137}Ba} + \gamma$ wird ein Photon der Energie \SI{661.7}{\kilo\electronvolt}
-        ausgesendet. Demnach strahlt eine ein \ce{^{137}Cs} mit einer maximalen Intensität bei der angegebenen Energie von \SI{661.7}{\kilo\electronvolt}.
-
-        \FloatBarrier
-
+    \subsection{Funktionsweise einer Röntgenröhre}
+        Den Aufbau einer Elektronenröhre zur Erzeugung von Röntgenstrahlung ist in Abbildung \ref{fig:Rohr} dargestellt.
+        Eine Kathode wird durch eine Heizspannung $U_H$ erhitzt und emittiert daraufhin Elektronen.
+        Diese werden in dem elektroschen Feld einer angelegten Beschleunigungsspannung $U_B$ zur Anode hin beschleunigt.
+        Beim Auftreffen der Elektronen wird elektromagnetische Strahlung im Röntgenbereich ausgesendet.
+        Diese setzt sich prinzipiell aus zwei Komponenten zusammen.
         \begin{figure}[h]
-          \centering
-          \includegraphics[width = 1\textwidth]{pictures/cs.png}
-          \caption{Die möglichen $\beta^-$-Zerfälle von \ce{^{137}Cs} in \ce{^{137}Ba} sowie dessen angeregten Zustand \ce{^{137}Ba}$^*$ und anschließender Übergang in den Grundzustand von \ce{^{137}Ba} unter Aussendung eines Photons. Bearbeitet aus \cite{stolz_radioaktivitat_2003}}
-          \label{fig:cs_schema}
-        \end{figure}
-    
-        \FloatBarrier
-        
-        Für den in Abbildung ... skizzierten Zerfall von \ce{^{60}Co} sind Übergänge in zwei verschiedene angeregte Zustände von \ce{^{60}Ni} möglich. Der energetisch höhere Zustand liegt bei 
-        \SI{2505.7}{\kilo\electronvolt} und der niedrigere bei \SI{1332.5}{\kilo\electronvolt}. Der energetisch niedrigere Zustand geht direkt in den Grundzustand über und es wird ein Photon mit einer Energie
-        von \SI{1332.5}{\kilo\electronvolt} ausgesendet. Die Relaxation des energetisch höheren Zustands findet in zwei Schritten statt. Zunächst geht dieser Zustand in den niederenergetischen angeregten Zustand 
-        über, wobei ein Photon mit der Energie \SI{1173.2}{\kilo\electronvolt} ausgesendet wird. Anschließend geht es in den Grundzustand des \ce{^{60}Ni} über. Aufgrund der zwei angeregten Endzustände des 
-        $\beta^-$-Zerfalls strahlt eine \ce{^{60}Co}-Quzelle mit zwei charakteristischen Energien.
-
-        \FloatBarrier
-
-        \begin{figure}[h]
-          \centering
-          \includegraphics[width = 1\textwidth]{pictures/co.png}
-          \caption{Die möglichen $\beta^-$-Zerfälle von \ce{^{60}Co} in die angeregten Zustände von \ce{^{60}Ni} und anschließende Übergänge in den Grundzustand von \ce{^{60}Ba} unter Aussendung zwei Photonen verschiedener Energien. Bearbeitet aus \cite{stolz_radioaktivitat_2003}}
-          \label{fig:co_schema}
-        \end{figure}
-    
-        \FloatBarrier
-
-      \subsection{Absorption von Photonen}
-        Die Absorption von Photonen wird über die Änderung der Intensität $I$ einer Strahlungsquelle über das \textbf{Lambert-Beerśche-Gesetz} beschrieben
-
-        \begin{equation}
-          I(x) = I_0 \exp\left(-\mu x\right),
-        \label{eqn:absorptionsgesetz}
-        \end{equation}
-
-        das die Intensität $I$ in einer Entfernung $x$ von einem Ausgangspunkt mit der Ausgangsintensität $I_0$ in Abhängigkeit der Entfernung und des Absorptionskoefizientens $\mu$ des Ausbreitungsmediums 
-        angibt. Der gesamte Absorptionskoefizient $\mu$ ist die Summe der Absorptionskoefizienten vieler Prozesse
-        
-        \begin{equation*}
-          \mu = \mu_{PE} + \mu_{CS} + \mu_{PP} + \mu_{RS},
-        \end{equation*}
-
-        wie der Photoemission (PE), der Compton-Streuung (CS), der Paar-Produktion (PP) und der Rayleigh-Streuung (RS). Der gesamte Absorptionskoefizient $\mu$ ist zum einen von der Photonenenergie $E$ und 
-        vom Ausbreitungsmedium abhängig. In Abbildung \ref{fig:absorptionskoeffizient} ist der energieabhängige Verlauf des gesamten Absorptionskoefizientens sowie der der hauptsächlich beitragenden 
-        Absorptionskoefizienten der Paar-Produktion, Photoemission und Compton-Streuung für Germanium dargestellt. 
-
-        \FloatBarrier
-
-        \begin{figure}[h]
-          \centering
-          \includegraphics[width = 0.6\textwidth]{pictures/absorptionskoeffizient.png}
-          \caption{Der energieabhängige Verlauf des Absorptionskoefizientens von Germanium und dessen Bestandteilen der einzelnen Prozesse (PP, PE, CS).Entnommen aus \cite{gilmore_practical_2008}}
-          \label{fig:absorptionskoeffizient}
-        \end{figure}
-
-        Exemplarisch wird die Absorption von Gamma-Strahlung aus einer \ce{^{137}Cs}-Quelle mit der Aktivität $A_{\text{Quelle}} = \SI{18000000}{\per\second}$ betrachtet, die $D=\SI{3}{\centi\metre}$ durch einen 
-        Bleiblock und $L-D = \SI{29}{\centi\metre}$ durch Luft zurücklegt. Die am Detektor theoretisch zu messende Aktivität erigbt sich zu
-
-        \begin{equation*}
-          A_{\text{Detektor}} = A_{\text{Quelle}} \cdot \exp\left(-\mu_{\text{Luft}}\left(L-D\right) - \mu_{\text{Pb}}D\right) \approx \SI{422536}{\per\second}.
-        \end{equation*}
-    
-        \FloatBarrier
-
-      \newpage
-      \subsection{Intensitätsmessung}
-        Um die Intensität der Strahlung in Abhängigkeit der Energie zu messen, wird von einem \textbf{Szintillationsdetektor} in Kombination mit einem \textbf{Diskrimantor} und einem 
-        \textbf{Vielkanal-Analysator} Gebrauch gemacht.
-
-        \subsubsection*{Szintillationsdetektor}
-          Das Konzept von Szintillatoren beruht darauf, dass einfallende Strahlung hoher Energie Atome des Szintillationsmediums entweder ionisiert oder anregt und 
-          diese beim Relaxieren optische Photonen freisetzen. Die Menge an freigesetzten Photonen hängt dabei von der Energie der einfallenden Strahlung ab. Die optischen Photonen des Relaxationsprozesses 
-          werden anschließend von Photomultipliern detektiert. %Grundlegend wird zwischen organischen und anorganischen Szintillatoren unterschieden.
-
-        \subsubsection*{Diskriminatoren}
-          Um nur optische Photonen aus dem Szintillationsdetektor zu detektieren wird ein Diskrimantor eingesetzt. Dieser gibt erst ab einem einen Schwellwert übersteigenden Eingangssignal ein Ausgangssignal 
-          aus. So kann verhindert werden, dass bereits ein einzelnes spontan emmitiertes Photon einen Ausgangsimpuls am Photomultiplier hervorruft, der fälschlicherweise auf ein optisches Photon des 
-          Szintillationsdetektors zurückgeführt werden würde.
-
-        \subsubsection*{Vielkanal-Analysator}
-          Aus dem Photomultiplier erreichen den Vielkanal-Analysator elektrische Signale, deren Stärke proportional zur Energie der Strahlung, die ein Szintillationselektron anregt, angenommen werden kann. 
-          Der Vielkanal-Analysator besitzt nun einen digitalen Speicher, der für die verschiedenen Impulstärken verschiedene Speicherplätze besitzt. Die Impulsstärken und zugehörigen Speicherplätze werden
-          durch eine Kalibrierung Photonenenergien der die Szintillationselektronen anregenden Strahlung zugeordnet. Durch die Einsortierung der eingehenden Impulse in die verschiedenen Speicherplätze, kann so 
-          ein Histogramm erstellt werden, dass die energieabhängige Intensität der auf den Detektor treffenden Intensität darstellt.
-
-        \subsubsection*{Repräsentative Messung}
-          Die Intensitätsmessung gibt Counts aus, die der Anzahl an detektierten Photonen entspricht. Damit die Messung als repräsentativ angesehen werden kann, wird eine statistische Unsicherheit von 
-          mindestens \SI{3}{\percent} gefordert. Unter der Annahme, dass die Zählrate poisson-verteilt ist, kann somit eine minimal benötigte Zahl an Counts $N$ berechnet werden
-
-          \begin{equation*}
-            \frac{\Delta N}{N} = \frac{\sqrt{N}}{N} \le 0,03 \qquad \rightarrow \qquad N \gtrsim 1111,
-          \end{equation*}
-
-          die für die geforderte statistische Unsicherheit erforderlich ist.
-
-
-      \subsection{Tomographie}
-          In diesem Versuch soll die Zusammensetzung von neun Würfeln innerhalb einer 3x3-Würfelebene bestimmt werden. Dazu wird der Würfel aus verschiedenen Richtungen bestrahlt und die transmittierte 
-          Intensität gemessen. In eine Richtung i ergibt sich diese zu
-
-          \begin{equation}
-            I_{\text{i}} = I_0 \cdot \exp\left(-\sum_{\text{j}} \mu_{\text{j}} d_{\text{j}} \right).
-            \label{eqn:I_i}
-          \end{equation}
-
-          wobei $I_0$ die Grundintensität beschreibt. Die Summe innerhalb der Exponentialfunktion läuft über alle Materialien j, die die Gamma-Strahlung durchläuft. $\mu_{\text{j}}$ beschreibt den 
-          Absorptionskoefizienten des entsprechenden Materials und $d_{\text{j}}$, die Distanz, die durch jenes Material zurückgelegt wird. Um Rückschlüsse auf die Zusammensetzung des Würfels ziehen zu können,
-          wird der natürliche Logarithmus von Gleichung \ref{eqn:I_i} gebildet
-          
-          \begin{equation}
-            -\sum_{\text{j}} \mu_{\text{j}} d_{\text{j}} = \ln\left(\frac{I_{\text{j}}}{I_0}\right) \equiv \tilde{I_{\text{j}}}
-          \end{equation}
-
-          und zur einfacheren Betrachtung des Gleichungssystems für alle vermessenen Strahlrichtungen als Matrixgleichung formuliert
-
-          \begin{equation}
-            -\underline{\underline{A}} \vec{\mu} = \vec{\tilde{I}}.
-            \label{eqn:I_matrix}
-          \end{equation}
-
-          Die in diesem Versuch zu vermessenden zwölf Bestrahlungsrichtungen sind in Abbildung \ref{fig:Richtungen} dargestellt.
-
-          \FloatBarrier
-
-          \begin{figure}[h]
             \centering
-            \includegraphics[width = 0.6\textwidth]{pictures/richtungen.png}
-            \caption{Die aus neun gleichförmigen Würfeln bestehende Würfelebene sowie die zwölf vermessenen Bestrahlungsrichtungen.}
-            \label{fig:Richtungen}
-          \end{figure}
-      
-          \FloatBarrier
+            \includegraphics[width = 0.7\textwidth]{pictures/Rohr.png}
+            \caption{Schematischer Aufbau einer Röntgenröhre.}
+            \label{fig:Rohr}
+        \end{figure}
+        Einerseits tritt die sogennante "charakteristische Röntgenstrahlung" auf.
+        Diese entsteht, wenn die beschleunigten Elektronen in der Anode Elektronen aus den innersten Schalen herausschlagen.
+        Die resultierenden leeren Plätze werden daraufhin von Elektronen aus höherenergetische Schalen gefüllt und die Energiedifferenz
+        der zwei am Übergang teilnehmenen Schalen wird in Form eines (Röntgen-)Photons ausgesendet.
+        So treten deskrete Linien im Röntgenspektrum auf, die den Photonen aus diesen Übergängen entsprechen.
 
+        Andererseits taucht im Spektrum der Röntgenstrahlung ebenfalls ein energetisch kontinuierlicher Anteil auf.
+        Dieser ist zurückzuführen auf das Abbremsen, was die Elektronen erfahren, wenn sie in das Anodenmaterial eindringen.
+        Da jedes Elektron unterschiedlich stark abgebremst wird, bevor es das Anodenmaterial ionisiert,
+        entsteht hierbei kein diskretes, sondern ein kontinuierliches Spektrum, welches "Bremsspektrum" genannt wird.
+    \subsection{Reflexion und Brechung von Licht}
+        Kommt eine elektromagnetische Welle aus dem Vakuum mit einem Brechungsindex $n_{Vakuum}=0$ und trifft auf ein glattes homogenes Medium unter einem Winkel $\alpha_i$,
+        so wird ein Teil der Gesamtintensität der Strahlung unter einem Winkel $\alpha_r=\alpha_i$ reflektiert und
+        der andere Teil transmittiert und gebrochen unter dem Winkel $\alpha_r$ in Abhängigkeit der Brechungsindizes $n$
+        des Mediums, welcher gegeben ist als
+        \begin{equation}
+            n=1-\delta \, .
+        \end{equation}
+        Röntgenlicht besitzt in Materie einen Brechungsindex $n<1$, was jedes Medium für Röntgenstrahlung optisch dünner erscheinen lässt als Vakuum
+        und ermöglicht Totalreflexion, wenn der Einfall möglichst flach unterhalb eines kritischen Winkels $\alpha_c$ auf die Ebene erfolgt.
 
-          Unter der Annahme, dass die Würfel möglicherweise alle aus einem anderen Material sind und alle die Kantenlänge $d$ besitzen, lässt sich Gleichung \ref{eqn:I_matrix} in diesem Fall explizit 
-          aufstellen:
-        
-          \begin{equation}
-            d \cdot
-            \begin{pmatrix}
-              1 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\
-              0 & 0 & 0 & 1 & 1 & 1 & 0 & 0 & 0 \\
-              0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
-              0 & \sqrt{2} & 0 & 0 & 0 & \sqrt{2} & 0 & 0 & 0 \\
-              \sqrt{2} & 0 & 0 & 0 & \sqrt{2} & 0 & 0 & 0 & \sqrt{2} \\
-              0 & 0 & 0 & \sqrt{2} & 0 & 0 & 0 & \sqrt{2} & 0 \\
-              0 & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 1 \\
-              0 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 0 \\
-              1 & 0 & 0 & 1 & 0 & 0 & 1 & 0 & 0 \\
-              0 & 0 & 0 & 0 & 0 & \sqrt{2} & 0 & \sqrt{2} & 0 \\
-              0 & 0 & \sqrt{2} & 0 & \sqrt{2} & 0 & \sqrt{2} & 0 & 0 \\
-              0 & \sqrt{2} & 0 & \sqrt{2} & 0 & 0 & 0 & 0 & 0 
-            \end{pmatrix}
-            \cdot
-            \begin{pmatrix}
-              \mu_1 \\
-              \mu_2 \\
-              \mu_3 \\
-              \mu_4 \\
-              \mu_5 \\
-              \mu_6 \\
-              \mu_7 \\
-              \mu_8 \\
-              \mu_9 
-            \end{pmatrix}
-            =
-            \begin{pmatrix}
-              I_1 \\
-              I_2 \\
-              I_3 \\
-              I_4 \\
-              I_5 \\
-              I_6 \\
-              I_7 \\
-              I_8 \\
-              I_9 \\
-              I_10 \\
-              I_11 \\
-              I_12 \\
-            \end{pmatrix}
-            \label{unsere_matrix}
-          \end{equation}
-
-           
-
+        Die jeweiligen Reflexions- bzw. Transmissionskoeffizienten beim Übergang von Vakuum zu einem Medium des Brechungsindex $n$
+        sind gegeben durch die Fresnel'schen Gleichungen. Dabei wird unterschieden zwischen einer Polarisation senkrecht zur Einfallsebene und eine Polarisation parallel zur Einfallsebene.
+        Die Unterscheidung wird allerdings aufgehoben, da für Röntgenstrahlen die Brechungsindizes $n$ nahezu gleich sind und somit die Gleichungen reduziert werden auf die folgenden zwei:
+        \begin{align}
+            t&=\frac{2n_1\sin\alpha_i}{n_1\sin\alpha_i+n_2\sin\alpha_t} \\
+            r&=\frac{n_1\sin\alpha_i-n_2\sin\alpha_t}{n_1\sin\alpha_i+n_2\sin\alpha_t}
+        \end{align}
+        Im Rahmen der Röntgenreflektometrie wird das Intensitätsverhältnis zwischen Eingehendem und Reflektierten Strahl gemessen.
+        Diese sogennante Fresnel-Reflektivität ergibt sich durch
+        \begin{equation}
+            R_F=\vert r\vert^2=\frac{\left(\alpha_i-p_+\right)^2+p_-^2}{\left(\alpha_i+p_+\right)^2+p_-^2}
+            \label{eqn:R_F}
+        \end{equation}
+        mit
+        \begin{equation}
+            p_\pm^2=\frac{1}{2}\left(\sqrt{\left(\alpha_i^2-\alpha_c^2\right)^2+4\beta^2}\pm\left(\alpha_i^2-\alpha_c^2\right)\right) \, .
+            \label{eqn:p}
+        \end{equation}
+    \subsection{Kiessig-Oszillationen}
+    \label{sec:KO}
+        Wird eine Schicht eines beliebigen Materials auf einem Substrat betrachtet und die Reflektivität gemessen,
+        so fällt auf, dass diese nicht wie erwartet ab einem bestimmten kritischen Einfallswinkel $\alpha_c$ abnimmt,
+        sondern dabei zusätzlich oszilliert.
+        Das lässt sich darauf zurückführen, dass sich er Röntgenstrahl sich zunächst am Vakuum-Medium Übergang
+        aufteilt in einen reflektierten und einen transmittierrt-gebrochenen Anteil.
+        Dieser VOrgang ist schematisch in Abbildung \ref{fig:Kiessig} schematisch dargestellt.
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width = 0.7\textwidth]{pictures/Kiessig.png}
+            \caption{Skizze des Entstehungsprozesses der Kiessig-Oszillationen.}
+            \label{fig:Kiessig}
+        \end{figure}
+        Letzterer wird nach Durchqueren der Schicht an dem Substrat reflektiert und beim Übergang zurück ins Vakuum erneut gebrochen,
+        sodass er wieder parallel zum direkt reflektierten Strahl ist.
+        Diese beiden Röntgenwellen interferieren daraufhin entweder konstruktiv oder destruktiv untereinander
+        in Abhängigkeit der Phasenverschiebung, welche sich zwischen den Strahlen ergibt.
+        Beim Erhöhen des Einfallwinkels entstehen so sogenannte "Kiessig-Osszilation".
+        In Abbildung \ref{fig:Oszi} sind sowohl die theoretische Fresnel-Reflektivität als auch die Kiessig-Osszilationen
+        beispielhaft für eine Polystyrolschicht auf einem Silizium-Substrat zu sehen.
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width = 0.7\textwidth]{pictures/Oszi.png}
+            \caption{Fresnel-Reflektivität in Abhängigkeit vom Einfallswinkel einer Polystyrolschicht auf einem Siliziumwafer. Entnommen aus \cite{tolan_x-ray_1999}.}
+            \label{fig:Oszi}
+        \end{figure}
+        Da die Phasenverschiebung von der Schichdicke $d$, als auch dem Brechungsindex $n$ der Schicht abhängt,
+        ist es möglich diese zu bestimmen
+        \begin{align}
+            \delta&=\frac{1}{2}\frac{\alpha_{i1}^2m_2^2-\alpha_{i2}^2m_1^2}{m_2^2-m_1^2} \\
+            d&=\frac{\lambda}{2\Delta\alpha_i} \, ,
+            \label{eqn:d_alpha}
+        \end{align}
+        wenn die Ordnungszahl $m$ und der Einfallswinkel $\alpha_i$ zweier Minima bekannt ist.
+        \subsubsection{Parratt-Algorithmus}
+            Im Falle eines Mehrschichtsystems (siehe Abbildung \ref{fig:Parratt}) liegt zwischen je zwei benachbarten Schichten eine Reflexion-Transmission Beziehung vor wie in \ref{sec:KO} beschrieben.
+            Die entstehenden Kiessig-Oszillationen überlagern in diesem Fall und es wird sehr schwer Aussagen über die einzelnen Schichten zu treffen.
+            Zur Beschreibung eines solchen Systems wurde der sogenannte "Parratt-Algorithmus eingeführt".
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width = 0.7\textwidth]{pictures/Parratt.png}
+                \caption{Mehrschichtsystem aus $N$ Grenzflächen mit Schichten verschiedener Brechungsindizes $n$ und Dicken $d$ auf einem Substrat.
+                        Für jede Schicht sind die reflektierten und transmittierten Amplituden $R_j$ und $T_j$ eingetragen. Entnommen aus \cite{e1_tu_dortmund_versuchsanleitung_nodate}.}
+                \label{fig:Parratt}
+            \end{figure}
+            Dazu wird an jeder Grenzschicht die Wechselwirkung zwischen Röntgenstrahlung und Medium mittels den Fresnel'schen Gleichungen beschrieben
+            und ausgehend von der substrat-nächsten Schicht das Amplitudenverhältnis zwischen reflektierter und transmittierter Welle rekursiv berechnet.
+            Dabei wird als Randbedingung angenommen, dass die aus dem Vakuum kommende Welle noch keine Grenzfläche passiert hat ($T_1=1$)
+            und die Strahlung am Substrat vollständig reflektiert wird ($R_{N+1}=1$).
+            Es ergibt sich
+            \begin{equation}
+                X_j=\frac{R_N}{T_N}=\exp\left(-2ik_{z,j}z_j\right)\cdot\frac{r_{j,j+1}+X_j\exp\left(-2ik_{z,j+1}z_j\right)}{1+r_{j,j+1}X_j\exp\left(-2ik_{z,j+1}z_j\right)} \, ,
+                \label{eqn:X_j}
+            \end{equation}
+            wobei
+            \begin{equation}
+                k_{z,j}=\frac{2\pi}{\lambda}\cdot\sqrt{n_j^2-\cos\alpha_i^2}
+                \label{eqn:k_z}
+            \end{equation}
+            die $z$-te Komponente des $j$-ten Wellenvektors ist.
+            Der Exponentialterm wird Phasenfaktor genannt und ist von der Schichttiefe $z_j$ abhängig und
+            die im Bruch der Formel vorkommenden Fresnel-Koeffizienten $r$ von der Disperion $\delta$ und damit vom Brechungsindex $n$.
+            Aus dem Amplitudenverhältnis kann letztendlich die Fresnel-Reflektivität
+            \begin{equation}
+                R_F=\vert X_1\vert^2=\frac{\vert R_1\vert^2}{\vert T_1\vert^2}=\vert R_1\vert^2
+                \label{eqn:R_F_parratt}
+            \end{equation}
+            berechnet werden.
+        \subsubsection{Rauigkeitkorrektur}
+            Da komplett glatte Oberflächen in der Natur nicht vorkommen, wird eine Korrektur eingeführt, um die Rauigkeit dieser mit einzubeziehen.
+            Ein Maß für die Rauigkeit der $j$-ten Grenzfläche ist gegeben durch
+            \begin{equation}
+                \sigma_j^2=\int \left(z-z_j\right)\cdot P_j(z) \,dz \, ,
+            \end{equation}
+            wobei die $z(x,y)$-Koordinaten durch eine Wahrscheinlichkeitsdichtefunktion $P_j(z)$ gewichtet werden.
+            Damit werden die Fresnel-Koeffizienten unter der Bedingung, dass $\sigma\ll d$,
+            also dass die Rauigkeit klein ist im Gegensatz zur Schichtdicke, modifiziert zu
+            \begin{align}
+                \tilde{r}_{j,j+1}&=r_{j,j+1}\cdot\exp\left(-2k_{z,j}k_{z,j+1}\sigma_j^2\right) \\
+                \tilde{t}_{j,j+1}&=t_{j,j+1}\cdot\exp\left(\frac{1}{2}\left(k_{z,j}-k_{z,j+1}\right)^2\sigma_j^2\right)
+                \label{eqn:r_rau}
+            \end{align}
+            und in den Parratt-Algorithmus eingebunden.

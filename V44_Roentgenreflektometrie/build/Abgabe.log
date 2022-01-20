@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  20 JAN 2022 13:13
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  20 JAN 2022 17:47
  restricted system commands enabled.
 **Abgabe.tex
 (./Abgabe.tex
@@ -55,7 +55,7 @@ Lua module: luaotfload-multiscript 2019-09-13 3.00 luaotfload submodule / multis
 cript
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.276 seconds
+luaotfload | main : initialization completed in 0.124 seconds
 (./inputs/header.tex
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
@@ -1681,28 +1681,28 @@ LaTeX Warning: Unused global option(s):
 (./build/Abgabe.aux)
 \openout1 = Abgabe.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Info: Redefining \dots on input line 12.
-LaTeX Info: Redefining \up on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Info: Redefining \dots on input line 13.
+LaTeX Info: Redefining \up on input line 13.
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/translator/translator-bas
 ic-dictionary-English.dict
@@ -1721,23 +1721,23 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Abgabe.bbl' found.
  (./build/Abgabe.bbl)
-Package biblatex Info: Reference section=0 on input line 12.
-Package biblatex Info: Reference segment=0 on input line 12.
+Package biblatex Info: Reference section=0 on input line 13.
+Package biblatex Info: Reference segment=0 on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  TU/LatinModernMath(1)/m/n --> TU/lmr/m/n on input line 1
-2.
+3.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 12.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 12.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 12.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 12.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 12.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 13.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 12.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 13.
 
 
 Package unicode-math Warning: Using \overbracket and \underbracket from
@@ -1747,7 +1747,7 @@ Package unicode-math Warning: Using \overbracket and \underbracket from
 (unicode-math)                original `unicode-math' definition.
 
 
-Package chemgreek Info: Activating mapping `fontspec' on line 12.
+Package chemgreek Info: Activating mapping `fontspec' on line 13.
 
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1782,7 +1782,7 @@ cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
-LaTeX Info: Redefining \microtypecontext on input line 12.
+LaTeX Info: Redefining \microtypecontext on input line 13.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1799,7 +1799,7 @@ File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mode
 rn Roman (RS)
 )
 \AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring OFF on input line 12.
+Package hyperref Info: Link coloring OFF on input line 13.
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/12 v2.45 Cross-referencing by name of section
@@ -1810,9 +1810,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count458
 )
-LaTeX Info: Redefining \ref on input line 12.
-LaTeX Info: Redefining \pageref on input line 12.
-LaTeX Info: Redefining \nameref on input line 12.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LatinModernMath' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1837,35 +1837,70 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 14.40152pt on input line 14.
+(Font)              scaled to size 14.40152pt on input line 15.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 14.
+(Font)              scaled to size 10.00107pt on input line 15.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 14.
+(Font)              scaled to size 7.00075pt on input line 15.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 14.
+(Font)              scaled to size 14.39845pt on input line 15.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 14.
+(Font)              scaled to size 9.99893pt on input line 15.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 14.
+(Font)              scaled to size 6.99925pt on input line 15.
 
 [1
 
 
 {/home/lasse/.local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package tocbasic Info: character protrusion at toc deactivated on input line 15.
+Package tocbasic Info: character protrusion at toc deactivated on input line 16.
 
  (./build/Abgabe.toc)
 \tf@toc=\write4
 
 \openout4 = Abgabe.toc
- [2] (./chapters/Durchfuehrung.tex
-<pictures/Bild_D8.png, id=41, 511.9125pt x 746.79pt>
+ [2] (./chapters/Theorie.tex
+<pictures/Rohr.png, id=58, 819.06pt x 454.69875pt>
+File: pictures/Rohr.png Graphic file (type png)
+<use pictures/Rohr.png>
+Package luatex.def Info: pictures/Rohr.png  used on input line 14.
+(luatex.def)             Requested size: 292.7776pt x 162.53969pt.
+ [3<./pictures/Rohr.png>]
+<pictures/Kiessig.png, id=69, 770.88pt x 543.02875pt>
+File: pictures/Kiessig.png Graphic file (type png)
+<use pictures/Kiessig.png>
+Package luatex.def Info: pictures/Kiessig.png  used on input line 67.
+(luatex.def)             Requested size: 292.7776pt x 206.23706pt.
+<pictures/Oszi.png, id=71, 501.875pt x 316.18124pt>
+File: pictures/Oszi.png Graphic file (type png)
+<use pictures/Oszi.png>
+Package luatex.def Info: pictures/Oszi.png  used on input line 80.
+(luatex.def)             Requested size: 292.7776pt x 184.45628pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<pictures/Parratt.png, id=85, 486.81876pt x 411.5375pt>
+File: pictures/Parratt.png Graphic file (type png)
+<use pictures/Parratt.png>
+Package luatex.def Info: pictures/Parratt.png  used on input line 98.
+(luatex.def)             Requested size: 292.7776pt x 247.50212pt.
+[5<./pictures/Kiessig.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6<./pictures/Oszi.png>]) (./chapters/Durchfuehrung.tex [7<./pictures/Parratt.pn
+g>]
+<pictures/Bild_D8.png, id=121, 511.9125pt x 746.79pt>
 File: pictures/Bild_D8.png Graphic file (type png)
 <use pictures/Bild_D8.png>
 Package luatex.def Info: pictures/Bild_D8.png  used on input line 17.
 (luatex.def)             Requested size: 125.47794pt x 183.05061pt.
-<pictures/Aufbau.png, id=44, 1624.0675pt x 876.27374pt>
+<pictures/Aufbau.png, id=124, 1624.0675pt x 876.27374pt>
 File: pictures/Aufbau.png Graphic file (type png)
 <use pictures/Aufbau.png>
 Package luatex.def Info: pictures/Aufbau.png  used on input line 26.
@@ -1874,41 +1909,41 @@ Package luatex.def Info: pictures/Aufbau.png  used on input line 26.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3<./pictures/Bild_D8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 36--39
+[8<./pictures/Bild_D8.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 36--40
 
  []
 
-<pictures/probe_parallel.png, id=56, 817.0525pt x 263.98625pt>
+<pictures/probe_parallel.png, id=137, 817.0525pt x 263.98625pt>
 File: pictures/probe_parallel.png Graphic file (type png)
 <use pictures/probe_parallel.png>
-Package luatex.def Info: pictures/probe_parallel.png  used on input line 43.
+Package luatex.def Info: pictures/probe_parallel.png  used on input line 44.
 (luatex.def)             Requested size: 167.29967pt x 54.05307pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--54
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
 
  []
 
-[4<./pictures/Aufbau.png><./pictures/probe_parallel.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 55--58
+[9<./pictures/Aufbau.png><./pictures/probe_parallel.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 56--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--63
+Underfull \hbox (badness 10000) in paragraph at lines 60--64
 
  []
 
-<pictures/zScan_winkel.png, id=72, 738.76pt x 766.865pt>
+<pictures/zScan_winkel.png, id=153, 738.76pt x 766.865pt>
 File: pictures/zScan_winkel.png Graphic file (type png)
 <use pictures/zScan_winkel.png>
-Package luatex.def Info: pictures/zScan_winkel.png  used on input line 76.
+Package luatex.def Info: pictures/zScan_winkel.png  used on input line 77.
 (luatex.def)             Requested size: 167.29967pt x 173.6605pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] [6<./pictures/zScan_winkel.png>]) (./chapters/Auswertung.tex [7]
-<gauß.pdf, id=95, 722.7pt x 433.62pt>
+[10] [11<./pictures/zScan_winkel.png>]) (./chapters/Auswertung.tex [12]
+<gauß.pdf, id=177, 722.7pt x 433.62pt>
 File: gauß.pdf Graphic file (type pdf)
 <use gauß.pdf>
 Package luatex.def Info: gauß.pdf  used on input line 37.
@@ -1917,8 +1952,8 @@ Package luatex.def Info: gauß.pdf  used on input line 37.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8]
-<rockingscan_1.pdf, id=107, 505.89pt x 433.62pt>
+[13]
+<rockingscan_1.pdf, id=188, 505.89pt x 433.62pt>
 File: rockingscan_1.pdf Graphic file (type pdf)
 <use rockingscan_1.pdf>
 Package luatex.def Info: rockingscan_1.pdf  used on input line 57.
@@ -1927,8 +1962,8 @@ Package luatex.def Info: rockingscan_1.pdf  used on input line 57.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9<./gauß.pdf>]
-<abschattung.pdf, id=173, 650.43pt x 433.62pt>
+[14<./gauß.pdf>]
+<abschattung.pdf, id=254, 650.43pt x 433.62pt>
 File: abschattung.pdf Graphic file (type pdf)
 <use abschattung.pdf>
 Package luatex.def Info: abschattung.pdf  used on input line 74.
@@ -1937,60 +1972,73 @@ Package luatex.def Info: abschattung.pdf  used on input line 74.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10<./rockingscan_1.pdf>]
+[15<./rockingscan_1.pdf>]
 Overfull \hbox (26.24756pt too wide) detected at line 95
 \TU/LatinModernMath(1)/m/n/10.95 𝑅[] = [] [] [] = 1 [] 𝛼[] ≳ 𝛼[] [] 
 [] = [] [] 𝛼[] < 𝛼[]
  []
 
-[11<./abschattung.pdf>]
-<reflectivity_cor.pdf, id=274, 722.7pt x 433.62pt>
+[16<./abschattung.pdf>]
+<reflectivity_cor.pdf, id=355, 722.7pt x 433.62pt>
 File: reflectivity_cor.pdf Graphic file (type pdf)
 <use reflectivity_cor.pdf>
 Package luatex.def Info: reflectivity_cor.pdf  used on input line 111.
 (luatex.def)             Requested size: 418.25555pt x 250.9506pt.
- [12<./reflectivity_cor.pdf>]) [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
- [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
+ [17<./reflectivity_cor.pdf>])
+(./chapters/Diskussion.tex [18]
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+[19]) (./chapters/Daten.tex [20]
+<pictures/parratt_alg.jpg, id=461, 1096.095pt x 1284.8pt>
+File: pictures/parratt_alg.jpg Graphic file (type jpg)
+<use pictures/parratt_alg.jpg>
+Package luatex.def Info: pictures/parratt_alg.jpg  used on input line 7.
+(luatex.def)             Requested size: 376.42744pt x 441.23723pt.
+) [21<./pictures/parratt_alg.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
+ [22]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
 
 (./build/Abgabe.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
 Package rerunfilecheck Info: File `Abgabe.aux' has not changed.
-(rerunfilecheck)             Checksum: 8B1057EF496211D106C26A25C684C849;12895.
+(rerunfilecheck)             Checksum: B39B3738765503858146EC8A6CCD723F;20055.
 Package rerunfilecheck Info: File `Abgabe.toc' has not changed.
-(rerunfilecheck)             Checksum: EBB71951D956E305EC83215700AE7BE1;913.
+(rerunfilecheck)             Checksum: 69D50EE100AF1A017AD5898F9DCF812B;1684.
 Package logreq Info: Writing requests to 'Abgabe.run.xml'.
 
 \openout1 = Abgabe.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43157 strings out of 494291
- 156267,1977958 words of node,token memory allocated
- 102054 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 1 penalty, 12801 glyph, 5179
- attribute, 79 glue_spec, 742 attribute_list, 1 write nodes
-   avail lists: 1:6,2:1782,3:135,4:50,5:203,6:20,7:1770,8:92,9:192,10:34,11:271
- 46195 multiletter control sequences out of 65536+600000
+ 43329 strings out of 494291
+ 244179,1977958 words of node,token memory allocated
+ 177061 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 penalty, 4 sub_mlist, 22611 glyph
+, 7944 attribute, 81 glue_spec, 1137 attribute_list, 1 write nodes
+   avail lists: 1:6,2:2612,3:160,4:55,5:304,6:38,7:1759,8:94,9:259,10:34,11:406
+ 46264 multiletter control sequences out of 65536+600000
  146 fonts using 54729055 bytes
  56i,16n,109p,9142b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinm
 odern-math.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public
 /lm/lmroman10-bold.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentyp
 e/public/lm/lmroman8-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fon
-ts/opentype/public/lm-math/latinmodern-math.otf></home/lasse/.local/texlive/2019
-/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/lasse/.local/te
-xlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/lass
-e/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf>
-</home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmsans10-bo
-ld.otf>
-Output written on Abgabe.pdf (14 pages, 1251756 bytes).
+ts/opentype/public/lm/lmroman10-italic.otf></home/lasse/.local/texlive/2019/texm
+f-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/lasse/.local/te
+xlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/
+lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.
+otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman
+12-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public
+/lm/lmsans10-bold.otf>
+Output written on Abgabe.pdf (22 pages, 2632880 bytes).
 
-PDF statistics: 442 PDF objects out of 1000 (max. 8388607)
- 236 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 131072)
- 73 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 590 PDF objects out of 1000 (max. 8388607)
+ 361 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 131072)
+ 145 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -94,8 +94,8 @@
       R_{\text{exp, cor}} = \frac{R_{\text{exp}}}{\text{G}} \qquad \text{mit} \qquad \text{G}=1 \quad \text{für} \quad \alpha_{\text{i}} \gtrsim \alpha_{\text{G}} \qquad \text{und} \qquad \text{G}=\frac{D\sin\left(\alpha_{\text{i}}\right)}{d_0} \quad \text{für} \quad \alpha_{\text{i}} < \alpha_{\text{G}}
     \end{equation*}
 
-    berechnet. Die gemessene Reflektivität $R_{\text{exp}}$ und die korrigierte Reflektivität $R_{\text{exp, cor}}$ sind in Abbildung \ref{fig:Reflektivität} dargestellt. Zusätzlich ist auch die über Formel 
-    REFERENZ mit den Werten
+    berechnet. Die gemessene Reflektivität $R_{\text{exp}}$ und die korrigierte Reflektivität $R_{\text{exp, cor}}$ sind in Abbildung \ref{fig:Reflektivität} dargestellt. Zusätzlich ist auch die über die 
+    Formeln \ref{eqn:R_F} und \ref{eqn:p} mit den Werten
 
     \begin{enumerate}
       \item $\lambda = \SI{1.54}{\angstrom}$
@@ -122,7 +122,7 @@
       \overline{\Delta \alpha_{\text{i}}} = \SI{0.503+-0.011}{\degree}
     \end{equation*}
     
-    Über Formel REFERENZ lässt sich die Schichtdicke $z_{\text{PS}}$ des Polystyrols so zu
+    Über Formel \ref{eqn:d_alpha} lässt sich die Schichtdicke $z_{\text{PS}}$ des Polystyrols so zu
 
     \begin{equation}
       z_{\text{PS}} = \SI{865+-19}{\angstrom}
@@ -131,11 +131,12 @@
 
     bestimmen.
 
-    Anschließend wird die Reflektivität für ein System einer Polystyrol-Schicht auf einem Silizium-Substrat über den Parratt Algorithmus simuliert.
+    Anschließend wird die Reflektivität für ein System einer Polystyrol-Schicht auf einem Silizium-Substrat über den Parratt Algorithmus für raue Oberflächen simuliert.
     
     
     Die notwendigen Parameter der Polystyrol-Schichtdicke $z_2$, der Rauigkeit des Übergangs von Luft zu Polystyrol $\sigma_1$ und des Übergangs von Polystyrol zu Silizium $\sigma_2$ sowie der Dispersion von
-    Polystyrol $\delta_2$ und Silizium $\delta_3$ werden händsich varriert, bis die rekursiv über die Formeln REFERENZEN berechnete Reflektivität bestmöglich mit der gemessenen übereinstimmt. Dazu wird 
+    Polystyrol $\delta_2$ und Silizium $\delta_3$ werden händsich varriert, bis die rekursiv über die Formeln \ref{eqn:X_j}, \ref{eqn:k_z}, \ref{eqn:R_F_parratt} und \ref{eqn:r_rau} berechnete Reflektivität 
+    bestmöglich mit der gemessenen übereinstimmt. Dazu wird 
     zunächst die Polystyrol-Schichtdicke auf den bereits berechneten Wert \ref{eqn:z_ps} gesetzt. Anschließend werden die Dispersionen angepasst, um die Kiessieg-Oszillationen und die kritischen Winkel
     zu rekonstruieren. Abschließend werden die Rauigkeiten der Schichten angepasst, um den Verlauf der Einhüllenden für größere Winkel anzugleichen. Die in Abbildung \ref{fig:Reflektivität} dargestellte 
     Anpassung $R_{Parratt}$ wurde mit den folgenden Parameteren berechnet:

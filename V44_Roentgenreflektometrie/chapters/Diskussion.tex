@@ -1,35 +1,55 @@
 \newpage
 \section{Diskussion}
-    Die Aufspaltung der Energieniveaus konnte in diesem Versuch für die Cadmium-Übergänge der Wellenlängen \SI{480.0}{\nano\metre} und \SI{643.8}{\nano\metre} für den $\sigma$-polarisierten Anteil des Lichts 
-    beobachtet werden. Die Aufspaltung des $\pi$-polarisierten Anteils des Lichts des \SI{480.0}{\nano\metre}-Übergangs konnte in diesem Versuch nicht beobachtet werden, sodass externe Daten verwendet werden 
-    mussten. Dies könnte daran liegen, dass der Elektromagnet nach einiger Zeit aufgrund von Erhitzung sehr instabil wurde und nur schwer hohe Magnetfeldstärken erzeugt werden konnten. Insgesamt führte das
-    Aufheizen des Elektromagneten zu Schwierigkeiten beim Erzeugen hoher Magnetfeldstärken.\newline 
-    In den aufgenommenen Interferenzmustern sind die Maxima und die Verschiebung dieser eindeutig zu erkennen. Da die 
-    Maxima per Auge identifiziert werden, ist der Abstand der etwas verwaschenen Maxima dennoch fehlerbehaftet und trägt vermutlich stark zu den Fehlern in der Bestimmung der Landé-Faktoren bei. 
-    Aufgrund der hohen Zoomstufe der Kamera und des digitalen Bildbearbeitungsprogramms wurde der Ablesefehler dennoch auf nur einen Pixel festgelegt.\newline
-    Der Landé-Faktor für den $\sigma$-polarisierten Anteil des
-    \SI{643.8}{\nano\metre}-Übergangs weicht um circa einen Prozent vom Literaturwert und kann damit als eindeutig bestimmt bezeichnet werden. Für den \SI{480.0}{\nano\metre}-Übergangtreten mit \num{24.6}\% 
-    ($g_{\text{blau}, \sigma}$) und \num{32.6}\% ($g_{\text{blau}, \sigma}$) deutlich stärkere Abweichungen auf. Ursächlich dafür kann die stärkere Verschmierung der Maxima im Interferenzmuster des 
-    $\pi$-polarisierten Anteils des \SI{480.0}{\nano\metre}-Übergangs sein. Zusätzlich ist der Landé-Faktor des $\sigma$-polarisierten Anteil des \SI{480.0}{\nano\metre}-Übergangs aufgrund des anomalen 
-    Zeeman-Effekts ein Mittelwert aus den Landé-Faktoren 1,5 und 2. 
-
-
-    \begin{table}[h]
-        \centering
-        \caption{Die bestimmten Landé-Faktoren $\text{g}_{\text{exp}}$ für die verschiedenen Übergänge sowie die zugehörigen Literaturwerte $\text{g}_{\text{Lit}}$, die dazu relative Abweichung A und die angelegten Magnetfeldstärken zur Vermessung der Aufspaltung.}
-        \label{tab:blau_pi}
+    Bevor die Eigenschaften der Polystyrol- und Siliziumschicht untersucht werden konnten, mussten zunächst Eigenschaften des Röntgenstrahls sowie der Messgeometrie bestimmt werden. Die Bestimmung der 
+    Strahlbreite aus dem z-Scan konnte erfolgreich durchgeführt werden und kann aufgrund der bereits annähernd perfekten Winkelausrichtung der Probe zum Strahl bei diesem Scan auch als zuverlässig angesehen 
+    werden. Der zur Korrektur der Intensitäten wichtige Korrekturfaktor G wurde auf zwei Wegen bestimmt, die annähernd gleiche Ergebnisse lieferten:
     
-        \begin{tabular}{c c c c c}
-          \toprule
-          {Übergang} & {$B$ [mT]} & {$\text{g}_{\text{exp}}$} & {$\text{g}_{\text{Lit}}$} & {A} \\ 
-          \midrule
-           \SI{643.8}{\nano\metre} - $\sigma$  & 464  & $0,993\pm0,013$  &   1,00      &  $(0,7\pm1,3$)\% \\
-           \SI{480.0}{\nano\metre} - $\sigma$ & 263   & $2,180\pm0,040$  &   1,75      &  $(24,6\pm2,1$)\% \\
-           \SI{480.0}{\nano\metre} - $\pi$    & 1009  & $0,663\pm0,004$  &   0,50      &  $(32,6\pm0,8$)\% \\
+    \begin{enumerate}
+      \item $\overline{\alpha_{\text{g, grafisch}}} = \SI{0.64}{\degree}$
+      \item $\alpha_{\text{g, math}} = \arcsin\left(\frac{d_0}{D}\right) = \SI{0.63}{\degree}$
+    \end{enumerate}
 
-          \bottomrule
-        \end{tabular}
-      \end{table}
-      \FloatBarrier
+    Die Korrektur in dem, durch diesen Winkel festgelegten, Bereich führt zu einer konstanten Reflektivität von eins unter dem kritischen Winkel, sodass die Bestimmung des Geometriewinkels und die 
+    anschließende Korrektur der Reflektivität als erfolgreich angesehen werden können.\newline
+
+    Die Anpassung der Reflektivität des Systems durch den Parratt-Algorithmus reproduziert die gemessene Reflektivität im Winkelbereich von 0,45° bis 0,90° sehr gut. Für kleinere Winkel liegt die angepasste
+    Reflektivität etwas zu hoch und für höhere Winkel etwas zu niedrig. Die aus dem Algorithmus bestimmte Polystyrol-Schichtdicke und die aus der Periode der Oszillation bestimmte 
+    
+    \begin{enumerate}
+      \item $z_{\text{PS}, \Delta\alpha} = \SI{865+-19}{\angstrom}$
+      \item $z_{\text{PS, Parratt}} = \SI{866}{\angstrom}$
+    \end{enumerate}
+
+    gleichen sich beinahe exakt und können als gut bestimmt bezeichnet werden. Es ist einerseits zu erwähnen, dass der Ausgangswert der Schichtdicke bei der Anpassung des Parratt-Algorithmus auf den zuvor
+    berechneten Wert gesetzt worden ist, dieser aber auch gute Reflektivitätswerte liefert. Die Dispersionen 
+    
+    \begin{enumerate}
+      \item $\delta_{\text{PS}}=\SI{9.000e-7}{} \qquad \delta_{\text{PS, Lit}}=\SI{3.5e-6}{} \qquad  A=\SI{74.3}{\percent}$
+      \item $\delta_{\text{Si}}=\SI{6.840e-6}{} \qquad \delta_{\text{Si, Lit}}=\SI{7.6e-6}{} \qquad  A=\SI{10.0}{\percent}$
+    \end{enumerate}
+    
+    wurden ebenfallsüber den Parratt-Algorithmus bestimmt und geben ein unterschiedliches Bild wieder. Die Dispersion des Siliziums hatte nur einen geringen Einfluss auf die Anpassung und Werte nahe dem 
+    Literaturwert ergaben eine gute Anpassung. Die Dispersion des Polystyrols hingegen musste deutlich kleiner als der Literaturwert gewählt werden, um die Amplitude der Kiessig-Oszillationen 
+    gut zu reproduzieren.
+    Die aus den Dispersionen bestimmten kritischen Winkel
+
+    \begin{enumerate}
+      \item $\alpha_{\text{c, PS}} = \SI{0.0769}{\degree} \qquad \alpha_{\text{c, PS}} = \SI{0.153}{\degree} \qquad A=\SI{49.7}{\percent}$
+      \item $\alpha_{\text{c, Si}} = \SI{0.2119}{\degree} \qquad \alpha_{\text{c, Si}} = \SI{0.223}{\degree} \qquad A=\SI{5.0}{\percent}$
+    \end{enumerate}
+
+    spiegeln das Bild der Dispersionen wieder. Während der kritische Winkel des Siliziums nahe dem Literaturwert liegt und mit einem Intensitätsabfall zusammenfällt, tritt bei dem kritischen Winkel des
+    Polystyrols eine deutlich größere Abweichung auf. Dass dieser Winkel nicht mit einem starken Intensitätsabfall zusammenfällt, stellt keinen Widerspruch dar, da Totalreflexion an der tieferliegenden
+    Siliziumschicht die gesamte Reflektivität annähernd konstant hält.
+    Die auch aus der Anpassung des Parratt-Algorithmus bestimmten Rauigkeiten 
+
+    \begin{enumerate}
+      \item $\sigma_1=\SI{1.080e-9}{1\per\angstrom}$
+      \item $\sigma_2=\SI{7.056e-10}{1\per\angstrom}$
+    \end{enumerate}
+
+    haben keine literarischen Vergleichswerte. Da die beiden Werte jedoch für die feine Anpassung des Parratt-Algorithmus relevant waren, lassen sich die beiden Werte anhand der Güte der Anpassung eher 
+    als ungefähre Schätzung auf die eigentlichen Werte der Rauigkeiten der vorliegenden Schichten bewerten. Alle hier genutzten Literaturwerte wurden aus \cite{tolan_x-ray_1999} entnommen.
+
     
     

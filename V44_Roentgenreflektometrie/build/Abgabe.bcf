@@ -2129,14 +2129,19 @@
     <bcf:datasource type="file" datatype="bibtex">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">tu_dortmund_versuchsanleitung_2022</bcf:citekey>
-    <bcf:citekey order="2">tu_dortmund_versuchsanleitung_2022</bcf:citekey>
-    <bcf:citekey order="3">tu_dortmund_versuchsanleitung_2022</bcf:citekey>
-    <bcf:citekey order="4">tu_dortmund_versuchsanleitung_2022</bcf:citekey>
+    <bcf:citekey order="1">tolan_x-ray_1999</bcf:citekey>
+    <bcf:citekey order="2">tolan_x-ray_1999</bcf:citekey>
+    <bcf:citekey order="3">e1_tu_dortmund_versuchsanleitung_nodate</bcf:citekey>
+    <bcf:citekey order="4">e1_tu_dortmund_versuchsanleitung_nodate</bcf:citekey>
     <bcf:citekey order="5">tu_dortmund_versuchsanleitung_2022</bcf:citekey>
     <bcf:citekey order="6">tu_dortmund_versuchsanleitung_2022</bcf:citekey>
     <bcf:citekey order="7">tu_dortmund_versuchsanleitung_2022</bcf:citekey>
     <bcf:citekey order="8">tu_dortmund_versuchsanleitung_2022</bcf:citekey>
+    <bcf:citekey order="9">tu_dortmund_versuchsanleitung_2022</bcf:citekey>
+    <bcf:citekey order="10">tu_dortmund_versuchsanleitung_2022</bcf:citekey>
+    <bcf:citekey order="11">tu_dortmund_versuchsanleitung_2022</bcf:citekey>
+    <bcf:citekey order="12">tu_dortmund_versuchsanleitung_2022</bcf:citekey>
+    <bcf:citekey order="13">tolan_x-ray_1999</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
