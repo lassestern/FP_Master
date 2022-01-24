@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  24 JAN 2022 09:33
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  24 JAN 2022 19:45
  restricted system commands enabled.
 **Abgabe.tex
 (./Abgabe.tex
@@ -55,7 +55,7 @@ Lua module: luaotfload-multiscript 2019-09-13 3.00 luaotfload submodule / multis
 cript
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.160 seconds
+luaotfload | main : initialization completed in 0.131 seconds
 (./inputs/header.tex
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
@@ -1860,39 +1860,80 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 
 \openout4 = Abgabe.toc
  [2] (./chapters/Theorie.tex
-<pictures/cs.png, id=34, 1500.60625pt x 621.32124pt>
-File: pictures/cs.png Graphic file (type png)
-<use pictures/cs.png>
-Package luatex.def Info: pictures/cs.png  used on input line 25.
-(luatex.def)             Requested size: 418.25555pt x 173.1724pt.
- [3<./pictures/cs.png>]
-<pictures/absorptionskoeffizient.png, id=49, 837.1275pt x 869.2475pt>
-File: pictures/absorptionskoeffizient.png Graphic file (type png)
-<use pictures/absorptionskoeffizient.png>
-Package luatex.def Info: pictures/absorptionskoeffizient.png  used on input line
- 72.
-(luatex.def)             Requested size: 250.95587pt x 260.5773pt.
+<pictures/prozesse.jpg, id=36, 963.6pt x 478.78876pt>
+File: pictures/prozesse.jpg Graphic file (type jpg)
+<use pictures/prozesse.jpg>
+Package luatex.def Info: pictures/prozesse.jpg  used on input line 25.
+(luatex.def)             Requested size: 292.7776pt x 145.47147pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] [5<./pictures/absorptionskoeffizient.png>] [6]
-<pictures/richtungen.png, id=77, 935.495pt x 869.2475pt>
-File: pictures/richtungen.png Graphic file (type png)
-<use pictures/richtungen.png>
-Package luatex.def Info: pictures/richtungen.png  used on input line 148.
-(luatex.def)             Requested size: 250.95587pt x 233.17464pt.
+[3]
+<pictures/pn_doted.png, id=51, 498.36188pt x 255.20343pt>
+File: pictures/pn_doted.png Graphic file (type png)
+<use pictures/pn_doted.png>
+Package luatex.def Info: pictures/pn_doted.png  used on input line 46.
+(luatex.def)             Requested size: 167.29967pt x 85.66988pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7]) [8<./pictures/richtungen.png>]
-(/home/lasse/.local/texlive/2019/texmf-dist/tex/generic/hyph-utf8/loadhyph/load
-hyph-de-1901.tex UTF-8 German hyphenation patterns (traditional orthography)
-(/home/lasse/.local/texlive/2019/texmf-dist/tex/generic/hyph-utf8/patterns/tex/
-hyph-de-1901.tex
-German Hyphenation Patterns (Traditional Orthography) `dehypht-x' 2019-04-04 (W
-L)))
+[4<./pictures/prozesse.jpg>]
+<pictures/eh_diffusion.jpg, id=62, 357.58594pt x 204.01219pt>
+File: pictures/eh_diffusion.jpg Graphic file (type jpg)
+<use pictures/eh_diffusion.jpg>
+Package luatex.def Info: pictures/eh_diffusion.jpg  used on input line 59.
+(luatex.def)             Requested size: 167.29967pt x 95.44992pt.
+<pictures/diode_laser_scheme.png, id=66, 655.44875pt x 568.1225pt>
+File: pictures/diode_laser_scheme.png Graphic file (type png)
+<use pictures/diode_laser_scheme.png>
+Package luatex.def Info: pictures/diode_laser_scheme.png  used on input line 72.
+
+(luatex.def)             Requested size: 167.29967pt x 145.00368pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5<./pictures/pn_doted.png><./pictures/eh_diffusion.jpg>]
+<pictures/littrow.png, id=78, 883.04906pt x 367.3725pt>
+File: pictures/littrow.png Graphic file (type png)
+<use pictures/littrow.png>
+Package luatex.def Info: pictures/littrow.png  used on input line 89.
+(luatex.def)             Requested size: 250.95587pt x 104.39954pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--102
+
+ []
+
+[6<./pictures/diode_laser_scheme.png><./pictures/littrow.png>]
+<pictures/gain_curves.png, id=90, 728.7225pt x 541.02126pt>
+File: pictures/gain_curves.png Graphic file (type png)
+<use pictures/gain_curves.png>
+Package luatex.def Info: pictures/gain_curves.png  used on input line 105.
+(luatex.def)             Requested size: 250.95587pt x 186.31406pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
+
+ []
+
+[7<./pictures/gain_curves.png>]
+<pictures/Rb.png, id=101, 1277.77374pt x 463.7325pt>
+File: pictures/Rb.png Graphic file (type png)
+<use pictures/Rb.png>
+Package luatex.def Info: pictures/Rb.png  used on input line 139.
+(luatex.def)             Requested size: 250.95587pt x 91.07492pt.
+) [8<./pictures/Rb.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
  [9]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
@@ -1900,9 +1941,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 Package rerunfilecheck Info: File `Abgabe.aux' has not changed.
-(rerunfilecheck)             Checksum: 3157F8804A93EC21F14E9B9B2FED5FC0;6192.
+(rerunfilecheck)             Checksum: 8CF5A4CB7623C85B3831F03EBF197B16;10308.
 Package rerunfilecheck Info: File `Abgabe.toc' has not changed.
-(rerunfilecheck)             Checksum: 86ACD21B135745478351A2AE0B7D44D1;601.
+(rerunfilecheck)             Checksum: 20C6329A2438B36E7F5F85E50BB43798;715.
 Package logreq Info: Writing requests to 'Abgabe.run.xml'.
 
 \openout1 = Abgabe.run.xml
@@ -1910,32 +1951,32 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43328 strings out of 494291
- 195324,1977958 words of node,token memory allocated
- 163876 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 1 penalty, 12086 glyph, 3441
-1 attribute, 80 glue_spec, 4918 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 1:10,2:1673,3:128,4:33,5:144,6:13,7:1799,8:83,9:503,10:17,11:259
-
- 46338 multiletter control sequences out of 65536+600000
- 213 fonts using 80926223 bytes
- 56i,19n,109p,9142b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 43016 strings out of 494291
+ 125007,1977958 words of node,token memory allocated
+ 103994 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 1 penalty, 11434 glyph, 1021
+2 attribute, 80 glue_spec, 1461 attribute_list, 1 write nodes
+   avail lists: 1:6,2:890,3:63,4:46,5:218,6:19,7:1141,8:30,9:119,10:29,11:439
+ 46126 multiletter control sequences out of 65536+600000
+ 103 fonts using 37482343 bytes
+ 56i,16n,109p,9142b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-re
 gular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/l
 mromancaps10-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opent
-ype/public/lm/lmroman10-italic.otf></home/lasse/.local/texlive/2019/texmf-dist/f
-onts/opentype/public/lm/lmroman10-bold.otf></home/lasse/.local/texlive/2019/texm
-f-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/lasse/.local/texlive
-/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/lasse
-/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.o
-tf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman1
-0-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/
-lm/lmroman12-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opent
-ype/public/lm/lmsans10-bold.otf>
-Output written on Abgabe.pdf (9 pages, 191103 bytes).
+ype/public/lm-math/latinmodern-math.otf></home/lasse/.local/texlive/2019/texmf-d
+ist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/lasse/.local/texli
+ve/2019/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/las
+se/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></
+home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-ita
+lic.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmr
+oman8-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/pub
+lic/lm/lmroman10-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/o
+pentype/public/lm/lmroman12-regular.otf></home/lasse/.local/texlive/2019/texmf-d
+ist/fonts/opentype/public/lm/lmsans10-bold.otf>
+Output written on Abgabe.pdf (9 pages, 300128 bytes).
 
-PDF statistics: 191 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 131072)
- 49 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 214 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 131072)
+ 57 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,14 +1,22 @@
 \section{Ziel}
-    Ziel dieses Versuches ist es die elementspezifische räumliche Zusammensetzung eines Objektes zu bestimmen.Dazu wird die Methodik der Gamma-Tomographie genutzt. Bei dieser werden entlang mehrerer räumlicher
-    Achsen des Objekts Absorptionsmessungen mit Gamma-Strahlung durchgeführt, die in Kombination auf die gesuchte elementspezifische räumliche Zusammensetzung schließen lassen.   
-    verschiedener räumlicher  
+    Ziel dieses Versuches ist es die räumliche Zusammensetzung eines Objektes zu bestimmen. Dazu wird die Methodik der Gamma-Tomographie genutzt. Bei dieser werden entlang mehrerer räumlicher
+    Achsen des Objekts Absorptionsmessungen mit Gammastrahlung durchgeführt, die in Kombination auf die räumliche Zusammensetzung schließen lassen.   
+    
 \section{Theoretische Grundlagen}
-    \subsection{Gamma-Strahlen-Quellen}
-        Für die notwendigen Absorptionsmessungen muss zunächst Gamma-Strahlung erzeugt werden. Gamma-Strahlung beschreibt Photonen mit einer Energie über \SI{200}{\kilo\electronvolt} und kann auch verschiedenen
-        Wegen entstehen. Hier soll die Entstehung bei radioaktiven Zerfällen betrachtet werden. Explizit werden die $\beta^-$-Zerfälle von \ce{^{137}Cs} und \ce{^{60}Co} betrachtet. Diese Elemente zerfallen 
-        zunächst in angeregte Zustände eines weiteren Elements und gehen dann unter Aussendung eines Photons in dessen Grundzustand über. Wie in Abbildung ... zu sehen, kann \ce{^{137}Cs} nur in einen 
-        angeregten Zustand von \ce{^{137}Ba} zerfallen. Bei dessen Übergang in den Grundzustand $ \ce{^{137}Ba}^* \rightarrow \ce{^{137}Ba} + \gamma$ wird ein Photon der Energie \SI{661.7}{\kilo\electronvolt}
-        ausgesendet. Demnach strahlt eine ein \ce{^{137}Cs} mit einer maximalen Intensität bei der angegebenen Energie von \SI{661.7}{\kilo\electronvolt}.
+    \subsection{Gammaquellen}
+        %Für die notwendigen Absorptionsmessungen muss zunächst Gammastrahlung erzeugt werden. Gammastrahlung beschreibt Photonen mit einer Energie über \SI{200}{\kilo\electronvolt} und kann auch verschiedenen
+        %Wegen entstehen. Hier soll die Entstehung bei radioaktiven Zerfällen betrachtet werden. Explizit werden die $\beta^-$-Zerfälle von \ce{^{137}Cs} und \ce{^{60}Co} betrachtet. Diese Elemente zerfallen 
+        %zunächst in angeregte Zustände eines weiteren Elements und gehen dann unter Aussendung eines Photons in dessen Grundzustand über. Wie in Abbildung ... zu sehen, kann \ce{^{137}Cs} nur in einen 
+        %angeregten Zustand von \ce{^{137}Ba} zerfallen. Bei dessen Übergang in den Grundzustand $ \ce{^{137}Ba}^* \rightarrow \ce{^{137}Ba} + \gamma$ wird ein Photon der Energie \SI{661.7}{\kilo\electronvolt}
+        %ausgesendet. Demnach strahlt eine ein \ce{^{137}Cs} mit einer maximalen Intensität bei der angegebenen Energie von \SI{661.7}{\kilo\electronvolt}.
+
+        Für die notwendigen Absorptionsmessungen muss zunächst Gammastrahlung erzeugt werden. Gammastrahlung beschreibt Photonen mit einer Energie über \SI{200}{\kilo\electronvolt} und kann auf verschiedenen
+        Wegen entstehen. Hier soll die Entstehung bei radioaktiven Zerfällen betrachtet werden. Explizit wird der $\beta^-$-Zerfall von \ce{^{137}Cs}, das in diesem Versuch als Gammaquelle dient, betrachtet. 
+        %Dieses Element zerfällt teils in einen angeregten Zustand eines weiteren Elements und geht dann unter Aussendung eines Photons in dessen Grundzustand über. 
+        Wie in Abbildung \ref{fig:cs_schema} zu sehen, 
+        ist für \ce{^{137}Cs} neben dem direkten Übergang in den Grundzustand von \ce{^{137}Ba} mit einer Wahrscheinlichkeit von \SI{6.5}{\percent} der Übergang in einen angeregten Zustand von \ce{^{137}Ba} mit
+        einer Wahrscheinlichkeit von \SI{93.5}{\percent} deutlich wahrscheinlicher. Bei dem Übergang aus dem angeregten Zustand in den Grundzustand $ \ce{^{137}Ba}^* \rightarrow \ce{^{137}Ba} + \gamma$ wird ein 
+        Photon der Energie \SI{661.7}{\kilo\electronvolt} ausgesendet. Demnach strahlt eine \ce{^{137}Cs}-Quelle mit einer maximalen Intensität bei der angegebenen Energie von \SI{661.7}{\kilo\electronvolt}.
 
         \FloatBarrier
 
@@ -21,22 +29,22 @@
     
         \FloatBarrier
         
-        Für den in Abbildung ... skizzierten Zerfall von \ce{^{60}Co} sind Übergänge in zwei verschiedene angeregte Zustände von \ce{^{60}Ni} möglich. Der energetisch höhere Zustand liegt bei 
-        \SI{2505.7}{\kilo\electronvolt} und der niedrigere bei \SI{1332.5}{\kilo\electronvolt}. Der energetisch niedrigere Zustand geht direkt in den Grundzustand über und es wird ein Photon mit einer Energie
-        von \SI{1332.5}{\kilo\electronvolt} ausgesendet. Die Relaxation des energetisch höheren Zustands findet in zwei Schritten statt. Zunächst geht dieser Zustand in den niederenergetischen angeregten Zustand 
-        über, wobei ein Photon mit der Energie \SI{1173.2}{\kilo\electronvolt} ausgesendet wird. Anschließend geht es in den Grundzustand des \ce{^{60}Ni} über. Aufgrund der zwei angeregten Endzustände des 
-        $\beta^-$-Zerfalls strahlt eine \ce{^{60}Co}-Quzelle mit zwei charakteristischen Energien.
-
-        \FloatBarrier
-
-        \begin{figure}[h]
-          \centering
-          \includegraphics[width = 1\textwidth]{pictures/co.png}
-          \caption{Die möglichen $\beta^-$-Zerfälle von \ce{^{60}Co} in die angeregten Zustände von \ce{^{60}Ni} und anschließende Übergänge in den Grundzustand von \ce{^{60}Ba} unter Aussendung zwei Photonen verschiedener Energien. Bearbeitet aus \cite{stolz_radioaktivitat_2003}}
-          \label{fig:co_schema}
-        \end{figure}
-    
-        \FloatBarrier
+        %Für den in Abbildung ... skizzierten Zerfall von \ce{^{60}Co} sind Übergänge in zwei verschiedene angeregte Zustände von \ce{^{60}Ni} möglich. Der energetisch höhere Zustand liegt bei 
+        %\SI{2505.7}{\kilo\electronvolt} und der niedrigere bei \SI{1332.5}{\kilo\electronvolt}. Der energetisch niedrigere Zustand geht direkt in den Grundzustand über und es wird ein Photon mit einer Energie
+        %von \SI{1332.5}{\kilo\electronvolt} ausgesendet. Die Relaxation des energetisch höheren Zustands findet in zwei Schritten statt. Zunächst geht dieser Zustand in den niederenergetischen angeregten Zustand 
+        %über, wobei ein Photon mit der Energie \SI{1173.2}{\kilo\electronvolt} ausgesendet wird. Anschließend geht es in den Grundzustand des \ce{^{60}Ni} über. Aufgrund der zwei angeregten Endzustände des 
+        %$\beta^-$-Zerfalls strahlt eine \ce{^{60}Co}-Quzelle mit zwei charakteristischen Energien.
+%
+        %\FloatBarrier
+%
+        %\begin{figure}[h]
+        %  \centering
+        %  \includegraphics[width = 1\textwidth]{pictures/co.png}
+        %  \caption{Die möglichen $\beta^-$-Zerfälle von \ce{^{60}Co} in die angeregten Zustände von \ce{^{60}Ni} und anschließende Übergänge in den Grundzustand von \ce{^{60}Ba} unter Aussendung zwei Photonen verschiedener Energien. Bearbeitet aus \cite{stolz_radioaktivitat_2003}}
+        %  \label{fig:co_schema}
+        %\end{figure}
+    %
+        %\FloatBarrier
 
       \subsection{Absorption von Photonen}
         Die Absorption von Photonen wird über die Änderung der Intensität $I$ einer Strahlungsquelle über das \textbf{Lambert-Beerśche-Gesetz} beschrieben
@@ -66,11 +74,11 @@
           \label{fig:absorptionskoeffizient}
         \end{figure}
 
-        Exemplarisch wird die Absorption von Gamma-Strahlung aus einer \ce{^{137}Cs}-Quelle mit der Aktivität $A_{\text{Quelle}} = \SI{18000000}{\per\second}$ betrachtet, die $D=\SI{3}{\centi\metre}$ durch einen 
+        Exemplarisch wird die Absorption von Gammastrahlung aus einer \ce{^{137}Cs}-Quelle mit der Aktivität $A_{\text{Quelle}} = \SI{18}{\mega\becquerel}$ betrachtet, die $D=\SI{3}{\centi\metre}$ durch einen 
         Bleiblock und $L-D = \SI{29}{\centi\metre}$ durch Luft zurücklegt. Die am Detektor theoretisch zu messende Aktivität erigbt sich zu
 
         \begin{equation*}
-          A_{\text{Detektor}} = A_{\text{Quelle}} \cdot \exp\left(-\mu_{\text{Luft}}\left(L-D\right) - \mu_{\text{Pb}}D\right) \approx \SI{422536}{\per\second}.
+          A_{\text{Detektor}} = A_{\text{Quelle}} \cdot \exp\left(-\mu_{\text{Luft}}\left(L-D\right) - \mu_{\text{Pb}}D\right) \approx \SI{422536}{\per\second} \approx \SI{0.42}{\mega\becquerel}.
         \end{equation*}
     
         \FloatBarrier
@@ -84,7 +92,7 @@
           Das Konzept von Szintillatoren beruht darauf, dass einfallende Strahlung hoher Energie Atome des Szintillationsmediums entweder ionisiert oder anregt und 
           diese beim Relaxieren optische Photonen freisetzen. Die Menge an freigesetzten Photonen hängt dabei von der Energie der einfallenden Strahlung ab. Die optischen Photonen des Relaxationsprozesses 
           werden anschließend von Photomultipliern detektiert. %Grundlegend wird zwischen organischen und anorganischen Szintillatoren unterschieden.
-
+        \newpage
         \subsubsection*{Diskriminatoren}
           Um nur optische Photonen aus dem Szintillationsdetektor zu detektieren wird ein Diskrimantor eingesetzt. Dieser gibt erst ab einem einen Schwellwert übersteigenden Eingangssignal ein Ausgangssignal 
           aus. So kann verhindert werden, dass bereits ein einzelnes spontan emmitiertes Photon einen Ausgangsimpuls am Photomultiplier hervorruft, der fälschlicherweise auf ein optisches Photon des 
@@ -92,8 +100,8 @@
 
         \subsubsection*{Vielkanal-Analysator}
           Aus dem Photomultiplier erreichen den Vielkanal-Analysator elektrische Signale, deren Stärke proportional zur Energie der Strahlung, die ein Szintillationselektron anregt, angenommen werden kann. 
-          Der Vielkanal-Analysator besitzt nun einen digitalen Speicher, der für die verschiedenen Impulstärken verschiedene Speicherplätze besitzt. Die Impulsstärken und zugehörigen Speicherplätze werden
-          durch eine Kalibrierung Photonenenergien der die Szintillationselektronen anregenden Strahlung zugeordnet. Durch die Einsortierung der eingehenden Impulse in die verschiedenen Speicherplätze, kann so 
+          Der Vielkanal-Analysator besitzt nun einen digitalen Speicher, der für die verschiedenen Impulstärken verschiedene Speicherplätze besitzt. Die Impulsstärken und zugehörigen Speicherplätze sind
+          Photonenenergien der die Szintillationselektronen anregenden Strahlung zugeordnet. Durch die Einsortierung der eingehenden Impulse in die verschiedenen Speicherplätze, kann so 
           ein Histogramm erstellt werden, dass die energieabhängige Intensität der auf den Detektor treffenden Intensität darstellt.
 
         \subsubsection*{Repräsentative Messung}
@@ -106,7 +114,7 @@
 
           die für die geforderte statistische Unsicherheit erforderlich ist.
 
-
+      \newpage
       \subsection{Tomographie}
           In diesem Versuch soll die Zusammensetzung von neun Würfeln innerhalb einer 3x3-Würfelebene bestimmt werden. Dazu wird der Würfel aus verschiedenen Richtungen bestrahlt und die transmittierte 
           Intensität gemessen. In eine Richtung i ergibt sich diese zu
@@ -116,7 +124,7 @@
             \label{eqn:I_i}
           \end{equation}
 
-          wobei $I_0$ die Grundintensität beschreibt. Die Summe innerhalb der Exponentialfunktion läuft über alle Materialien j, die die Gamma-Strahlung durchläuft. $\mu_{\text{j}}$ beschreibt den 
+          wobei $I_0$ die Grundintensität beschreibt. Die Summe innerhalb der Exponentialfunktion läuft über alle Materialien j, die die Gammastrahlung durchläuft. $\mu_{\text{j}}$ beschreibt den 
           Absorptionskoefizienten des entsprechenden Materials und $d_{\text{j}}$, die Distanz, die durch jenes Material zurückgelegt wird. Um Rückschlüsse auf die Zusammensetzung des Würfels ziehen zu können,
           wird der natürliche Logarithmus von Gleichung \ref{eqn:I_i} gebildet
           

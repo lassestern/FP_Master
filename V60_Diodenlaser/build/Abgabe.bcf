@@ -2129,10 +2129,20 @@
     <bcf:datasource type="file" datatype="bibtex">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">stolz_radioaktivitat_2003</bcf:citekey>
-    <bcf:citekey order="2">stolz_radioaktivitat_2003</bcf:citekey>
-    <bcf:citekey order="3">gilmore_practical_2008</bcf:citekey>
-    <bcf:citekey order="4">gilmore_practical_2008</bcf:citekey>
+    <bcf:citekey order="1">eichler_laser_2015</bcf:citekey>
+    <bcf:citekey order="2">eichler_laser_2015</bcf:citekey>
+    <bcf:citekey order="3">eichler_laser_2015</bcf:citekey>
+    <bcf:citekey order="4">eichler_laser_2015</bcf:citekey>
+    <bcf:citekey order="5">tu_dortmund_versuchsanleitung_2022-1</bcf:citekey>
+    <bcf:citekey order="6">tu_dortmund_versuchsanleitung_2022-1</bcf:citekey>
+    <bcf:citekey order="7">tu_dortmund_versuchsanleitung_2022-1</bcf:citekey>
+    <bcf:citekey order="8">tu_dortmund_versuchsanleitung_2022-1</bcf:citekey>
+    <bcf:citekey order="9">tu_dortmund_versuchsanleitung_2022-1</bcf:citekey>
+    <bcf:citekey order="10">tu_dortmund_versuchsanleitung_2022-1</bcf:citekey>
+    <bcf:citekey order="11">tu_dortmund_versuchsanleitung_2022-1</bcf:citekey>
+    <bcf:citekey order="12">tu_dortmund_versuchsanleitung_2022-1</bcf:citekey>
+    <bcf:citekey order="13">tu_dortmund_versuchsanleitung_2022-1</bcf:citekey>
+    <bcf:citekey order="14">tu_dortmund_versuchsanleitung_2022-1</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
