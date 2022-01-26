@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  24 JAN 2022 19:45
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  26 JAN 2022 09:45
  restricted system commands enabled.
 **Abgabe.tex
 (./Abgabe.tex
@@ -55,7 +55,7 @@ Lua module: luaotfload-multiscript 2019-09-13 3.00 luaotfload submodule / multis
 cript
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.131 seconds
+luaotfload | main : initialization completed in 0.218 seconds
 (./inputs/header.tex
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
@@ -579,6 +579,32 @@ hyph-de-1996.tex
 German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2019-04-04
  (WL))))))
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2019/09/01 v1.3a Sub-captions (AR)
+
+(/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2019/09/01 v3.3d Customizing captions (AR)
+
+(/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen147
+\captionmargin@=\dimen148
+\captionwidth=\dimen149
+\caption@tempdima=\dimen150
+\caption@indent=\dimen151
+\caption@parindent=\dimen152
+\caption@hangindent=\dimen153
+Package caption Info: The definition of \@makecaption has been changed,
+(caption)             frenchb will NOT customize it.
+)
+Package caption Info: KOMA-Script document class.
+\c@caption@flags=\count197
+\c@ContinuedFloat=\count198
+)
+\c@subfigure=\count199
+\c@subtable=\count266
+)
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 
@@ -588,13 +614,13 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
-\ex@=\dimen147
+\ex@=\dimen154
 ))
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen148
+\col@sep=\dimen155
 \ar@mcellbox=\box48
-\extrarowheight=\dimen149
+\extrarowheight=\dimen156
 \NC@list=\toks18
 \extratabsurround=\skip63
 \backup@length=\skip64
@@ -605,39 +631,39 @@ s2e.sty
 Package: l3keys2e 2019-05-28 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box50
-\l__siunitx_tmp_dim=\dimen150
-\l__siunitx_tmp_int=\count197
-\l__siunitx_number_mantissa_length_int=\count198
-\l__siunitx_number_uncert_length_int=\count199
-\l__siunitx_round_int=\count266
-\l__siunitx_process_decimal_int=\count267
-\l__siunitx_process_uncertainty_int=\count268
-\l__siunitx_process_fixed_int=\count269
-\l__siunitx_process_integer_min_int=\count270
-\l__siunitx_process_precision_int=\count271
-\l__siunitx_group_min_int=\count272
+\l__siunitx_tmp_dim=\dimen157
+\l__siunitx_tmp_int=\count267
+\l__siunitx_number_mantissa_length_int=\count268
+\l__siunitx_number_uncert_length_int=\count269
+\l__siunitx_round_int=\count270
+\l__siunitx_process_decimal_int=\count271
+\l__siunitx_process_uncertainty_int=\count272
+\l__siunitx_process_fixed_int=\count273
+\l__siunitx_process_integer_min_int=\count274
+\l__siunitx_process_precision_int=\count275
+\l__siunitx_group_min_int=\count276
 \l__siunitx_angle_marker_box=\box51
 \l__siunitx_angle_unit_box=\box52
-\l__siunitx_angle_marker_dim=\dimen151
-\l__siunitx_angle_unit_dim=\dimen152
-\l__siunitx_unit_int=\count273
-\l__siunitx_unit_denominator_int=\count274
-\l__siunitx_unit_numerator_int=\count275
-\l__siunitx_unit_prefix_int=\count276
-\l__siunitx_unit_prefix_base_int=\count277
-\l__siunitx_unit_prefix_gram_int=\count278
-\l__siunitx_number_product_int=\count279
+\l__siunitx_angle_marker_dim=\dimen158
+\l__siunitx_angle_unit_dim=\dimen159
+\l__siunitx_unit_int=\count277
+\l__siunitx_unit_denominator_int=\count278
+\l__siunitx_unit_numerator_int=\count279
+\l__siunitx_unit_prefix_int=\count280
+\l__siunitx_unit_prefix_base_int=\count281
+\l__siunitx_unit_prefix_gram_int=\count282
+\l__siunitx_number_product_int=\count283
 \c__siunitx_one_fill_skip=\skip65
 \l__siunitx_table_unit_align_skip=\skip66
-\l__siunitx_table_exponent_dim=\dimen153
-\l__siunitx_table_integer_dim=\dimen154
-\l__siunitx_table_mantissa_dim=\dimen155
-\l__siunitx_table_marker_dim=\dimen156
-\l__siunitx_table_result_dim=\dimen157
-\l__siunitx_table_uncert_dim=\dimen158
-\l__siunitx_table_fill_pre_dim=\dimen159
-\l__siunitx_table_fill_post_dim=\dimen160
-\l__siunitx_table_fill_mid_dim=\dimen161
+\l__siunitx_table_exponent_dim=\dimen160
+\l__siunitx_table_integer_dim=\dimen161
+\l__siunitx_table_mantissa_dim=\dimen162
+\l__siunitx_table_marker_dim=\dimen163
+\l__siunitx_table_result_dim=\dimen164
+\l__siunitx_table_uncert_dim=\dimen165
+\l__siunitx_table_fill_pre_dim=\dimen166
+\l__siunitx_table_fill_post_dim=\dimen167
+\l__siunitx_table_fill_mid_dim=\dimen168
 \l__siunitx_table_pre_box=\box53
 \l__siunitx_table_post_box=\box54
 \l__siunitx_table_mantissa_box=\box55
@@ -652,11 +678,11 @@ Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count280
+\etb@tempcnta=\count284
 )
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count281
+\lrq@indent=\count285
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -668,47 +694,47 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count282
-\c@listtotal=\count283
-\c@listcount=\count284
-\c@liststart=\count285
-\c@liststop=\count286
-\c@citecount=\count287
-\c@citetotal=\count288
-\c@multicitecount=\count289
-\c@multicitetotal=\count290
-\c@instcount=\count291
-\c@maxnames=\count292
-\c@minnames=\count293
-\c@maxitems=\count294
-\c@minitems=\count295
-\c@citecounter=\count296
-\c@maxcitecounter=\count297
-\c@savedcitecounter=\count298
-\c@uniquelist=\count299
-\c@uniquename=\count300
-\c@refsection=\count301
-\c@refsegment=\count302
-\c@maxextratitle=\count303
-\c@maxextratitleyear=\count304
-\c@maxextraname=\count305
-\c@maxextradate=\count306
-\c@maxextraalpha=\count307
-\c@abbrvpenalty=\count308
-\c@highnamepenalty=\count309
-\c@lownamepenalty=\count310
-\c@maxparens=\count311
-\c@parenlevel=\count312
-\blx@tempcnta=\count313
-\blx@tempcntb=\count314
-\blx@tempcntc=\count315
-\blx@maxsection=\count316
-\blx@maxsegment@0=\count317
-\blx@notetype=\count318
-\blx@parenlevel@text=\count319
-\blx@parenlevel@foot=\count320
-\blx@sectionciteorder@0=\count321
-\blx@entrysetcounter=\count322
+\c@tabx@nest=\count286
+\c@listtotal=\count287
+\c@listcount=\count288
+\c@liststart=\count289
+\c@liststop=\count290
+\c@citecount=\count291
+\c@citetotal=\count292
+\c@multicitecount=\count293
+\c@multicitetotal=\count294
+\c@instcount=\count295
+\c@maxnames=\count296
+\c@minnames=\count297
+\c@maxitems=\count298
+\c@minitems=\count299
+\c@citecounter=\count300
+\c@maxcitecounter=\count301
+\c@savedcitecounter=\count302
+\c@uniquelist=\count303
+\c@uniquename=\count304
+\c@refsection=\count305
+\c@refsegment=\count306
+\c@maxextratitle=\count307
+\c@maxextratitleyear=\count308
+\c@maxextraname=\count309
+\c@maxextradate=\count310
+\c@maxextraalpha=\count311
+\c@abbrvpenalty=\count312
+\c@highnamepenalty=\count313
+\c@lownamepenalty=\count314
+\c@maxparens=\count315
+\c@parenlevel=\count316
+\blx@tempcnta=\count317
+\blx@tempcntb=\count318
+\blx@tempcntc=\count319
+\blx@maxsection=\count320
+\blx@maxsegment@0=\count321
+\blx@notetype=\count322
+\blx@parenlevel@text=\count323
+\blx@parenlevel@foot=\count324
+\blx@sectionciteorder@0=\count325
+\blx@entrysetcounter=\count326
 \labelnumberwidth=\skip69
 \labelalphawidth=\skip70
 \biblabelsep=\skip71
@@ -720,9 +746,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language86
-\c@mincomprange=\count323
-\c@maxcomprange=\count324
-\c@mincompwidth=\count325
+\c@mincomprange=\count327
+\c@maxcomprange=\count328
+\c@mincompwidth=\count329
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -731,74 +757,74 @@ File: blx-dm.def 2019/08/31 v3.13a biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count326
-\c@savedafterword=\count327
-\c@annotator=\count328
-\c@savedannotator=\count329
-\c@author=\count330
-\c@savedauthor=\count331
-\c@bookauthor=\count332
-\c@savedbookauthor=\count333
-\c@commentator=\count334
-\c@savedcommentator=\count335
-\c@editor=\count336
-\c@savededitor=\count337
-\c@editora=\count338
-\c@savededitora=\count339
-\c@editorb=\count340
-\c@savededitorb=\count341
-\c@editorc=\count342
-\c@savededitorc=\count343
-\c@foreword=\count344
-\c@savedforeword=\count345
-\c@holder=\count346
-\c@savedholder=\count347
-\c@introduction=\count348
-\c@savedintroduction=\count349
-\c@namea=\count350
-\c@savednamea=\count351
-\c@nameb=\count352
-\c@savednameb=\count353
-\c@namec=\count354
-\c@savednamec=\count355
-\c@translator=\count356
-\c@savedtranslator=\count357
-\c@shortauthor=\count358
-\c@savedshortauthor=\count359
-\c@shorteditor=\count360
-\c@savedshorteditor=\count361
-\c@labelname=\count362
-\c@savedlabelname=\count363
-\c@institution=\count364
-\c@savedinstitution=\count365
-\c@lista=\count366
-\c@savedlista=\count367
-\c@listb=\count368
-\c@savedlistb=\count369
-\c@listc=\count370
-\c@savedlistc=\count371
-\c@listd=\count372
-\c@savedlistd=\count373
-\c@liste=\count374
-\c@savedliste=\count375
-\c@listf=\count376
-\c@savedlistf=\count377
-\c@location=\count378
-\c@savedlocation=\count379
-\c@organization=\count380
-\c@savedorganization=\count381
-\c@origlocation=\count382
-\c@savedoriglocation=\count383
-\c@origpublisher=\count384
-\c@savedorigpublisher=\count385
-\c@publisher=\count386
-\c@savedpublisher=\count387
-\c@language=\count388
-\c@savedlanguage=\count389
-\c@origlanguage=\count390
-\c@savedoriglanguage=\count391
-\c@pageref=\count392
-\c@savedpageref=\count393
+\c@afterword=\count330
+\c@savedafterword=\count331
+\c@annotator=\count332
+\c@savedannotator=\count333
+\c@author=\count334
+\c@savedauthor=\count335
+\c@bookauthor=\count336
+\c@savedbookauthor=\count337
+\c@commentator=\count338
+\c@savedcommentator=\count339
+\c@editor=\count340
+\c@savededitor=\count341
+\c@editora=\count342
+\c@savededitora=\count343
+\c@editorb=\count344
+\c@savededitorb=\count345
+\c@editorc=\count346
+\c@savededitorc=\count347
+\c@foreword=\count348
+\c@savedforeword=\count349
+\c@holder=\count350
+\c@savedholder=\count351
+\c@introduction=\count352
+\c@savedintroduction=\count353
+\c@namea=\count354
+\c@savednamea=\count355
+\c@nameb=\count356
+\c@savednameb=\count357
+\c@namec=\count358
+\c@savednamec=\count359
+\c@translator=\count360
+\c@savedtranslator=\count361
+\c@shortauthor=\count362
+\c@savedshortauthor=\count363
+\c@shorteditor=\count364
+\c@savedshorteditor=\count365
+\c@labelname=\count366
+\c@savedlabelname=\count367
+\c@institution=\count368
+\c@savedinstitution=\count369
+\c@lista=\count370
+\c@savedlista=\count371
+\c@listb=\count372
+\c@savedlistb=\count373
+\c@listc=\count374
+\c@savedlistc=\count375
+\c@listd=\count376
+\c@savedlistd=\count377
+\c@liste=\count378
+\c@savedliste=\count379
+\c@listf=\count380
+\c@savedlistf=\count381
+\c@location=\count382
+\c@savedlocation=\count383
+\c@organization=\count384
+\c@savedorganization=\count385
+\c@origlocation=\count386
+\c@savedoriglocation=\count387
+\c@origpublisher=\count388
+\c@savedorigpublisher=\count389
+\c@publisher=\count390
+\c@savedpublisher=\count391
+\c@language=\count392
+\c@savedlanguage=\count393
+\c@origlanguage=\count394
+\c@savedoriglanguage=\count395
+\c@pageref=\count396
+\c@savedpageref=\count397
 \shorthandwidth=\skip77
 \shortjournalwidth=\skip78
 \shortserieswidth=\skip79
@@ -827,19 +853,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
-\c@textcitecount=\count394
-\c@textcitetotal=\count395
-\c@textcitemaxnames=\count396
-\c@biburlbigbreakpenalty=\count397
-\c@biburlbreakpenalty=\count398
-\c@biburlnumpenalty=\count399
-\c@biburlucpenalty=\count400
-\c@biburllcpenalty=\count401
+\c@textcitecount=\count398
+\c@textcitetotal=\count399
+\c@textcitemaxnames=\count400
+\c@biburlbigbreakpenalty=\count401
+\c@biburlbreakpenalty=\count402
+\c@biburlnumpenalty=\count403
+\c@biburlucpenalty=\count404
+\c@biburllcpenalty=\count405
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count402
+\c@smartand=\count406
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -851,8 +877,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count403
-\c@bbx:relatedtotal=\count404
+\c@bbx:relatedcount=\count407
+\c@bbx:relatedtotal=\count408
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -893,42 +919,42 @@ Package: amsmath 2018/12/01 v2.17b AMS math features
 For additional information on amsmath, use the `?' option.
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen162
+\pmbraise@=\dimen169
 )
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count405
+\inf@bad=\count409
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count406
-\leftroot@=\count407
+\uproot@=\count410
+\leftroot@=\count411
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count408
-\DOTSCASE@=\count409
+\classnum@=\count412
+\DOTSCASE@=\count413
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box57
 \strutbox@=\box58
-\big@size=\dimen163
+\big@size=\dimen170
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count410
-\c@MaxMatrixCols=\count411
+\macc@depth=\count414
+\c@MaxMatrixCols=\count415
 \dotsspace@=\muskip21
-\c@parentequation=\count412
-\dspbrk@lvl=\count413
+\c@parentequation=\count416
+\dspbrk@lvl=\count417
 \tag@help=\toks19
-\row@=\count414
-\column@=\count415
-\maxfields@=\count416
+\row@=\count418
+\column@=\count419
+\maxfields@=\count420
 \andhelp@=\toks20
-\eqnshift@=\dimen164
-\alignsep@=\dimen165
-\tagshift@=\dimen166
-\tagwidth@=\dimen167
-\totwidth@=\dimen168
-\lineht@=\dimen169
+\eqnshift@=\dimen171
+\alignsep@=\dimen172
+\tagshift@=\dimen173
+\tagwidth@=\dimen174
+\totwidth@=\dimen175
+\lineht@=\dimen176
 \@envbody=\toks21
 \multlinegap=\skip95
 \multlinetaggap=\skip96
@@ -951,15 +977,15 @@ Package: mathtools 2019/07/31 v1.22 mathematical typesetting tools
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count417
-\calc@Bcount=\count418
-\calc@Adimen=\dimen170
-\calc@Bdimen=\dimen171
+\calc@Acount=\count421
+\calc@Bcount=\count422
+\calc@Adimen=\dimen177
+\calc@Bdimen=\dimen178
 \calc@Askip=\skip97
 \calc@Bskip=\skip98
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count419
+\calc@Ccount=\count423
 \calc@Cskip=\skip99
 )
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/mathtools/mhsetup.sty
@@ -969,15 +995,15 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count420
-\l_MT_multwidth_dim=\dimen172
+\g_MT_multlinerow_int=\count424
+\l_MT_multwidth_dim=\dimen179
 \origjot=\skip100
-\l_MT_shortvdotswithinadjustabove_dim=\dimen173
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen174
-\l_MT_above_intertext_sep=\dimen175
-\l_MT_below_intertext_sep=\dimen176
-\l_MT_above_shortintertext_sep=\dimen177
-\l_MT_below_shortintertext_sep=\dimen178
+\l_MT_shortvdotswithinadjustabove_dim=\dimen180
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen181
+\l_MT_above_intertext_sep=\dimen182
+\l_MT_below_intertext_sep=\dimen183
+\l_MT_above_shortintertext_sep=\dimen184
+\l_MT_below_shortintertext_sep=\dimen185
 )
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/unicode-math/unicode-math
 .sty
@@ -1021,9 +1047,9 @@ Package lualatex-math Info: I'm going to patch macro \genfrac .
 Package lualatex-math Info: I'm going to patch macro \MT_cramped_internal:Nn.
 
 )
-\g__um_fam_int=\count421
-\g__um_fonts_used_int=\count422
-\l__um_primecount_int=\count423
+\g__um_fam_int=\count425
+\g__um_fonts_used_int=\count426
+\l__um_primecount_int=\count427
 \g__um_primekern_muskip=\muskip22
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/unicode-math/unicode-math
@@ -1098,15 +1124,15 @@ DFLT;"<6.57-9.3075>"LatinModernMath:mode=base;script=math;language=DFLT;+ssty=0;
 (fontspec)             \__um_luatex_copy_fontdimens: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 56.
+(Font)              `operators' in the math version `normal' on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LatinModernMath(1)/m/n on input line 
-56.
+59.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 56.
+(Font)              `operators' in the math version `bold' on input line 59.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LatinModernMath(1)/bx/n on input lin
-e 56.
+e 59.
 
 Package fontspec Info: LatinModernMath scale = 1.0001.
 
@@ -1167,15 +1193,15 @@ guage=DFLT;+ssty=1;"
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 56.
+(Font)              `symbols' in the math version `normal' on input line 59.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/LatinModernMath(2)/m/n on input line
- 56.
+ 59.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 56.
+(Font)              `symbols' in the math version `bold' on input line 59.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> TU/LatinModernMath(2)/bx/n on input lin
-e 56.
+e 59.
 
 Package fontspec Info: LatinModernMath scale = 0.9999.
 
@@ -1224,33 +1250,33 @@ guage=DFLT;+ssty=1;"
 (fontspec)             \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 56
+(Font)              `largesymbols' in the math version `normal' on input line 59
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/m/n on input line
- 56.
+ 59.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 56.
+(Font)              `largesymbols' in the math version `bold' on input line 59.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/LatinModernMath(3)/bx/n on input lin
-e 56.
+e 59.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 56.
+(Font)              scaled to size 10.95116pt on input line 59.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.6658pt on input line 56.
+(Font)              scaled to size 7.6658pt on input line 59.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.47559pt on input line 56.
+(Font)              scaled to size 5.47559pt on input line 59.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 56.
+(Font)              scaled to size 10.94882pt on input line 59.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 7.66417pt on input line 56.
+(Font)              scaled to size 7.66417pt on input line 59.
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
-(Font)              scaled to size 5.47441pt on input line 56.
-LaTeX Font Info:    Try loading font information for U+msa on input line 56.
+(Font)              scaled to size 5.47441pt on input line 59.
+LaTeX Font Info:    Try loading font information for U+msa on input line 59.
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 56.
+LaTeX Font Info:    Try loading font information for U+msb on input line 59.
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1284,10 +1310,10 @@ ath:mode=base;script=math;language=DFLT;+ssty=1;"
 \sym__um_fam1=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
 (Font)                  TU/XITSMath(0)/m/n --> TU/XITSMath(0)/m/n on input line 
-56.
+59.
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
 (Font)                  TU/XITSMath(0)/m/n --> TU/XITSMath(0)/bx/n on input line
- 56.
+ 59.
 
 Package fontspec Info: Font family 'XITSMath(1)' created for font 'XITS Math'
 (fontspec)             with options
@@ -1318,10 +1344,10 @@ s01;"<6.57-9.3075>"XITSMath:mode=base;script=math;language=DFLT;+ss01;+ssty=0;"<
 \sym__um_fam2=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `normal'
 (Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/m/n on input line 
-57.
+60.
 LaTeX Font Info:    Overwriting symbol font `__um_fam2' in version `bold'
 (Font)                  TU/XITSMath(1)/m/n --> TU/XITSMath(1)/bx/n on input line
- 57.
+ 60.
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/generic/oberdiek/mleftright.sty
 Package: mleftright 2016/05/16 v1.1 Math left/right delim. as open/close (HO)
@@ -1331,8 +1357,8 @@ Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2016/12/20 v1.1 interfaceforuprightgreeklettersforuseinchemis
 try (CN)
-\l__chemgreek_tmpa_int=\count424
-\g__chemgreek_tmpa_int=\count425
+\l__chemgreek_tmpa_int=\count428
+\g__chemgreek_tmpa_int=\count429
 )
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
@@ -1347,7 +1373,7 @@ Package graphics Info: Driver file: luatex.def on input line 99.
  (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/graphics-def/luatex.def
 File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 ))
-\l__mhchem_ce_distanceFromLastComma_int=\count426
+\l__mhchem_ce_distanceFromLastComma_int=\count430
 \__mhchem_arrow_extPgfLength_skip=\skip101
 \mhchem@minispace@tmp=\skip102
 \mhchem@minibackspace@tmp=\skip103
@@ -1358,20 +1384,20 @@ File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 \mhchem@smallbondwidth=\skip108
 \mhchem@bondtmp@minussidebearingleft=\skip109
 \mhchem@bondtmp@minussidebearingright=\skip110
-\l__mhchem_option_version_int=\count427
-\mhchem@option@minusmathsidebearingleft=\dimen179
-\mhchem@option@minusmathsidebearingright=\dimen180
-\mhchem@option@minustextsidebearingleft=\dimen181
-\mhchem@option@minustextsidebearingright=\dimen182
+\l__mhchem_option_version_int=\count431
+\mhchem@option@minusmathsidebearingleft=\dimen186
+\mhchem@option@minusmathsidebearingright=\dimen187
+\mhchem@option@minustextsidebearingleft=\dimen188
+\mhchem@option@minustextsidebearingright=\dimen189
 )
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/02/28 v2.7b Micro-typographical refinements (RS)
 \MT@toks=\toks23
-\MT@count=\count428
+\MT@count=\count432
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen183
+\MT@outer@kern=\dimen190
 LaTeX Info: Redefining \textmicrotypecontext on input line 1336.
-\MT@listname@count=\count429
+\MT@listname@count=\count433
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/microtype/microtype-luate
 x.def
@@ -1389,8 +1415,8 @@ File: microtype.cfg 2019/02/28 v2.7b microtype main configuration file (RS)
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/l3packages/xfrac/xfrac.st
 y (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen184
-\Gin@req@width=\dimen185
+\Gin@req@height=\dimen191
+\Gin@req@width=\dimen192
 )
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
@@ -1477,19 +1503,19 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/l3packages/xtemplate/xtem
 plate.sty
 Package: xtemplate 2019-05-28 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen186
-\l__xtemplate_tmp_int=\count430
+\l__xtemplate_tmp_dim=\dimen193
+\l__xtemplate_tmp_int=\count434
 \l__xtemplate_tmp_muskip=\muskip23
 \l__xtemplate_tmp_skip=\skip112
 )
 Package: xfrac 2019-05-28 L3 Experimental split-level fractions
 \l__xfrac_slash_box=\box59
 \l__xfrac_tmp_box=\box60
-\l__xfrac_denominator_bot_sep_dim=\dimen187
-\l__xfrac_numerator_bot_sep_dim=\dimen188
-\l__xfrac_numerator_top_sep_dim=\dimen189
-\l__xfrac_slash_left_sep_dim=\dimen190
-\l__xfrac_slash_right_sep_dim=\dimen191
+\l__xfrac_denominator_bot_sep_dim=\dimen194
+\l__xfrac_numerator_bot_sep_dim=\dimen195
+\l__xfrac_numerator_top_sep_dim=\dimen196
+\l__xfrac_slash_left_sep_dim=\dimen197
+\l__xfrac_slash_right_sep_dim=\dimen198
 \l__xfrac_slash_left_muskip=\muskip24
 \l__xfrac_slash_right_muskip=\muskip25
 
@@ -1499,12 +1525,12 @@ Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
 )
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2019/05/10 v5.2e context-sensitive quotations (JAW)
-\csq@reset=\count431
-\csq@gtype=\count432
-\csq@glevel=\count433
-\csq@qlevel=\count434
-\csq@maxlvl=\count435
-\csq@tshold=\count436
+\csq@reset=\count435
+\csq@gtype=\count436
+\csq@glevel=\count437
+\csq@qlevel=\count438
+\csq@maxlvl=\count439
+\csq@tshold=\count440
 \csq@ltx@everypar=\toks24
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -1564,14 +1590,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen192
-\Hy@linkcounter=\count437
-\Hy@pagecounter=\count438
+\@linkdim=\dimen199
+\Hy@linkcounter=\count441
+\Hy@pagecounter=\count442
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2019/09/12 v6.88i Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count439
+\Hy@SavedSpaceFactor=\count443
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1588,12 +1614,12 @@ Package hyperref Info: Plain pages OFF on input line 4565.
 Package hyperref Info: Backreferencing OFF on input line 4570.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4803.
-\c@Hy@tempcnt=\count440
+\c@Hy@tempcnt=\count444
 LaTeX Info: Redefining \url on input line 5156.
-\XeTeXLinkMargin=\dimen193
-\Fld@menulength=\count441
-\Field@Width=\dimen194
-\Fld@charsize=\dimen195
+\XeTeXLinkMargin=\dimen256
+\Fld@menulength=\count445
+\Field@Width=\dimen257
+\Fld@charsize=\dimen258
 Package hyperref Info: Hyper figures OFF on input line 6411.
 Package hyperref Info: Link nesting OFF on input line 6416.
 Package hyperref Info: Hyper index ON on input line 6419.
@@ -1603,16 +1629,16 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6436.
 Package hyperref Info: PDF/A mode OFF on input line 6441.
 LaTeX Info: Redefining \ref on input line 6481.
 LaTeX Info: Redefining \pageref on input line 6485.
-\Hy@abspage=\count442
-\c@Item=\count443
-\c@Hfootnote=\count444
+\Hy@abspage=\count446
+\c@Item=\count447
+\c@Hfootnote=\count448
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/hyperref/hluatex.def
 File: hluatex.def 2019/09/12 v6.88i Hyperref driver for luaTeX
-\Fld@listcount=\count445
-\c@bookmark@seq@number=\count446
+\Fld@listcount=\count449
+\c@bookmark@seq@number=\count450
 \Hy@SectionHShift=\skip113
 )
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/oberdiek/bookmark.sty
@@ -1620,29 +1646,29 @@ Package: bookmark 2019/06/04 v1.27 PDF bookmarks (HO)
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 File: bkm-pdftex.def 2019/06/04 v1.27 bookmark driver for pdfTeX (HO)
-\BKM@id=\count447
+\BKM@id=\count451
 )) (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/ncctools/extdash.sty
 Package: extdash 2018/06/24 v1.3 Extended Dash Package (NCC)
 )
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen196
-\lightrulewidth=\dimen197
-\cmidrulewidth=\dimen198
-\belowrulesep=\dimen199
-\belowbottomsep=\dimen256
-\aboverulesep=\dimen257
-\abovetopsep=\dimen258
-\cmidrulesep=\dimen259
-\cmidrulekern=\dimen260
-\defaultaddspace=\dimen261
-\@cmidla=\count448
-\@cmidlb=\count449
-\@aboverulesep=\dimen262
-\@belowrulesep=\dimen263
-\@thisruleclass=\count450
-\@lastruleclass=\count451
-\@thisrulewidth=\dimen264
+\heavyrulewidth=\dimen259
+\lightrulewidth=\dimen260
+\cmidrulewidth=\dimen261
+\belowrulesep=\dimen262
+\belowbottomsep=\dimen263
+\aboverulesep=\dimen264
+\abovetopsep=\dimen265
+\cmidrulesep=\dimen266
+\cmidrulekern=\dimen267
+\defaultaddspace=\dimen268
+\@cmidla=\count452
+\@cmidlb=\count453
+\@aboverulesep=\dimen269
+\@belowrulesep=\dimen270
+\@thisruleclass=\count454
+\@lastruleclass=\count455
+\@thisrulewidth=\dimen271
 ))
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
@@ -1703,6 +1729,9 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Info: Redefining \dots on input line 12.
 LaTeX Info: Redefining \up on input line 12.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/translator/translator-bas
 ic-dictionary-English.dict
@@ -1752,16 +1781,16 @@ Package chemgreek Info: Activating mapping `fontspec' on line 12.
 
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count452
-\scratchdimen=\dimen265
+\scratchcounter=\count456
+\scratchdimen=\dimen272
 \scratchbox=\box61
-\nofMPsegments=\count453
-\nofMParguments=\count454
+\nofMPsegments=\count457
+\nofMParguments=\count458
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count455
-\MPscratchDim=\dimen266
-\MPnumerator=\count456
-\makeMPintoPDFobject=\count457
+\MPscratchCnt=\count459
+\MPscratchDim=\dimen273
+\MPnumerator=\count460
+\makeMPintoPDFobject=\count461
 \everyMPtoPDFconversion=\toks26
 )
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.st
@@ -1808,7 +1837,7 @@ Package: nameref 2019/09/12 v2.45 Cross-referencing by name of section
 .sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count458
+\c@section@level=\count462
 )
 LaTeX Info: Redefining \ref on input line 12.
 LaTeX Info: Redefining \pageref on input line 12.
@@ -1860,35 +1889,35 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
 
 \openout4 = Abgabe.toc
  [2] (./chapters/Theorie.tex
-<pictures/prozesse.jpg, id=36, 963.6pt x 478.78876pt>
+<pictures/prozesse.jpg, id=56, 963.6pt x 478.78876pt>
 File: pictures/prozesse.jpg Graphic file (type jpg)
 <use pictures/prozesse.jpg>
-Package luatex.def Info: pictures/prozesse.jpg  used on input line 25.
+Package luatex.def Info: pictures/prozesse.jpg  used on input line 26.
 (luatex.def)             Requested size: 292.7776pt x 145.47147pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3]
-<pictures/pn_doted.png, id=51, 498.36188pt x 255.20343pt>
+<pictures/pn_doted.png, id=71, 498.36188pt x 255.20343pt>
 File: pictures/pn_doted.png Graphic file (type png)
 <use pictures/pn_doted.png>
-Package luatex.def Info: pictures/pn_doted.png  used on input line 46.
+Package luatex.def Info: pictures/pn_doted.png  used on input line 47.
 (luatex.def)             Requested size: 167.29967pt x 85.66988pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4<./pictures/prozesse.jpg>]
-<pictures/eh_diffusion.jpg, id=62, 357.58594pt x 204.01219pt>
+<pictures/eh_diffusion.jpg, id=82, 357.58594pt x 204.01219pt>
 File: pictures/eh_diffusion.jpg Graphic file (type jpg)
 <use pictures/eh_diffusion.jpg>
-Package luatex.def Info: pictures/eh_diffusion.jpg  used on input line 59.
+Package luatex.def Info: pictures/eh_diffusion.jpg  used on input line 60.
 (luatex.def)             Requested size: 167.29967pt x 95.44992pt.
-<pictures/diode_laser_scheme.png, id=66, 655.44875pt x 568.1225pt>
+<pictures/diode_laser_scheme.png, id=86, 655.44875pt x 568.1225pt>
 File: pictures/diode_laser_scheme.png Graphic file (type png)
 <use pictures/diode_laser_scheme.png>
-Package luatex.def Info: pictures/diode_laser_scheme.png  used on input line 72.
+Package luatex.def Info: pictures/diode_laser_scheme.png  used on input line 73.
 
 (luatex.def)             Requested size: 167.29967pt x 145.00368pt.
 
@@ -1896,54 +1925,102 @@ Package luatex.def Info: pictures/diode_laser_scheme.png  used on input line 72.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5<./pictures/pn_doted.png><./pictures/eh_diffusion.jpg>]
-<pictures/littrow.png, id=78, 883.04906pt x 367.3725pt>
+<pictures/littrow.png, id=97, 883.04906pt x 367.3725pt>
 File: pictures/littrow.png Graphic file (type png)
 <use pictures/littrow.png>
-Package luatex.def Info: pictures/littrow.png  used on input line 89.
+Package luatex.def Info: pictures/littrow.png  used on input line 90.
 (luatex.def)             Requested size: 250.95587pt x 104.39954pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--103
 
  []
 
 [6<./pictures/diode_laser_scheme.png><./pictures/littrow.png>]
-<pictures/gain_curves.png, id=90, 728.7225pt x 541.02126pt>
+<pictures/gain_curves.png, id=110, 728.7225pt x 541.02126pt>
 File: pictures/gain_curves.png Graphic file (type png)
 <use pictures/gain_curves.png>
-Package luatex.def Info: pictures/gain_curves.png  used on input line 105.
+Package luatex.def Info: pictures/gain_curves.png  used on input line 106.
 (luatex.def)             Requested size: 250.95587pt x 186.31406pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
 [7<./pictures/gain_curves.png>]
-<pictures/Rb.png, id=101, 1277.77374pt x 463.7325pt>
+<pictures/Rb.png, id=121, 1277.77374pt x 463.7325pt>
 File: pictures/Rb.png Graphic file (type png)
 <use pictures/Rb.png>
-Package luatex.def Info: pictures/Rb.png  used on input line 139.
+Package luatex.def Info: pictures/Rb.png  used on input line 140.
 (luatex.def)             Requested size: 250.95587pt x 91.07492pt.
-) [8<./pictures/Rb.png>]
+) (./chapters/Durchfuehrung.tex [8<./pictures/Rb.png>]
+<pictures/Aufbau1.png, id=133, 579.16376pt x 311.1625pt>
+File: pictures/Aufbau1.png Graphic file (type png)
+<use pictures/Aufbau1.png>
+Package luatex.def Info: pictures/Aufbau1.png  used on input line 26.
+(luatex.def)             Requested size: 292.7776pt x 157.29962pt.
+<pictures/Aufbau2.png, id=137, 570.13pt x 277.035pt>
+File: pictures/Aufbau2.png Graphic file (type png)
+<use pictures/Aufbau2.png>
+Package luatex.def Info: pictures/Aufbau2.png  used on input line 40.
+(luatex.def)             Requested size: 292.7776pt x 142.26245pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<pictures/Aufbau3.png, id=141, 812.03375pt x 319.1925pt>
+File: pictures/Aufbau3.png Graphic file (type png)
+<use pictures/Aufbau3.png>
+Package luatex.def Info: pictures/Aufbau3.png  used on input line 55.
+(luatex.def)             Requested size: 292.7776pt x 115.07967pt.
+) (./chapters/Auswertung.tex [9<./pictures/Aufbau1.png>] [10<./pictures/Aufbau2.
+png><./pictures/Aufbau3.png>]
+<pictures/Spot1.jpg, id=163, 963.6pt x 1284.8pt>
+File: pictures/Spot1.jpg Graphic file (type jpg)
+<use pictures/Spot1.jpg>
+Package luatex.def Info: pictures/Spot1.jpg  used on input line 14.
+(luatex.def)             Requested size: 192.71658pt x 256.95544pt.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 15.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 15.
+<pictures/Spot2.jpg, id=164, 963.6pt x 1284.8pt>
+File: pictures/Spot2.jpg Graphic file (type jpg)
+<use pictures/Spot2.jpg>
+Package luatex.def Info: pictures/Spot2.jpg  used on input line 21.
+(luatex.def)             Requested size: 192.71658pt x 256.95544pt.
+ [11<./pictures/Spot1.jpg><./pictures/Spot2.jpg>]
+<pictures/Flu.jpg, id=173, 963.6pt x 1284.8pt>
+File: pictures/Flu.jpg Graphic file (type jpg)
+<use pictures/Flu.jpg>
+Package luatex.def Info: pictures/Flu.jpg  used on input line 35.
+(luatex.def)             Requested size: 230.04182pt x 306.71153pt.
+[12<./pictures/Flu.jpg>]
+<pictures/Emissionsspektrum.jpg, id=182, 1284.8pt x 963.6pt>
+File: pictures/Emissionsspektrum.jpg Graphic file (type jpg)
+<use pictures/Emissionsspektrum.jpg>
+Package luatex.def Info: pictures/Emissionsspektrum.jpg  used on input line 49.
+(luatex.def)             Requested size: 292.7776pt x 219.57957pt.
+) (./chapters/Diskussion.tex) [13<./pictures/Emissionsspektrum.jpg>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
- [9]
+ [14]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
  (./build/Abgabe.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 Package rerunfilecheck Info: File `Abgabe.aux' has not changed.
-(rerunfilecheck)             Checksum: 8CF5A4CB7623C85B3831F03EBF197B16;10308.
+(rerunfilecheck)             Checksum: 4BA7ABB29F0C75D3FDF4AB53ACAB77AA;20164.
 Package rerunfilecheck Info: File `Abgabe.toc' has not changed.
-(rerunfilecheck)             Checksum: 20C6329A2438B36E7F5F85E50BB43798;715.
+(rerunfilecheck)             Checksum: B09D331E3D00462E89E387E0EF68E161;1673.
 Package logreq Info: Writing requests to 'Abgabe.run.xml'.
 
 \openout1 = Abgabe.run.xml
@@ -1951,14 +2028,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 28.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43016 strings out of 494291
- 125007,1977958 words of node,token memory allocated
- 103994 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 1 penalty, 11434 glyph, 1021
-2 attribute, 80 glue_spec, 1461 attribute_list, 1 write nodes
-   avail lists: 1:6,2:890,3:63,4:46,5:218,6:19,7:1141,8:30,9:119,10:29,11:439
- 46126 multiletter control sequences out of 65536+600000
- 103 fonts using 37482343 bytes
+ 44442 strings out of 494291
+ 156265,1977958 words of node,token memory allocated
+ 139086 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 1 penalty, 16150 glyph, 1112
+2 attribute, 80 glue_spec, 1591 attribute_list, 1 write nodes
+   avail lists: 1:9,2:699,3:128,4:47,5:222,6:41,7:1024,8:30,9:130,10:33,11:440
+ 47384 multiletter control sequences out of 65536+600000
+ 160 fonts using 59467767 bytes
  56i,16n,109p,9142b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono10-re
 gular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/l
@@ -1973,10 +2050,10 @@ oman8-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/pub
 lic/lm/lmroman10-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/o
 pentype/public/lm/lmroman12-regular.otf></home/lasse/.local/texlive/2019/texmf-d
 ist/fonts/opentype/public/lm/lmsans10-bold.otf>
-Output written on Abgabe.pdf (9 pages, 300128 bytes).
+Output written on Abgabe.pdf (14 pages, 2147261 bytes).
 
-PDF statistics: 214 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 131072)
- 57 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 324 PDF objects out of 1000 (max. 8388607)
+ 241 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 131072)
+ 137 words of extra memory for PDF output out of 10000 (max. 100000000)
 

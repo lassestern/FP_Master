@@ -7,3 +7,13 @@
 \contentsline {subsubsection}{\numberline {1.3.1}Working Principle}{4}{subsubsection.1.3.1}% 
 \contentsline {subsubsection}{\numberline {1.3.2}Gain Curves}{7}{subsubsection.1.3.2}% 
 \contentsline {subsection}{\numberline {1.4}Rubidium}{8}{subsection.1.4}% 
+\contentsline {section}{\numberline {2}Experimental setup and procedure}{9}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Experimental setup}{9}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Determination of the threshold current}{9}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Recording of the rubidium fluorescence}{9}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Measuring the absorption spectrum of rubidium}{10}{subsection.2.4}% 
+\contentsline {section}{\numberline {3}Evaluation}{11}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Determination of the threshold current}{11}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Recording of the rubidium fluorescence}{12}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Measuring the absorption spectrum of rubidium}{13}{subsection.3.3}% 
+\contentsline {section}{\numberline {4}Discussion}{13}{section.4}% 

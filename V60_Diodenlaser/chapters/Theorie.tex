@@ -4,16 +4,17 @@
         to observe absorption of the laser light within a \ce{^{85}Rb}-, \ce{^{87}Rb}-vapor by doing a frequency scan. 
     
     \subsection{Working principle of general Lasers}
-        The acronym Laser stands for \textit{light amplification by stimulated emission of radiation} and describes a light source, that emitts light of a fixed wavelength, which stays coherent over a long
+        The acronym 'Laser' stands for \textit{light amplification by stimulated emission of radiation} and describes a light source, that emitts light of a fixed wavelength, which stays coherent over a long
         distances and is particulary suited for experiments due to its tunability. To achieve these properties a certain optical transition is stimulated and multiplied within an active medium.
 
         To start off an external \textbf{pump} excites electrons within an \textbf{active medium} from a lower energy state to a higher unoccupied energy state, from which these electrons will relax and the
-        spontaneous emission of a photon will take place. During spontaneous emission photons are emitted isotropically into all directions but with the same energy, which corresponds to the energy difference
+        spontaneous emission of a photon will take place. During spontaneous emission photons are emitted isotropically into all directions, but with the same energy, which corresponds to the energy difference
         between the higher and lower energy state $\Delta E = E_3 - E_2 = \frac{\text{hc}}{\lambda}$. The active medium is located in a \textbf{resonator}, which reflects the photons travelling along a certain axis and makes them pass trough the active medium
         multiple times. While doing this they can interact with the active medium in two more ways pictured in figure \ref{fig:prozesse}. They can be absorbed and excite an electron to a higher energy state or
-        induce the stimulated emission of a second coherent photon in connection to an electron relaxing in the same way, as the electron, that spontaneously emitted an photon by relaxing. Due to the boundary conditions wihtin 
-        the resonator modes will develop and increase their intensity, as the photons of the mode will induce stimulated emission of coherent photons, who will then also contribute to the mode. In order to always 
-        have the possibility of stimulated emission a population inversion has to be created. This means that the electron density in the higher energy state is higher than in the lower enrergy state. To enable
+        induce the stimulated emission of a second coherent photon in connection to an electron relaxing in the same way, as the electron, that spontaneously emitted an photon by relaxing. Due to the 
+        boundary conditions within the resonator modes will develop and increase their intensity, as the photons of the mode will induce stimulated emission of coherent photons, 
+        which will then also contribute to the mode. In order to always 
+        have the possibility of stimulated emission a population inversion has to be created. This means that the electron density in the higher energy state is higher than in the lower energy state. To enable
         the possibility of inversion population one needs a system of at least three energy states. Given a system of four energy states the pump then excites electron from the ground state $E_{\text{1}}$ into 
         the highest energy state $E_{\text{4}}$. These excited electrons then relax into the second highest energy state $E_{\text{3}}$ by a high possibility $P_{\text{43}}$. From there they relax into the 
         second longest energy state $E_{\text{2}}$ by stimulated emission and afterwards into the ground state. To keep population inversion the transitions $4\rightarrow3$ and $2\rightarrow1$ have to be fast in
@@ -33,12 +34,12 @@
     \subsection{Diode Lasers}
         \subsubsection{Working Principle}
             For diode lasers the same principles of a pump, stimulated emission within an active medium and population inversion can be applied. Additionaly some adaptions have to be done to correct for the solid 
-            state properties of the active medium, as there are now longer well defined energy states in the form of atomic orbitals. Instead the nergy states now correspond to different energy bands wihtin the solid 
+            state properties of the active medium, as there are now longer well defined energy states in the form of atomic orbitals. Instead the energy states now correspond to different energy bands within the solid 
             states band structure. 
             Every solid state body has a valence band, which is the highest occupied band below the Fermi-Energy and a conduction band, which is the lowest unoccupied energy band above the Fermi-Energy. The energy
             difference between these two bands is called band gap $\Delta E = E_{\text{CB}} - E_{\text{VB}} = \frac{\text{hc}}{\lambda}$ and roughly defines the energy of a diode lasers light. 
-            In this setup a pn-junction-diode is used as the active medium. A pn-junction constists of a highly n-doted layer, which is stacked onto a highly p-doted layer. A highly n-doted layer leeds to an 
-            increase of the Fermi-Energy and the insertion of electrons into the conduction band. Vice versa a highly p-doted layer leeds to a lowered Fermi-Energy and the creation of holes in the valence band. 
+            In this setup a pn-junction-diode is used as the active medium. A pn-junction constists of a highly n-doted layer, which is stacked onto a highly p-doted layer. A highly n-doted layer leads to an 
+            increase of the Fermi-Energy and the insertion of electrons into the conduction band. Vice versa a highly p-doted layer leads to a lowered Fermi-Energy and the creation of holes in the valence band. 
             These processes are depicted in figure \ref{fig:pn_doted}.  
 
             \begin{figure}[h]
@@ -57,7 +58,7 @@
             \begin{figure}[h]
                 \centering
                 \includegraphics[width = 0.4\textwidth]{pictures/eh_diffusion.jpg}
-                \caption{The diffusion of electrons and holes into the active layer by application of a current and the emission of photons by recombination of electron-hole-pairs. Taken from \cite{tu_dortmund_versuchsanleitung_2022-1}.}
+                \caption{The diffusion of electrons and holes into the active layer by application of a current and the emission of photons by recombination of electron-hole-pairs. Taken from \cite{eichler_laser_2015}.}
                 \label{fig:eh_diffusion}
             \end{figure}
         
@@ -70,14 +71,14 @@
              \begin{figure}[h]
                 \centering
                 \includegraphics[width = 0.4\textwidth]{pictures/diode_laser_scheme.png}
-                \caption{The diffusion of electrons and holes into the active layer by application of a current and the emission of photons by recombination of electron-hole-pairs. Taken from \cite{tu_dortmund_versuchsanleitung_2022-1}.}
+                \caption{The scheme of a laser diode. The applied current enables emission of light, which is increased by stimulated emission and leads to the generation of modes. Taken from \cite{tu_dortmund_versuchsanleitung_2022-1}.}
                 \label{fig:diode_laser_scheme}
              \end{figure}
          
              \FloatBarrier
 
             These two deficits are compensated for by the in figure \ref{fig:littrow} optical setup, that remains the laser in a so called \textit{Littrow}-configuration and creates an additional 
-            \textbf{external resonator}. The setup constists of lense, which collimates the light exiting the laser diode and a grating, at which the collimated beam is diffracted. This happens in a way, that
+            \textbf{external resonator}. The setup constists of a lense, which collimates the light exiting the laser diode and a grating, at which the collimated beam is diffracted. This happens in a way, that
             the zero-order-maximum, i.e. the reflected beam, is guided out of the laser setup as the operating beam, while the first-order-maximum is diffracted back into the laser diode. Thus the new 
             external resonator is formed between the grating and the fully reflective backend of the laser diode. The wavelength of
             the light diffracted back into the laser diode, has to fulfill the condition for the first-order-maximum at the given angle of the grating. The back-reflected beam helps selecting a certain
@@ -87,7 +88,7 @@
             \begin{figure}[h]
                 \centering
                 \includegraphics[width = 0.6\textwidth]{pictures/littrow.png}
-                \caption{The diffusion of electrons and holes into the active layer by application of a current and the emission of photons by recombination of electron-hole-pairs. Taken from \cite{tu_dortmund_versuchsanleitung_2022-1}.}
+                \caption{The \textit{Littrow}-configuration constisting of a collimating lens and a diffraction grating, which enables the formation of an external resonator by reflecting the zero-order maximum out of the laser and the first-order maximum back into the laser diode. Taken from \cite{tu_dortmund_versuchsanleitung_2022-1}.}
                 \label{fig:littrow}
             \end{figure}
         
@@ -95,7 +96,7 @@
 
 
         \subsubsection{Gain Curves}
-            To emitt light of a well defined frequency the laser has to lase in fixed combination of a mode of the internal and one of the external resonator. Which modes will be selected, is determined by
+            To emit light of a well defined frequency the laser has to lase in fixed combination of a mode of the internal and one of the external resonator. Which modes will be selected, is determined by
             the gain curves depicted in figure \ref{fig:gain_curves}. They show the different gains of laser intensity via different contributions against the laser wavelength. The wavelength for which the
             total amount of gain by all contributing factors, namely \textbf{Medium}, \textbf{Internal Cavity}, \textbf{Grating Feedback} and \textbf{External Cavity}, is the highest will be the lasing 
             frequency and the closest internal and external modes will be the lasing modes.\newline
