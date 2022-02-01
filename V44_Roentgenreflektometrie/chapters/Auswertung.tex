@@ -80,6 +80,27 @@
 
 
   \subsection{Auswertungs des Reflektivitätsscans}
+    Die direkt gemessene Reflektivität $R_{\text{exp}}$ und die über die Formeln \ref{eqn:R_F} und \ref{eqn:p} mit den Werten
+
+    \begin{enumerate}
+      \item $\lambda = \SI{1.54}{\angstrom}$
+      \item $\alpha_{\text{c}} = \SI{0.223}{\degree}$
+      \item $\mu = \SI{14100}{1\per\metre}$
+    \end{enumerate}
+
+    berechnete Fresnel-Reflektivität $R_{\text{F, Si, theo}}$ von Silizium sind in Grafik \ref{fig:Reflektivität_exp} eingezeichnet. Die Fresnel-Reflektivität $R_{\text{F, Si, theo}}$ ist wie zu erwarten für 
+    Winkel kleiner dem kritischen Winkel gleich eins und fällt danach ab.
+
+    \FloatBarrier
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width = \textwidth]{reflectivity_exp.pdf}
+        \caption{Darstellung der gemessenen Reflektivität $R_{\text{exp}}$ sowie des theoretischen Verlaufs der Fresnel-Reflektivität für eine einzelne Siliziumoberfläche $R_{\text{F, Si, theo}}$.}
+        \label{fig:Reflektivität_exp}
+      \end{figure}
+   
+    \FloatBarrier
+
     Zur Bestimmung der Diffusion und der kritischen Winkel der beiden Materialien sowie der Schichtdicke des Polystyrols muss der Reflektivitätsscan detailliert ausgewertet werden. Zunächst wird von der im 
     Reflektivitätsscan gemessenen Intensität die Intensität, die durch diffuse Streuung entsteht, abgezogen und so eine tatsächliche Reflektivität 
     
@@ -94,22 +115,13 @@
       R_{\text{exp, cor}} = \frac{R_{\text{exp}}}{\text{G}} \qquad \text{mit} \qquad \text{G}=1 \quad \text{für} \quad \alpha_{\text{i}} \gtrsim \alpha_{\text{G}} \qquad \text{und} \qquad \text{G}=\frac{D\sin\left(\alpha_{\text{i}}\right)}{d_0} \quad \text{für} \quad \alpha_{\text{i}} < \alpha_{\text{G}}
     \end{equation*}
 
-    berechnet. Die gemessene Reflektivität $R_{\text{exp}}$ und die korrigierte Reflektivität $R_{\text{exp, cor}}$ sind in Abbildung \ref{fig:Reflektivität} dargestellt. Zusätzlich ist auch die über die 
-    Formeln \ref{eqn:R_F} und \ref{eqn:p} mit den Werten
-
-    \begin{enumerate}
-      \item $\lambda = \SI{1.54}{\angstrom}$
-      \item $\alpha_{\text{c}} = \SI{0.223}{\degree}$
-      \item $\mu = \SI{14100}{1\per\metre}$
-    \end{enumerate}
-
-    berechnete Fresnel-Reflektivität $R_{\text{F, Si, theo}}$ von Silizium eingezeichnet. Diese ist wie zu erwarten für Winkel kleiner dem kritischen Winkel gleich eins und fällt danach ab.
+    berechnet. Die korrigierte Reflektivität $R_{\text{exp, cor}}$ ist in Abbildung \ref{fig:Reflektivität} dargestellt. 
 
     \FloatBarrier
     \begin{figure}[h]
         \centering
         \includegraphics[width = \textwidth]{reflectivity_cor.pdf}
-        \caption{Darstellung der gemessenen Reflektivität $R_{\text{exp}}$ und deren durch den Korreturfaktor G angepassten Verlauf $R_{\text{exp, cor}}$, an den die rekursiv über den Parratt-Algorithmus berechnete Reflektivität $R_{Parratt}$ angepasst wird. Aus dem Abstand der eingezeichneten Minima kann die Schichtdicke des Polystyrols bestimmt werden. Zusätzlich sind die kritsichen Winkel für Silizium $\alpha_{\text{c, Si}}$ und Polystyrol $\alpha_{\text{c, PS}}$ sowie der theoretische Verlauf der Fresnel-Reflektivität für eine einzelne Siliziumoberfläche $R_{\text{F, Si, theo}}$ eingezeichnet.}
+        \caption{Darstellung des durch den Korreturfaktor G angepassten Verlaufs $R_{\text{exp, cor}}$ der gemessenen Reflektivität, an den die rekursiv über den Parratt-Algorithmus berechnete Reflektivität $R_{Parratt}$ angepasst wird. Aus dem Abstand der eingezeichneten Minima kann die Schichtdicke des Polystyrols bestimmt werden. Zusätzlich sind die kritsichen Winkel für Silizium $\alpha_{\text{c, Si}}$ und Polystyrol $\alpha_{\text{c, PS}}$ eingezeichnet.}
         \label{fig:Reflektivität}
       \end{figure}
    
