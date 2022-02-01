@@ -16,5 +16,5 @@
 \contentsline {subsection}{\numberline {4.1}Vermessung des Röntgenstrahls}{13}{subsection.4.1}% 
 \contentsline {subsection}{\numberline {4.2}Bestimmung des Geometriewinkels}{14}{subsection.4.2}% 
 \contentsline {subsection}{\numberline {4.3}Auswertungs des Reflektivitätsscans}{16}{subsection.4.3}% 
-\contentsline {section}{\numberline {5}Diskussion}{19}{section.5}% 
-\contentsline {section}{\numberline {6}Parratt-Algorithmus}{21}{section.6}% 
+\contentsline {section}{\numberline {5}Diskussion}{20}{section.5}% 
+\contentsline {section}{\numberline {6}Parratt-Algorithmus}{22}{section.6}% 

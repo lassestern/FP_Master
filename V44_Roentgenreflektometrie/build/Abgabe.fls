@@ -379,6 +379,9 @@ INPUT ./rockingscan_1.pdf
 INPUT ./abschattung.pdf
 INPUT ./abschattung.pdf
 INPUT ./abschattung.pdf
+INPUT ./reflectivity_exp.pdf
+INPUT ./reflectivity_exp.pdf
+INPUT ./reflectivity_exp.pdf
 INPUT ./reflectivity_cor.pdf
 INPUT ./reflectivity_cor.pdf
 INPUT ./reflectivity_cor.pdf

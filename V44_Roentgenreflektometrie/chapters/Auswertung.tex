@@ -80,7 +80,15 @@
 
 
   \subsection{Auswertungs des Reflektivitätsscans}
-    Die direkt gemessene Reflektivität $R_{\text{exp}}$ und die über die Formeln \ref{eqn:R_F} und \ref{eqn:p} mit den Werten
+    Um die tatsächliche gemessene Reflektivität zu bestimmen, wird von der im Reflektivitätsscan gemessenen Intensität die Intensität, die durch diffuse Streuung entsteht, abgezogen und so eine tatsächliche 
+    Reflektivität 
+    
+    \begin{equation*}
+      R_{\text{exp}} = \frac{I_{\text{R}} - I_{\text{diffus}}}{I_0 \cdot 5}
+    \end{equation*}
+    
+    bestimmt. Diese wird durch Normierung auf die fünffache maximale Intensität $I_0$ berechnet, da in der Messung zur Bestimmung der maximalen Intensität für \SI{1}{\second} und im Reflektivitätsscan für
+    \SI{5}{\second} gemessen wurde. Die gemessene Reflektivität $R_{\text{exp}}$ und die über die Formeln \ref{eqn:R_F} und \ref{eqn:p} mit den Werten
 
     \begin{enumerate}
       \item $\lambda = \SI{1.54}{\angstrom}$
@@ -101,15 +109,8 @@
    
     \FloatBarrier
 
-    Zur Bestimmung der Diffusion und der kritischen Winkel der beiden Materialien sowie der Schichtdicke des Polystyrols muss der Reflektivitätsscan detailliert ausgewertet werden. Zunächst wird von der im 
-    Reflektivitätsscan gemessenen Intensität die Intensität, die durch diffuse Streuung entsteht, abgezogen und so eine tatsächliche Reflektivität 
-    
-    \begin{equation*}
-      R_{\text{exp}} = \frac{I_{\text{R}} - I_{\text{diffus}}}{I_0 \cdot 5}
-    \end{equation*}
-    
-    bestimmt. Diese wird durch Normierung auf die fünffache maximale Intensität $I_0$ berechnet, da in der Messung zur Bestimmung der maximalen Intensität für \SI{1}{\second} und im Reflektivitätsscan für
-    \SI{5}{\second} gemessen wurde. Anschließend wird diese Reflektivität durch den Geometriefaktor für Winkel kleiner dem Geometriewinkel korrigiert und so die korrigierte Reflektivität
+    Zur Bestimmung der Diffusion und der kritischen Winkel der beiden Materialien sowie der Schichtdicke des Polystyrols muss der Reflektivitätsscan detailliert ausgewertet werden. Dazu wir die gemessene 
+    Reflektivität $R_{\text{exp}}$ durch den Geometriefaktor für Winkel kleiner dem Geometriewinkel korrigiert und so die korrigierte Reflektivität
 
     \begin{equation*}
       R_{\text{exp, cor}} = \frac{R_{\text{exp}}}{\text{G}} \qquad \text{mit} \qquad \text{G}=1 \quad \text{für} \quad \alpha_{\text{i}} \gtrsim \alpha_{\text{G}} \qquad \text{und} \qquad \text{G}=\frac{D\sin\left(\alpha_{\text{i}}\right)}{d_0} \quad \text{für} \quad \alpha_{\text{i}} < \alpha_{\text{G}}
@@ -121,7 +122,7 @@
     \begin{figure}[h]
         \centering
         \includegraphics[width = \textwidth]{reflectivity_cor.pdf}
-        \caption{Darstellung des durch den Korreturfaktor G angepassten Verlaufs $R_{\text{exp, cor}}$ der gemessenen Reflektivität, an den die rekursiv über den Parratt-Algorithmus berechnete Reflektivität $R_{Parratt}$ angepasst wird. Aus dem Abstand der eingezeichneten Minima kann die Schichtdicke des Polystyrols bestimmt werden. Zusätzlich sind die kritsichen Winkel für Silizium $\alpha_{\text{c, Si}}$ und Polystyrol $\alpha_{\text{c, PS}}$ eingezeichnet.}
+        \caption{Darstellung des durch den Korrekturfaktor G angepassten Verlaufs $R_{\text{exp, cor}}$ der gemessenen Reflektivität, an den die rekursiv über den Parratt-Algorithmus berechnete Reflektivität $R_{Parratt}$ angepasst wird. Aus dem Abstand der eingezeichneten Minima kann die Schichtdicke des Polystyrols bestimmt werden. Zusätzlich sind die kritischen Winkel für Silizium $\alpha_{\text{c, Si}}$ und Polystyrol $\alpha_{\text{c, PS}}$ eingezeichnet.}
         \label{fig:Reflektivität}
       \end{figure}
    
@@ -147,9 +148,9 @@
     
     
     Die notwendigen Parameter der Polystyrol-Schichtdicke $z_2$, der Rauigkeit des Übergangs von Luft zu Polystyrol $\sigma_1$ und des Übergangs von Polystyrol zu Silizium $\sigma_2$ sowie der Dispersion von
-    Polystyrol $\delta_2$ und Silizium $\delta_3$ werden händsich varriert, bis die rekursiv über die Formeln \ref{eqn:X_j}, \ref{eqn:k_z}, \ref{eqn:R_F_parratt} und \ref{eqn:r_rau} berechnete Reflektivität 
+    Polystyrol $\delta_2$ und Silizium $\delta_3$ werden händisch variiert, bis die rekursiv über die Formeln \ref{eqn:X_j}, \ref{eqn:k_z}, \ref{eqn:R_F_parratt} und \ref{eqn:r_rau} berechnete Reflektivität 
     bestmöglich mit der gemessenen übereinstimmt. Dazu wird 
-    zunächst die Polystyrol-Schichtdicke auf den bereits berechneten Wert \ref{eqn:z_ps} gesetzt. Anschließend werden die Dispersionen angepasst, um die Kiessieg-Oszillationen und die kritischen Winkel
+    zunächst die Polystyrol-Schichtdicke auf den bereits berechneten Wert \ref{eqn:z_ps} gesetzt. Anschließend werden die Dispersionen angepasst, um die Kiessig-Oszillationen und die kritischen Winkel
     zu rekonstruieren. Abschließend werden die Rauigkeiten der Schichten angepasst, um den Verlauf der Einhüllenden für größere Winkel anzugleichen. Die in Abbildung \ref{fig:Reflektivität} dargestellte 
     Anpassung $R_{Parratt}$ wurde mit den folgenden Parameteren berechnet:
     
