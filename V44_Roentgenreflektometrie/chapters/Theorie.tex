@@ -4,22 +4,25 @@
     und ein allgemeines Verständnis für die Röntgenreflektometrie zu entwickeln.
 \section{Theoretische Grundlagen}
     \subsection{Funktionsweise einer Röntgenröhre}
-        Den Aufbau einer Elektronenröhre zur Erzeugung von Röntgenstrahlung ist in Abbildung \ref{fig:Rohr} dargestellt.
+        Der Aufbau einer Elektronenröhre zur Erzeugung von Röntgenstrahlung ist in Abbildung \ref{fig:Rohr} dargestellt.
         Eine Kathode wird durch eine Heizspannung $U_H$ erhitzt und emittiert daraufhin Elektronen.
-        Diese werden in dem elektroschen Feld einer angelegten Beschleunigungsspannung $U_B$ zur Anode hin beschleunigt.
+        Diese werden in dem elektrischen Feld einer angelegten Beschleunigungsspannung $U_B$ zur Anode hin beschleunigt.
         Beim Auftreffen der Elektronen wird elektromagnetische Strahlung im Röntgenbereich ausgesendet.
         Diese setzt sich prinzipiell aus zwei Komponenten zusammen.
         \begin{figure}[h]
             \centering
             \includegraphics[width = 0.7\textwidth]{pictures/Rohr.png}
-            \caption{Schematischer Aufbau einer Röntgenröhre.}
+            \caption{Schematischer Aufbau einer Röntgenröhre einschießlich der Heizkathode und
+                        der Anode aus welcher die Röntgenstrahlung emittiert wird.
+                        $U_H$ bezeichnet die Heizspannung, welche zum Auslösen der Elektronen benötigt wird und
+                        $U_B$ die Spannung die zum Beschleunigen dieser benutzt wird.}
             \label{fig:Rohr}
         \end{figure}
-        Einerseits tritt die sogennante "charakteristische Röntgenstrahlung" auf.
+        Einerseits tritt die sogennante "'charakteristische Röntgenstrahlung"' auf.
         Diese entsteht, wenn die beschleunigten Elektronen in der Anode Elektronen aus den innersten Schalen herausschlagen.
         Die resultierenden leeren Plätze werden daraufhin von Elektronen aus höherenergetische Schalen gefüllt und die Energiedifferenz
         der zwei am Übergang teilnehmenen Schalen wird in Form eines (Röntgen-)Photons ausgesendet.
-        So treten deskrete Linien im Röntgenspektrum auf, die den Photonen aus diesen Übergängen entsprechen.
+        So treten diskrete Linien im Röntgenspektrum auf, die den Photonen aus diesen Übergängen entsprechen.
 
         Andererseits taucht im Spektrum der Röntgenstrahlung ebenfalls ein energetisch kontinuierlicher Anteil auf.
         Dieser ist zurückzuführen auf das Abbremsen, was die Elektronen erfahren, wenn sie in das Anodenmaterial eindringen.
@@ -29,10 +32,17 @@
         Kommt eine elektromagnetische Welle aus dem Vakuum mit einem Brechungsindex $n_{Vakuum}=0$ und trifft auf ein glattes homogenes Medium unter einem Winkel $\alpha_i$,
         so wird ein Teil der Gesamtintensität der Strahlung unter einem Winkel $\alpha_r=\alpha_i$ reflektiert und
         der andere Teil transmittiert und gebrochen unter dem Winkel $\alpha_r$ in Abhängigkeit der Brechungsindizes $n$
-        des Mediums, welcher gegeben ist als
+        des Mediums, der gegeben ist als
         \begin{equation}
-            n=1-\delta \, .
+            n=1-\delta - \text{i}\beta \, .
         \end{equation}
+        Dabei trägt die im Material vorliegende Dispersion $\delta$ zum Realteil des Brechungsindizes und die Absorption $\beta$ zum Imaginärteil bei.
+        Die Absorption liegt im Größenordnungsbereich von $10^{-9}$ und berechnet sich über
+        \begin{equation}
+            \beta = \frac{\lambda\mu}{4\pi} \, ,
+            \label{eqn:beta}
+        \end{equation}
+        wobei $\mu$ den linearen Absorptionskoeffizienten und $\lambda$ die Wellenlänge der einfallenden Strahlung beschreibt.
         Röntgenlicht besitzt in Materie einen Brechungsindex $n<1$, was jedes Medium für Röntgenstrahlung optisch dünner erscheinen lässt als Vakuum
         und ermöglicht Totalreflexion, wenn der Einfall möglichst flach unterhalb eines kritischen Winkels $\alpha_c$ auf die Ebene erfolgt.
 
@@ -43,7 +53,7 @@
             t&=\frac{2n_1\sin\alpha_i}{n_1\sin\alpha_i+n_2\sin\alpha_t} \\
             r&=\frac{n_1\sin\alpha_i-n_2\sin\alpha_t}{n_1\sin\alpha_i+n_2\sin\alpha_t}
         \end{align}
-        Im Rahmen der Röntgenreflektometrie wird das Intensitätsverhältnis zwischen Eingehendem und Reflektierten Strahl gemessen.
+        Im Rahmen der Röntgenreflektometrie wird das Intensitätsverhältnis zwischen eingehendem und reflektierten Strahl gemessen.
         Diese sogennante Fresnel-Reflektivität ergibt sich durch
         \begin{equation}
             R_F=\vert r\vert^2=\frac{\left(\alpha_i-p_+\right)^2+p_-^2}{\left(\alpha_i+p_+\right)^2+p_-^2}
@@ -56,43 +66,50 @@
         \end{equation}
     \subsection{Kiessig-Oszillationen}
     \label{sec:KO}
-        Wird eine Schicht eines beliebigen Materials auf einem Substrat betrachtet und die Reflektivität gemessen,
-        so fällt auf, dass diese nicht wie erwartet ab einem bestimmten kritischen Einfallswinkel $\alpha_c$ abnimmt,
-        sondern dabei zusätzlich oszilliert.
-        Das lässt sich darauf zurückführen, dass sich er Röntgenstrahl sich zunächst am Vakuum-Medium Übergang
-        aufteilt in einen reflektierten und einen transmittierrt-gebrochenen Anteil.
-        Dieser VOrgang ist schematisch in Abbildung \ref{fig:Kiessig} schematisch dargestellt.
+        Wird die Schicht eines beliebigen Materials auf einem Substrat betrachtet und die Reflektivität gemessen,
+        so fällt auf, dass diese innerhalb der, ab einem bestimmten kritischen Einfallswinkel $\alpha_c$,
+        abfallenden Kurve zusätzlich oszilliert.
+        Das lässt sich darauf zurückführen, dass der Röntgenstrahl sich zunächst am Vakuum-Medium Übergang
+        aufteilt in einen reflektierten und einen transmittiert-gebrochenen Anteil.
+        Dieser Vorgang ist schematisch in Abbildung \ref{fig:Kiessig} schematisch dargestellt.
         \begin{figure}[h]
             \centering
             \includegraphics[width = 0.7\textwidth]{pictures/Kiessig.png}
-            \caption{Skizze des Entstehungsprozesses der Kiessig-Oszillationen.}
+            \caption{Skizze des Entstehungsprozesses der Kiessig-Oszillationen an einer Schicht (grau) der Dicke $d$ auf einem Substrat (braun).
+                        Der Röntgenstrahl trifft unter einem Winkel $\varphi$ auf die Probe und wird teilweise reflektiert und teilsweise gebrochen,
+                        sodass er dann im Winkel $\psi$ am Substrat reflektiert wird und nach erneuter Beugung an der Oberfläche wieder im Winkel $\varphi$ austritt.}
             \label{fig:Kiessig}
         \end{figure}
         Letzterer wird nach Durchqueren der Schicht an dem Substrat reflektiert und beim Übergang zurück ins Vakuum erneut gebrochen,
         sodass er wieder parallel zum direkt reflektierten Strahl ist.
         Diese beiden Röntgenwellen interferieren daraufhin entweder konstruktiv oder destruktiv untereinander
         in Abhängigkeit der Phasenverschiebung, welche sich zwischen den Strahlen ergibt.
-        Beim Erhöhen des Einfallwinkels entstehen so sogenannte "Kiessig-Osszilation".
+        Beim Erhöhen des Einfallwinkels entstehen sogenannte "Kiessig-Osszilation".
         In Abbildung \ref{fig:Oszi} sind sowohl die theoretische Fresnel-Reflektivität als auch die Kiessig-Osszilationen
         beispielhaft für eine Polystyrolschicht auf einem Silizium-Substrat zu sehen.
         \begin{figure}[h]
             \centering
             \includegraphics[width = 0.7\textwidth]{pictures/Oszi.png}
-            \caption{Fresnel-Reflektivität in Abhängigkeit vom Einfallswinkel einer Polystyrolschicht auf einem Siliziumwafer. Entnommen aus \cite{tolan_x-ray_1999}.}
+            \caption{Fresnel-Reflektivität in Abhängigkeit vom Einfallswinkel einer Polystyrolschicht auf einem Siliziumwafer.
+                        Der Einsatz zeigt vergrößert den Bereich bis $\alpha_i<0,4°$,
+                        wo deutliche Abfälle der Reflektivität zu erkennen sind
+                        an den Winkeln $\alpha_{c,Si}$ und $\alpha_{c,PS}$,
+                        welche jeweils den kritischen Winkeln des Silizium-Substrates
+                        und der Polysteren-Schicht entsprechen. Entnommen aus \cite{tolan_x-ray_1999}.}
             \label{fig:Oszi}
         \end{figure}
         Da die Phasenverschiebung von der Schichdicke $d$, als auch dem Brechungsindex $n$ der Schicht abhängt,
         ist es möglich diese zu bestimmen
         \begin{align}
             \delta&=\frac{1}{2}\frac{\alpha_{i1}^2m_2^2-\alpha_{i2}^2m_1^2}{m_2^2-m_1^2} \\
-            d&=\frac{\lambda}{2\Delta\alpha_i} \, ,
+            d&=\frac{\lambda}{2\Delta\alpha_i} \, , 
             \label{eqn:d_alpha}
         \end{align}
         wenn die Ordnungszahl $m$ und der Einfallswinkel $\alpha_i$ zweier Minima bekannt ist.
         \subsubsection{Parratt-Algorithmus}
             Im Falle eines Mehrschichtsystems (siehe Abbildung \ref{fig:Parratt}) liegt zwischen je zwei benachbarten Schichten eine Reflexion-Transmission Beziehung vor wie in \ref{sec:KO} beschrieben.
             Die entstehenden Kiessig-Oszillationen überlagern in diesem Fall und es wird sehr schwer Aussagen über die einzelnen Schichten zu treffen.
-            Zur Beschreibung eines solchen Systems wurde der sogenannte "Parratt-Algorithmus eingeführt".
+            Zur Beschreibung eines solchen Systems wurde der sogenannte "Parratt-Algorithmus" eingeführt.
             \begin{figure}[h]
                 \centering
                 \includegraphics[width = 0.7\textwidth]{pictures/Parratt.png}
@@ -101,12 +118,12 @@
                 \label{fig:Parratt}
             \end{figure}
             Dazu wird an jeder Grenzschicht die Wechselwirkung zwischen Röntgenstrahlung und Medium mittels den Fresnel'schen Gleichungen beschrieben
-            und ausgehend von der substrat-nächsten Schicht das Amplitudenverhältnis zwischen reflektierter und transmittierter Welle rekursiv berechnet.
+            und ausgehend von dem Substrat das Amplitudenverhältnis zwischen reflektierter und transmittierter Welle rekursiv berechnet.
             Dabei wird als Randbedingung angenommen, dass die aus dem Vakuum kommende Welle noch keine Grenzfläche passiert hat ($T_1=1$)
-            und die Strahlung am Substrat vollständig reflektiert wird ($R_{N+1}=1$).
+            und dass das Substrat im Vergleich zu den einzelnen Schichten unendlich lang ist ($d_{N+1}\gg d_j$) und dementsprechend $R_{N+1}=0$ gilt.
             Es ergibt sich
             \begin{equation}
-                X_j=\frac{R_N}{T_N}=\exp\left(-2ik_{z,j}z_j\right)\cdot\frac{r_{j,j+1}+X_j\exp\left(-2ik_{z,j+1}z_j\right)}{1+r_{j,j+1}X_j\exp\left(-2ik_{z,j+1}z_j\right)} \, ,
+                X_j=\frac{R_N}{T_N}=\exp\left(-2ik_{z,j}z_j\right)\cdot\frac{r_{j,j+1}+X_{j+1}\exp\left(-2ik_{z,j+1}z_j\right)}{1+r_{j,j+1}X_{j+1}\exp\left(-2ik_{z,j+1}z_j\right)} \, ,
                 \label{eqn:X_j}
             \end{equation}
             wobei

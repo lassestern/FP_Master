@@ -4,17 +4,17 @@
 \contentsline {section}{\numberline {2}Theoretische Grundlagen}{3}{section.2}% 
 \contentsline {subsection}{\numberline {2.1}Funktionsweise einer Röntgenröhre}{3}{subsection.2.1}% 
 \contentsline {subsection}{\numberline {2.2}Reflexion und Brechung von Licht}{4}{subsection.2.2}% 
-\contentsline {subsection}{\numberline {2.3}Kiessig-Oszillationen}{4}{subsection.2.3}% 
-\contentsline {subsubsection}{\numberline {2.3.1}Parratt-Algorithmus}{5}{subsubsection.2.3.1}% 
-\contentsline {subsubsection}{\numberline {2.3.2}Rauigkeitkorrektur}{6}{subsubsection.2.3.2}% 
-\contentsline {section}{\numberline {3}Durchführung}{8}{section.3}% 
-\contentsline {subsection}{\numberline {3.1}Versuchsaufbau}{8}{subsection.3.1}% 
-\contentsline {subsection}{\numberline {3.2}Kalibrierung des Reflektionsaufbaus}{9}{subsection.3.2}% 
-\contentsline {subsection}{\numberline {3.3}Refelektionsmessung}{11}{subsection.3.3}% 
-\contentsline {subsection}{\numberline {3.4}Scan-Parameter}{12}{subsection.3.4}% 
-\contentsline {section}{\numberline {4}Auswertung}{13}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}Vermessung des Röntgenstrahls}{13}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}Bestimmung des Geometriewinkels}{14}{subsection.4.2}% 
-\contentsline {subsection}{\numberline {4.3}Auswertungs des Reflektivitätsscans}{16}{subsection.4.3}% 
-\contentsline {section}{\numberline {5}Diskussion}{20}{section.5}% 
-\contentsline {section}{\numberline {6}Parratt-Algorithmus}{22}{section.6}% 
+\contentsline {subsection}{\numberline {2.3}Kiessig-Oszillationen}{5}{subsection.2.3}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Parratt-Algorithmus}{6}{subsubsection.2.3.1}% 
+\contentsline {subsubsection}{\numberline {2.3.2}Rauigkeitkorrektur}{8}{subsubsection.2.3.2}% 
+\contentsline {section}{\numberline {3}Durchführung}{9}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Versuchsaufbau}{9}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Kalibrierung des Reflektionsaufbaus}{10}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Refelektionsmessung}{12}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Scan-Parameter}{13}{subsection.3.4}% 
+\contentsline {section}{\numberline {4}Auswertung}{14}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Vermessung des Röntgenstrahls}{14}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Bestimmung des Geometriewinkels}{15}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Auswertungs des Reflektivitätsscans}{17}{subsection.4.3}% 
+\contentsline {section}{\numberline {5}Diskussion}{21}{section.5}% 
+\contentsline {section}{\numberline {6}Parratt-Algorithmus}{23}{section.6}% 
