@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  7 FEB 2022 19:11
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.9.23)  7 FEB 2022 19:51
  restricted system commands enabled.
 **Abgabe.tex
 (./Abgabe.tex
@@ -55,7 +55,7 @@ Lua module: luaotfload-multiscript 2019-09-13 3.00 luaotfload submodule / multis
 cript
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.237 seconds
+luaotfload | main : initialization completed in 0.161 seconds
 (./inputs/header.tex
 (/home/lasse/.local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
@@ -1997,11 +1997,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
  []
 
 [21]) (./chapters/Daten.tex [22]
-<pictures/parratt_alg.jpg, id=520, 969.6225pt x 1284.8pt>
+<pictures/parratt_alg.jpg, id=520, 1016.79875pt x 1284.8pt>
 File: pictures/parratt_alg.jpg Graphic file (type jpg)
 <use pictures/parratt_alg.jpg>
 Package luatex.def Info: pictures/parratt_alg.jpg  used on input line 7.
-(luatex.def)             Requested size: 334.60571pt x 443.37411pt.
+(luatex.def)             Requested size: 334.60571pt x 422.78944pt.
 ) [23<./pictures/parratt_alg.jpg>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
  [24]
@@ -2029,7 +2029,7 @@ Here is how much of LuaTeX's memory you used:
    avail lists: 1:8,2:2612,3:189,4:55,5:380,6:38,7:1759,8:105,9:302,10:34,11:551
 
  46269 multiletter control sequences out of 65536+600000
- 146 fonts using 54729055 bytes
+ 146 fonts using 54728591 bytes
  56i,16n,109p,9142b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm-math/latinm
 odern-math.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public
@@ -2042,7 +2042,7 @@ lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.
 otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman
 12-regular.otf></home/lasse/.local/texlive/2019/texmf-dist/fonts/opentype/public
 /lm/lmsans10-bold.otf>
-Output written on Abgabe.pdf (24 pages, 2643011 bytes).
+Output written on Abgabe.pdf (24 pages, 2646275 bytes).
 
 PDF statistics: 649 PDF objects out of 1000 (max. 8388607)
  388 compressed objects within 4 object streams

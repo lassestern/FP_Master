@@ -208,8 +208,8 @@ fit_params = ([delta_2, delta_3, sigma_1, sigma_2, z_2])
 
 def parratt_alg(alpha, delta_2, delta_3, sigma_1, sigma_2, z_2):
     n_1 = 1
-    n_2 = 1 - delta_2 - 1j*(lam * 25)/(4 * np.pi)
-    n_3 = 1 - delta_3 - 1j*(lam * 0.7092)/(4 * np.pi)
+    n_2 = 1 - delta_2 + 1j*(lam * 25)/(4 * np.pi)
+    n_3 = 1 - delta_3 + 1j*(lam * 0.7092)/(4 * np.pi)
 
     #k_1 = k * np.sqrt(n_1**2 - np.cos(alpha)**2)
     #k_2 = k * np.sqrt(n_2**2 - np.cos(alpha)**2)
